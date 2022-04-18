@@ -1,0 +1,13 @@
+{
+    "ignored_packages":
+    [
+        "Markdown",
+        "Vintage",
+    ],
+    "color_scheme": "OLED.sublime-color-scheme",
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "spell_check": true,
+    "dictionary": "Packages/Language - Spanish/es_MX.dic",
+    /*"dictionary": "Packages/Language - Spanish/es_MX.dic",*/
+}

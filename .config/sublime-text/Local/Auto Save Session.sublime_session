@@ -1,0 +1,550 @@
+{
+	"folder_history":
+	[
+		"/home/arch/Downloads/dotfiles-bspwm-kiss",
+		"/home/arch/.config",
+		"/home/arch/.config/bspwm",
+		"/home/arch/Downloads/dotfiles-bspwm",
+		"/home/arch/Downloads/Git/dotfiles-bspwm",
+		"/home/arch/Documents"
+	],
+	"last_version": 4126,
+	"last_window_id": 11,
+	"log_indexing": false,
+	"next_update_check": 1650392665,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 724.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Test"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/arch/.config/bspwm/polybar/system",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/usr/share/doc/alacritty/example/alacritty.yml",
+				"/home/arch/.config/alacritty/keybindings.yml",
+				"/home/arch/.vimrc",
+				"/home/arch/.bashrc",
+				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
+				"/home/arch/Documents/Pw.txt",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
+				"/home/arch/Documents/Tk-git.txt",
+				"/home/arch/.zshrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Documents/Th/Cajero-Edteam.py",
+				"/home/arch/Documents/Th/Hello.go",
+				"/home/arch/.config/sublime-text/Packages/User/golang.sublime-settings",
+				"/home/arch/Documents/Th/Triggers.md",
+				"/home/arch/.config/sublime-text/Packages/User/Anaconda.sublime-settings",
+				"/home/arch/Videos/untitled.py",
+				"/home/arch/Documents/Py/Udemy/MaestroPython3/6.TKinter/Menus.py",
+				"/home/arch/.config/sublime-text/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/arch/Documents/Hello.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.golang_build":
+			{
+				"height": 132.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1352.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"monocle",
+						"single_monocle"
+					],
+					[
+						"mono",
+						"borderless_monocle"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "Packages/Golang Build/Go.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Test"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/arch/Downloads/dotfiles-bspwm-kiss",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config"
+			],
+			"file_history":
+			[
+				"/home/arch/Documents/tg.txt",
+				"/home/arch/.config/neofetch/config.conf",
+				"/home/arch/.config/bspwm/polybar/system",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
+				"/home/arch/.config/bspwm/polybar/config",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/polybar/bar2",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/gtk-3.0/settings.ini",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/usr/share/doc/alacritty/example/alacritty.yml",
+				"/home/arch/.config/alacritty/keybindings.yml",
+				"/home/arch/.vimrc",
+				"/home/arch/.bashrc",
+				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
+				"/home/arch/Documents/Pw.txt",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
+				"/home/arch/Documents/Tk-git.txt",
+				"/home/arch/.zshrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Documents/Th/Cajero-Edteam.py",
+				"/home/arch/Documents/Th/Hello.go",
+				"/home/arch/.config/sublime-text/Packages/User/golang.sublime-settings",
+				"/home/arch/Documents/Th/Triggers.md",
+				"/home/arch/.config/sublime-text/Packages/User/Anaconda.sublime-settings",
+				"/home/arch/Videos/untitled.py",
+				"/home/arch/Documents/Py/Udemy/MaestroPython3/6.TKinter/Menus.py",
+				"/home/arch/.config/sublime-text/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/arch/Documents/Hello.py"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/arch/Downloads/dotfiles-bspwm-kiss"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.golang_build":
+			{
+				"height": 132.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"position": "0,0,0,0,0,0,30,1366,768,1366,768,1",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 186.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 6,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

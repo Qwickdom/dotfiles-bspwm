@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"FileIcons",
+		"Golang Build",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"OLED Color Scheme",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeREPL",
+	],
+}

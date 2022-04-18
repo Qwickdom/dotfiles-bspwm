@@ -1,0 +1,1564 @@
+{
+	"folder_history":
+	[
+		"/home/arch/.config",
+		"/home/arch/.config/bspwm",
+		"/home/arch/Downloads/dotfiles-bspwm",
+		"/home/arch/Downloads/Git/dotfiles-bspwm",
+		"/home/arch/Documents"
+	],
+	"last_version": 4126,
+	"last_window_id": 11,
+	"log_indexing": false,
+	"next_update_check": 1650306265,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 724.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Test"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/arch/.config/bspwm/polybar/system",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/usr/share/doc/alacritty/example/alacritty.yml",
+				"/home/arch/.config/alacritty/keybindings.yml",
+				"/home/arch/.vimrc",
+				"/home/arch/.bashrc",
+				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
+				"/home/arch/Documents/Pw.txt",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
+				"/home/arch/Documents/Tk-git.txt",
+				"/home/arch/.zshrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Documents/Th/Cajero-Edteam.py",
+				"/home/arch/Documents/Th/Hello.go",
+				"/home/arch/.config/sublime-text/Packages/User/golang.sublime-settings",
+				"/home/arch/Documents/Th/Triggers.md",
+				"/home/arch/.config/sublime-text/Packages/User/Anaconda.sublime-settings",
+				"/home/arch/Videos/untitled.py",
+				"/home/arch/Documents/Py/Udemy/MaestroPython3/6.TKinter/Menus.py",
+				"/home/arch/.config/sublime-text/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/arch/Documents/Hello.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.golang_build":
+			{
+				"height": 132.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1352.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/arch/.config/bspwm/polybar/modules",
+					"settings":
+					{
+						"buffer_size": 6237,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIsAAAAAAAAAiwAAAAAAAAApAAAAXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8",
+							"AQAAAAAAAAABAAAAtAAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							2,
+							"left_delete",
+							null,
+							"AgAAAIoAAAAAAAAAigAAAAAAAAABAAAAIIkAAAAAAAAAiQAAAAAAAAABAAAAOw",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAIkAAAAAAAAAigAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "@ſ€¶ŧ"
+							},
+							"BQAAAIoAAAAAAAAAiwAAAAAAAAAAAAAAiwAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAI0AAAAAAAAAAAAAAI0AAAAAAAAAjgAAAAAAAAAAAAAAjgAAAAAAAACPAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "←↓→ø"
+							},
+							"BAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjwAAAAAAAACPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "þæßðđ"
+							},
+							"BQAAAJMAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACVAAAAAAAAAAAAAACVAAAAAAAAAJYAAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAlwAAAAAAAACYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": "ŋħˀĸ"
+							},
+							"BAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "ł~"
+							},
+							"AgAAAJwAAAAAAAAAnQAAAAAAAAAAAAAAnQAAAAAAAACeAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnAAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "^`«»¢„“"
+							},
+							"BwAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKEAAAAAAAAAAAAAAKEAAAAAAAAAogAAAAAAAAAAAAAAogAAAAAAAACjAAAAAAAAAAAAAACjAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAApQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAngAAAAAAAACeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "”µ"
+							},
+							"AgAAAKUAAAAAAAAApgAAAAAAAAAAAAAApgAAAAAAAACnAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApQAAAAAAAAClAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "•·"
+							},
+							"AgAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " ̣`¸\\}"
+							},
+							"BgAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAACrAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqQAAAAAAAACpAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": "]"
+							},
+							"AQAAAK8AAAAAAAAAsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArwAAAAAAAACvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert_snippet",
+							{
+								"contents": "[$0]"
+							},
+							"AQAAALAAAAAAAAAAsgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert_snippet",
+							{
+								"contents": "{$0}"
+							},
+							"AQAAALEAAAAAAAAAswAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsQAAAAAAAACxAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": "¬½~·"
+							},
+							"BAAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAALUAAAAAAAAAtgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "@@|"
+							},
+							"AwAAALYAAAAAAAAAtwAAAAAAAAAAAAAAtwAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAALkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAtgAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "¬"
+							},
+							"AQAAALkAAAAAAAAAugAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIkAAAAAAAAAiQAAAAAAAABcAAAAIEDFv+KCrMK2xafihpDihpPihpLDuMO+w6bDn8OwxJHFi8Sny4DEuMWCfl5gwqvCu8Ki4oCe4oCc4oCdwrXigKLCtyDMo2DCuFx9XVt7wqzCvX7Ct0BAfMKsfV0",
+							"AQAAAAAAAAABAAAAvAAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAIkAAAAAAAAAigAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "~~~~~~~~"
+							},
+							"CAAAAIoAAAAAAAAAiwAAAAAAAAAAAAAAiwAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAI0AAAAAAAAAAAAAAI0AAAAAAAAAjgAAAAAAAAAAAAAAjgAAAAAAAACPAAAAAAAAAAAAAACPAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAkQAAAAAAAAAAAAAAkQAAAAAAAACSAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+							},
+							"HQAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAJUAAAAAAAAAlgAAAAAAAAAAAAAAlgAAAAAAAACXAAAAAAAAAAAAAACXAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKEAAAAAAAAAAAAAAKEAAAAAAAAAogAAAAAAAAAAAAAAogAAAAAAAACjAAAAAAAAAAAAAACjAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAApQAAAAAAAAAAAAAApQAAAAAAAACmAAAAAAAAAAAAAACmAAAAAAAAAKcAAAAAAAAAAAAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAAqwAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAAK0AAAAAAAAAAAAAAK0AAAAAAAAArgAAAAAAAAAAAAAArgAAAAAAAACvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "~~~~~"
+							},
+							"BQAAAK8AAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAACxAAAAAAAAAAAAAACxAAAAAAAAALIAAAAAAAAAAAAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArwAAAAAAAACvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							34,
+							"left_delete",
+							null,
+							"IgAAALMAAAAAAAAAswAAAAAAAAABAAAAfrIAAAAAAAAAsgAAAAAAAAABAAAAfrEAAAAAAAAAsQAAAAAAAAABAAAAfrAAAAAAAAAAsAAAAAAAAAABAAAAfq8AAAAAAAAArwAAAAAAAAABAAAAfq4AAAAAAAAArgAAAAAAAAABAAAAfq0AAAAAAAAArQAAAAAAAAABAAAAfqwAAAAAAAAArAAAAAAAAAABAAAAfqsAAAAAAAAAqwAAAAAAAAABAAAAfqoAAAAAAAAAqgAAAAAAAAABAAAAfqkAAAAAAAAAqQAAAAAAAAABAAAAfqgAAAAAAAAAqAAAAAAAAAABAAAAfqcAAAAAAAAApwAAAAAAAAABAAAAfqYAAAAAAAAApgAAAAAAAAABAAAAfqUAAAAAAAAApQAAAAAAAAABAAAAfqQAAAAAAAAApAAAAAAAAAABAAAAfqMAAAAAAAAAowAAAAAAAAABAAAAfqIAAAAAAAAAogAAAAAAAAABAAAAfqEAAAAAAAAAoQAAAAAAAAABAAAAfqAAAAAAAAAAoAAAAAAAAAABAAAAfp8AAAAAAAAAnwAAAAAAAAABAAAAfp4AAAAAAAAAngAAAAAAAAABAAAAfp0AAAAAAAAAnQAAAAAAAAABAAAAfpwAAAAAAAAAnAAAAAAAAAABAAAAfpsAAAAAAAAAmwAAAAAAAAABAAAAfpoAAAAAAAAAmgAAAAAAAAABAAAAfpkAAAAAAAAAmQAAAAAAAAABAAAAfpgAAAAAAAAAmAAAAAAAAAABAAAAfpcAAAAAAAAAlwAAAAAAAAABAAAAfpYAAAAAAAAAlgAAAAAAAAABAAAAfpUAAAAAAAAAlQAAAAAAAAABAAAAfpQAAAAAAAAAlAAAAAAAAAABAAAAfpMAAAAAAAAAkwAAAAAAAAABAAAAfpIAAAAAAAAAkgAAAAAAAAABAAAAfg",
+							"AQAAAAAAAAABAAAAtAAAAAAAAAC0AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							8,
+							"left_delete",
+							null,
+							"CAAAAJEAAAAAAAAAkQAAAAAAAAABAAAAfpAAAAAAAAAAkAAAAAAAAAABAAAAfo8AAAAAAAAAjwAAAAAAAAABAAAAfo4AAAAAAAAAjgAAAAAAAAABAAAAfo0AAAAAAAAAjQAAAAAAAAABAAAAfowAAAAAAAAAjAAAAAAAAAABAAAAfosAAAAAAAAAiwAAAAAAAAABAAAAfooAAAAAAAAAigAAAAAAAAABAAAAfg",
+							"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "#"
+							},
+							"AQAAAIoAAAAAAAAAiwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": " ----"
+							},
+							"BQAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACNAAAAAAAAAAAAAACNAAAAAAAAAI4AAAAAAAAAAAAAAI4AAAAAAAAAjwAAAAAAAAAAAAAAjwAAAAAAAACQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							2,
+							"left_delete",
+							null,
+							"AgAAAIsAAAAAAAAAiwAAAAAAAAABAAAAIIoAAAAAAAAAigAAAAAAAAABAAAAIw",
+							"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIkAAAAAAAAAiQAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "3"
+							},
+							"AQAAAIkAAAAAAAAAigAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAIoAAAAAAAAAiwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIkAAAAAAAAAiQAAAAAAAAABAAAAMw",
+							"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": "----------------------------------"
+							},
+							"IgAAAI4AAAAAAAAAjwAAAAAAAAAAAAAAjwAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJEAAAAAAAAAAAAAAJEAAAAAAAAAkgAAAAAAAAAAAAAAkgAAAAAAAACTAAAAAAAAAAAAAACTAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAACWAAAAAAAAAJcAAAAAAAAAAAAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAACZAAAAAAAAAJoAAAAAAAAAAAAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAAClAAAAAAAAAAAAAAClAAAAAAAAAKYAAAAAAAAAAAAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAACrAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjgAAAAAAAACOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": "----"
+							},
+							"BAAAALAAAAAAAAAAsQAAAAAAAAAAAAAAsQAAAAAAAACyAAAAAAAAAAAAAACyAAAAAAAAALMAAAAAAAAAAAAAALMAAAAAAAAAtAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							3,
+							"left_delete",
+							null,
+							"AwAAAIgAAAAAAAAAiAAAAAAAAAAsAAAAOyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS2HAAAAAAAAAIcAAAAAAAAAAQAAAAqGAAAAAAAAAIYAAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAtAAAAAAAAACIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAAI8BAAAAAAAAjwEAAAAAAAAtAAAAOzsgXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8KjgEAAAAAAAC7AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							54,
+							2,
+							"left_delete",
+							null,
+							"AgAAAI4BAAAAAAAAjgEAAAAAAAAtAAAAOzsgXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8KjQEAAAAAAACNAQAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAuwEAAAAAAACOAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJACAAAAAAAAkAIAAAAAAAAtAAAACjs7IF8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fjwIAAAAAAACPAgAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAvQIAAAAAAACQAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJ8DAAAAAAAAnwMAAAAAAAAtAAAACjs7IF8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fngMAAAAAAACeAwAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAzAMAAAAAAACfAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							63,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFgEAAAAAAAAWAQAAAAAAAAtAAAACjs7IF8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fVwQAAAAAAABXBAAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAhQQAAAAAAABYBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							66,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAcEAAAAAAAABwQAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAACAQAAAAAAAAIBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							69,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHoEAAAAAAAAegQAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAewQAAAAAAAB7BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							72,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPUEAAAAAAAA9QQAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAA9gQAAAAAAAD2BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							76,
+							1,
+							"left_delete",
+							null,
+							"AQAAAB8FAAAAAAAAHwUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAIAUAAAAAAAAgBQAAAAAAAAAAAAAAAGhA"
+						],
+						[
+							79,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHMFAAAAAAAAcwUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAdAUAAAAAAAB0BQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							82,
+							2,
+							"left_delete",
+							null,
+							"AgAAAMcFAAAAAAAAxwUAAAAAAAAuAAAACjs7IF8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fLV8tXy1fCsYFAAAAAAAAxgUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAA9QUAAAAAAADHBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAMYFAAAAAAAAxwUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxgUAAAAAAADGBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"left_delete",
+							null,
+							"AQAAAOwFAAAAAAAA7AUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAA7QUAAAAAAADtBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							1,
+							"left_delete",
+							null,
+							"AQAAABYGAAAAAAAAFgYAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAFwYAAAAAAAAXBgAAAAAAAAAAAAAAAGVA"
+						],
+						[
+							90,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFUGAAAAAAAAVQYAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAVgYAAAAAAABWBgAAAAAAAAAAAAAAAGNA"
+						],
+						[
+							93,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGgGAAAAAAAAaAYAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAaQYAAAAAAABpBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							96,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIQGAAAAAAAAhAYAAAAAAAADAAAA74Sh",
+							"AQAAAAAAAAABAAAAhQYAAAAAAACFBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							97,
+							1,
+							"paste",
+							null,
+							"AQAAAIQGAAAAAAAAhQYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhAYAAAAAAACEBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							103,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAALIGAAAAAAAAswYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsgYAAAAAAACyBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							104,
+							1,
+							"paste",
+							null,
+							"AQAAALMGAAAAAAAAwAYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAswYAAAAAAACzBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							107,
+							1,
+							"left_delete",
+							null,
+							"AQAAALsGAAAAAAAAuwYAAAAAAAABAAAANA",
+							"AQAAAAAAAAABAAAAvAYAAAAAAAC8BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							108,
+							1,
+							"insert",
+							{
+								"characters": "5"
+							},
+							"AQAAALsGAAAAAAAAvAYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAuwYAAAAAAAC7BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							110,
+							1,
+							"insert",
+							{
+								"characters": "I"
+							},
+							"AQAAAL0GAAAAAAAAvgYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvQYAAAAAAAC9BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							112,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMAGAAAAAAAAwAYAAAAAAAADAAAA76aS",
+							"AQAAAAAAAAABAAAAwQYAAAAAAADBBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							113,
+							1,
+							"insert",
+							{
+								"characters": "IV"
+							},
+							"AgAAAMAGAAAAAAAAwQYAAAAAAAAAAAAAwQYAAAAAAADCBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwAYAAAAAAADABgAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/arch/.config/bspwm/bspwmrc",
+					"settings":
+					{
+						"buffer_size": 1116,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							69,
+							1,
+							"paste",
+							null,
+							"AQAAAIcAAAAAAAAAsgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							71,
+							2,
+							"left_delete",
+							null,
+							"AgAAAKAAAAAAAAAAoAAAAAAAAAAcAAAA74SgJyAn75CGJyAn74moJyAn74G7JyAn76aSJ58AAAAAAAAAnwAAAAAAAAABAAAAJw",
+							"AQAAAAAAAAABAAAAsgAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							73,
+							7,
+							"left_delete",
+							null,
+							"BwAAAJoAAAAAAAAAmgAAAAAAAAABAAAAfZkAAAAAAAAAmQAAAAAAAAABAAAAMZgAAAAAAAAAmAAAAAAAAAABAAAAUJcAAAAAAAAAlwAAAAAAAAABAAAARJYAAAAAAAAAlgAAAAAAAAABAAAAZZUAAAAAAAAAlQAAAAAAAAABAAAAe5QAAAAAAAAAlAAAAAAAAAABAAAAJA",
+							"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							74,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJMAAAAAAAAAkwAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							77,
+							1,
+							"insert",
+							{
+								"characters": "#"
+							},
+							"AQAAAJgAAAAAAAAAmQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							80,
+							1,
+							"insert",
+							{
+								"characters": " I"
+							},
+							"AgAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAlwAAAAAAAACYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": " II"
+							},
+							"AwAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							82,
+							1,
+							"insert",
+							{
+								"characters": " III"
+							},
+							"BAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": " IV"
+							},
+							"AwAAAJ8AAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAAChAAAAAAAAAAAAAAChAAAAAAAAAKIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnwAAAAAAAACfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							84,
+							1,
+							"insert",
+							{
+								"characters": " V"
+							},
+							"AgAAAKIAAAAAAAAAowAAAAAAAAAAAAAAowAAAAAAAACkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAogAAAAAAAACiAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							85,
+							1,
+							"insert",
+							{
+								"characters": " VI"
+							},
+							"AwAAAKQAAAAAAAAApQAAAAAAAAAAAAAApQAAAAAAAACmAAAAAAAAAAAAAACmAAAAAAAAAKcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"insert",
+							{
+								"characters": " VII"
+							},
+							"BAAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACpAAAAAAAAAAAAAACpAAAAAAAAAKoAAAAAAAAAAAAAAKoAAAAAAAAAqwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							1,
+							"insert",
+							{
+								"characters": " VIII"
+							},
+							"BQAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAACtAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							1,
+							"insert",
+							{
+								"characters": " IX"
+							},
+							"AwAAALAAAAAAAAAAsQAAAAAAAAAAAAAAsQAAAAAAAACyAAAAAAAAAAAAAACyAAAAAAAAALMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							89,
+							1,
+							"insert",
+							{
+								"characters": " X"
+							},
+							"AgAAALMAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC1AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAswAAAAAAAACzAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/arch/.config/bspwm/polybar/config",
+					"settings":
+					{
+						"buffer_size": 1308,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/Golang Build/Go.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Test"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/arch/.config",
+				"/home/arch/.config/bspwm",
+				"/home/arch/.config/bspwm/polybar"
+			],
+			"file_history":
+			[
+				"/home/arch/.config/bspwm/polybar/system",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/usr/share/doc/alacritty/example/alacritty.yml",
+				"/home/arch/.config/alacritty/keybindings.yml",
+				"/home/arch/.vimrc",
+				"/home/arch/.bashrc",
+				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
+				"/home/arch/Documents/Pw.txt",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
+				"/home/arch/Documents/Tk-git.txt",
+				"/home/arch/.zshrc",
+				"/home/arch/Downloads/Git/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Documents/Th/Cajero-Edteam.py",
+				"/home/arch/Documents/Th/Hello.go",
+				"/home/arch/.config/sublime-text/Packages/User/golang.sublime-settings",
+				"/home/arch/Documents/Th/Triggers.md",
+				"/home/arch/.config/sublime-text/Packages/User/Anaconda.sublime-settings",
+				"/home/arch/Videos/untitled.py",
+				"/home/arch/Documents/Py/Udemy/MaestroPython3/6.TKinter/Menus.py",
+				"/home/arch/.config/sublime-text/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/arch/Documents/Hello.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/arch/.config"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/arch/.config/bspwm/polybar/modules",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6237,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1730,
+										1730
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1014.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/arch/.config/bspwm/bspwmrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1116,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										181,
+										181
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/arch/.config/bspwm/polybar/config",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1308,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.golang_build":
+			{
+				"height": 132.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"position": "0,0,0,0,0,5,35,1357,759,1366,768,1",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 6,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

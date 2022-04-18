@@ -1,0 +1,11 @@
+[module/WLD]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${color.black}
+content-foreground = ${color.grey}
+
+[module/WRD]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${color.black}
+content-foreground = ${color.grey}
