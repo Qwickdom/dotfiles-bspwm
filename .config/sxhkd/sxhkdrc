@@ -104,3 +104,9 @@ alt + {u,i}
 
 super + minus
 	bspc node {$(bspc query -N -d -n .hidden | head -n 1)} -g hidden
+
+super + z
+	sh ~/.config/bspwm/rofi/bin/launcher
+
+alt + {a,s,d,m}
+	sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network}

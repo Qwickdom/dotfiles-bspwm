@@ -3,6 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap latam
 xsetroot -cursor_name left_ptr
+lxsession &
 $HOME/.config/bspwm/polybar/launch.sh
 bspc monitor eDP1 -d I II III IV V
 bspc monitor HDMI1 -d VI VII VIII IX X

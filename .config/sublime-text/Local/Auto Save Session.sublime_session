@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/home/arch/.config/bspwm/rofi",
+		"/home/arch/.config/bspwm/rofi/bin",
 		"/home/arch/Downloads/dotfiles-bspwm-kiss",
 		"/home/arch/.config",
 		"/home/arch/.config/bspwm",
@@ -9,7 +11,7 @@
 		"/home/arch/Documents"
 	],
 	"last_version": 4126,
-	"last_window_id": 11,
+	"last_window_id": 13,
 	"log_indexing": false,
 	"next_update_check": 1650392665,
 	"settings":
@@ -23,6 +25,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"monocle",
+						"single_monocle"
+					],
+					[
+						"mono",
+						"borderless_monocle"
+					]
 				]
 			},
 			"build_system_choices":
@@ -108,8 +118,33 @@
 			},
 			"file_history":
 			[
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/rofi/bin/music",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/rofi/bin/launcher",
+				"/home/arch/.config/bspwm/rofi/bin/windows",
+				"/home/arch/.config/bspwm/rofi/bin/asroot",
+				"/home/arch/.config/bspwm/rofi/themes/asroot.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/screenshot",
+				"/home/arch/.config/bspwm/rofi/bin/runner",
+				"/home/arch/.config/bspwm/rofi/bin/powermenu",
+				"/home/arch/.config/bspwm/rofi/bin/apps_as_root",
+				"/home/arch/.config/bspwm/rofi/bin/askpass",
+				"/home/arch/Downloads/Archcraft/.config/openbox/autostart",
+				"/home/arch/Documents/tg.txt",
+				"/home/arch/Downloads/Archcraft/.config/rofi/config.rasi",
+				"/home/arch/.config/neofetch/config.conf",
 				"/home/arch/.config/bspwm/polybar/system",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
+				"/home/arch/.config/bspwm/polybar/config",
 				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/polybar/bar2",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/gtk-3.0/settings.ini",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
 				"/home/arch/.config/alacritty/fonts.yml",
 				"/home/arch/.config/alacritty/colors.yml",
 				"/home/arch/.config/alacritty/alacritty.yml",
@@ -119,16 +154,10 @@
 				"/home/arch/.bashrc",
 				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
 				"/home/arch/Documents/Pw.txt",
-				"/home/arch/.config/sxhkd/sxhkdrc",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
-				"/home/arch/.config/bspwm/polybar/config",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
-				"/home/arch/.config/bspwm/polybar/modules",
-				"/home/arch/.config/bspwm/polybar/decor",
-				"/home/arch/.config/bspwm/polybar/colors",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
 				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
 				"/home/arch/Documents/Tk-git.txt",
 				"/home/arch/.zshrc",
@@ -145,7 +174,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -177,7 +206,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -203,7 +232,7 @@
 			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
 			"replace":
 			{
-				"height": 0.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -237,13 +266,13 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 186.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1352.0
+		"new_window_width": 671.0
 	},
 	"windows":
 	[
@@ -264,6 +293,231 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/arch/.config/bspwm/rofi/themes/colors.rasi",
+					"settings":
+					{
+						"buffer_size": 209,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "7f7f7f"
+							},
+							"BwAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaAAAAAAAAAAYAAAAyRTM0NDAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							6,
+							"left_delete",
+							null,
+							"BgAAAB4AAAAAAAAAHgAAAAAAAAABAAAAZh0AAAAAAAAAHQAAAAAAAAABAAAANxwAAAAAAAAAHAAAAAAAAAABAAAAZhsAAAAAAAAAGwAAAAAAAAABAAAANxoAAAAAAAAAGgAAAAAAAAABAAAAZhkAAAAAAAAAGQAAAAAAAAABAAAANw",
+							"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "000000"
+							},
+							"BgAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							6,
+							"left_delete",
+							null,
+							"BgAAADsAAAAAAAAAOwAAAAAAAAABAAAAOToAAAAAAAAAOgAAAAAAAAABAAAARTkAAAAAAAAAOQAAAAAAAAABAAAARTgAAAAAAAAAOAAAAAAAAAABAAAARDcAAAAAAAAANwAAAAAAAAABAAAAODYAAAAAAAAANgAAAAAAAAABAAAARA",
+							"AQAAAAAAAAABAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAGtA"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "ffffff"
+							},
+							"BgAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							6,
+							"left_delete",
+							null,
+							"BgAAAFgAAAAAAAAAWAAAAAAAAAABAAAAMVcAAAAAAAAAVwAAAAAAAAABAAAAQ1YAAAAAAAAAVgAAAAAAAAABAAAAMVUAAAAAAAAAVQAAAAAAAAABAAAAQVQAAAAAAAAAVAAAAAAAAAABAAAAMVMAAAAAAAAAUwAAAAAAAAABAAAAOA",
+							"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAGtA"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "7f7f7f"
+							},
+							"BgAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							6,
+							"left_delete",
+							null,
+							"BgAAAHUAAAAAAAAAdQAAAAAAAAABAAAAQnQAAAAAAAAAdAAAAAAAAAABAAAAOHMAAAAAAAAAcwAAAAAAAAABAAAAQnIAAAAAAAAAcgAAAAAAAAABAAAAQ3EAAAAAAAAAcQAAAAAAAAABAAAAQnAAAAAAAAAAcAAAAAAAAAABAAAARQ",
+							"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAGtA"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "7f7f7f"
+							},
+							"BgAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAAByAAAAAAAAAAAAAAByAAAAAAAAAHMAAAAAAAAAAAAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"paste",
+							null,
+							"AgAAAI0AAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACTAAAAAAAAAAYAAABCRjYxNkE",
+							"AQAAAAAAAAABAAAAjQAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "999999"
+							},
+							"BwAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAABxAAAAAAAAAAYAAAA3ZjdmN2ZxAAAAAAAAAHIAAAAAAAAAAAAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHUAAAAAAAAAAAAAAHUAAAAAAAAAdgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": "333333"
+							},
+							"BwAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAABxAAAAAAAAAAYAAAA5OTk5OTlxAAAAAAAAAHIAAAAAAAAAAAAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHUAAAAAAAAAAAAAAHUAAAAAAAAAdgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": "333333"
+							},
+							"BwAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAAAYAAAA3ZjdmN2ZUAAAAAAAAAFUAAAAAAAAAAAAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWQAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "7f7f7f"
+							},
+							"BwAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAABxAAAAAAAAAAYAAAAzMzMzMzNxAAAAAAAAAHIAAAAAAAAAAAAAAHIAAAAAAAAAcwAAAAAAAAAAAAAAcwAAAAAAAAB0AAAAAAAAAAAAAAB0AAAAAAAAAHUAAAAAAAAAAAAAAHUAAAAAAAAAdgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": "cccccc"
+							},
+							"BwAAAKoAAAAAAAAAqwAAAAAAAAAAAAAAqwAAAAAAAACrAAAAAAAAAAYAAABBM0JFOEOrAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsAAAAAAAAACqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": "999999"
+							},
+							"BwAAAMcAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADIAAAAAAAAAAYAAABCRjYxNkHIAAAAAAAAAMkAAAAAAAAAAAAAAMkAAAAAAAAAygAAAAAAAAAAAAAAygAAAAAAAADLAAAAAAAAAAAAAADLAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAAzQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzQAAAAAAAADHAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/arch/.config/bspwm/bspwmrc",
+					"settings":
+					{
+						"buffer_size": 979,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "\nlxs"
+							},
+							"BAAAAGAAAAAAAAAAYQAAAAAAAAAAAAAAYQAAAAAAAABiAAAAAAAAAAAAAABiAAAAAAAAAGMAAAAAAAAAAAAAAGMAAAAAAAAAZAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "essio"
+							},
+							"BQAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAABmAAAAAAAAAGcAAAAAAAAAAAAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABpAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "n"
+							},
+							"AQAAAGkAAAAAAAAAagAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": " &"
+							},
+							"AgAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/arch/.config/bspwm/polybar/colors",
+					"settings":
+					{
+						"buffer_size": 71,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
 			],
 			"build_system": "Packages/Golang Build/Go.sublime-build",
 			"build_system_choices":
@@ -349,12 +603,20 @@
 			},
 			"expanded_folders":
 			[
-				"/home/arch/Downloads/dotfiles-bspwm-kiss",
-				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config"
+				"/home/arch/.config/bspwm/rofi",
+				"/home/arch/.config/bspwm/rofi/bin",
+				"/home/arch/.config/bspwm/rofi/themes"
 			],
 			"file_history":
 			[
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/Downloads/Archcraft/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Archcraft/.config/bspwm/bspwmrc",
+				"/home/arch/Downloads/Archcraft/.config/openbox/rc.xml",
+				"/home/arch/Downloads/Archcraft/.config/openbox/autostart",
 				"/home/arch/Documents/tg.txt",
+				"/home/arch/Downloads/Archcraft/.config/rofi/config.rasi",
 				"/home/arch/.config/neofetch/config.conf",
 				"/home/arch/.config/bspwm/polybar/system",
 				"/home/arch/.config/bspwm/polybar/modules",
@@ -362,10 +624,8 @@
 				"/home/arch/.config/bspwm/polybar/colors",
 				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
 				"/home/arch/.config/bspwm/polybar/config",
-				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/polybar/bar2",
 				"/home/arch/.config/bspwm/polybar/decor",
-				"/home/arch/.config/sxhkd/sxhkdrc",
 				"/home/arch/.config/gtk-3.0/settings.ini",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
 				"/home/arch/.config/alacritty/fonts.yml",
@@ -431,7 +691,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/arch/Downloads/dotfiles-bspwm-kiss"
+					"path": "/home/arch/.config/bspwm/rofi"
 				}
 			],
 			"groups":
@@ -439,6 +699,316 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/arch/.config/bspwm/rofi/themes/colors.rasi",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 209,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										205,
+										205
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/arch/.config/bspwm/bspwmrc",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 979,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										108,
+										108
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/arch/.config/bspwm/polybar/colors",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 71,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										71,
+										71
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -532,7 +1102,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 186.0,
+			"side_bar_width": 177.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
