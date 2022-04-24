@@ -14,7 +14,7 @@ window:
     x: 5
     y: 5
 
-  opacity: 1.0
+  opacity: 0.75
 
 scrolling:
   history: 10000

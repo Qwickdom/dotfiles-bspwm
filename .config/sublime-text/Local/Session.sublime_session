@@ -1,23 +1,24 @@
 {
 	"folder_history":
 	[
+		"/home/arch/.config",
+		"/home/arch/Downloads/rofi/720p",
 		"/home/arch/.config/bspwm/rofi",
 		"/home/arch/.config/bspwm/rofi/bin",
 		"/home/arch/Downloads/dotfiles-bspwm-kiss",
-		"/home/arch/.config",
 		"/home/arch/.config/bspwm",
 		"/home/arch/Downloads/dotfiles-bspwm",
 		"/home/arch/Downloads/Git/dotfiles-bspwm",
 		"/home/arch/Documents"
 	],
 	"last_version": 4126,
-	"last_window_id": 13,
+	"last_window_id": 26,
 	"log_indexing": false,
-	"next_update_check": 1650392665,
+	"next_update_check": 1650824665,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 724.0,
+		"new_window_height": 730.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -118,36 +119,72 @@
 			},
 			"file_history":
 			[
-				"/home/arch/.config/sxhkd/sxhkdrc",
-				"/home/arch/.config/bspwm/rofi/bin/music",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
-				"/home/arch/.config/bspwm/rofi/bin/launcher",
-				"/home/arch/.config/bspwm/rofi/bin/windows",
-				"/home/arch/.config/bspwm/rofi/bin/asroot",
-				"/home/arch/.config/bspwm/rofi/themes/asroot.rasi",
-				"/home/arch/.config/bspwm/rofi/bin/screenshot",
-				"/home/arch/.config/bspwm/rofi/bin/runner",
+				"/home/arch/.config/sublime-text/Packages/User/Adaptive.sublime-theme",
+				"/home/arch/.config/sublime-text/Packages/Theme - Default/Adaptive.sublime-theme",
+				"/home/arch/.config/bspwm/picom.conf",
+				"/home/arch/Downloads/picom.conf.example",
+				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/rofi/bin/powermenu",
-				"/home/arch/.config/bspwm/rofi/bin/apps_as_root",
-				"/home/arch/.config/bspwm/rofi/bin/askpass",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/rofi/bin/network",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/config.ini",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/themes/network.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/powermenu.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/launcher.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/launcher",
+				"/home/arch/.config/bspwm/rofi/themes/window.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/confirm.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/askpass.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/arch/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/arch/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/polybar/launch.sh",
+				"/home/arch/.config/polybar/example.ini",
+				"/etc/polybar/config.ini",
+				"/home/arch/.config/polybar/config.ini",
+				"/home/arch/.config/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/bin/windows",
+				"/home/arch/.config/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/neofetch/config.conf",
+				"/home/arch/.config/polybar/colors",
+				"/home/arch/.config/polybar/panels/launch.sh",
+				"/home/arch/.config/polybar/modules",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/polybar-themes/simple/panels/panel/gnome.ini",
+				"/home/arch/Documents/Wi.txt",
+				"/home/arch/.config/rofi/bin/network",
+				"/home/arch/Downloads/rofi/720p/bin/applet_network",
+				"/home/arch/.config/polybar/gnome.ini",
+				"/home/arch/.config/polybar/system",
+				"/home/arch/.config/polybar/colors-gnome",
+				"/home/arch/.config/polybar/modules-gnome",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/Archcraft/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Archcraft/.config/bspwm/bspwmrc",
+				"/home/arch/Downloads/Archcraft/.config/openbox/rc.xml",
 				"/home/arch/Downloads/Archcraft/.config/openbox/autostart",
 				"/home/arch/Documents/tg.txt",
 				"/home/arch/Downloads/Archcraft/.config/rofi/config.rasi",
-				"/home/arch/.config/neofetch/config.conf",
 				"/home/arch/.config/bspwm/polybar/system",
-				"/home/arch/.config/bspwm/polybar/modules",
-				"/home/arch/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/bspwm/polybar/colors",
 				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
 				"/home/arch/.config/bspwm/polybar/config",
-				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/polybar/bar2",
-				"/home/arch/.config/bspwm/polybar/decor",
 				"/home/arch/.config/gtk-3.0/settings.ini",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/alacritty/fonts.yml",
-				"/home/arch/.config/alacritty/colors.yml",
-				"/home/arch/.config/alacritty/alacritty.yml",
 				"/usr/share/doc/alacritty/example/alacritty.yml",
 				"/home/arch/.config/alacritty/keybindings.yml",
 				"/home/arch/.vimrc",
@@ -155,9 +192,6 @@
 				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
 				"/home/arch/Documents/Pw.txt",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
 				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
 				"/home/arch/Documents/Tk-git.txt",
 				"/home/arch/.zshrc",
@@ -174,7 +208,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -206,7 +240,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -232,7 +266,7 @@
 			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
 			"replace":
 			{
-				"height": 52.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -265,14 +299,14 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 186.0,
+			"side_bar_visible": false,
+			"side_bar_width": 184.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 671.0
+		"new_window_width": 672.0
 	},
 	"windows":
 	[
@@ -294,499 +328,42 @@
 			"buffers":
 			[
 				{
-					"file": "/home/arch/.config/sxhkd/sxhkdrc",
-					"settings":
-					{
-						"buffer_size": 2397,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
+					"file": "/home/arch/.config/ranger/rc.conf",
+					"redo_stack":
 					[
 						[
-							2,
+							1,
 							1,
 							"insert",
 							{
-								"characters": "\n\n"
+								"characters": "n"
 							},
-							"BQAAAM4IAAAAAAAAzwgAAAAAAAAAAAAAzwgAAAAAAADQCAAAAAAAAAAAAADQCAAAAAAAANEIAAAAAAAAAAAAANEIAAAAAAAA0ggAAAAAAAAAAAAAzwgAAAAAAADPCAAAAAAAAAEAAAAJ",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADOCAAAAAAAAM4IAAAAAAAAAAAAAAAAgUA"
-						],
-						[
-							3,
-							1,
-							"left_delete",
-							null,
-							"AQAAANAIAAAAAAAA0AgAAAAAAAABAAAACQ",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADRCAAAAAAAANEIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							4,
-							1,
-							"insert",
-							{
-								"characters": "alt"
-							},
-							"AwAAANAIAAAAAAAA0QgAAAAAAAAAAAAA0QgAAAAAAADSCAAAAAAAAAAAAADSCAAAAAAAANMIAAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADQCAAAAAAAANAIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							5,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAANMIAAAAAAAA1AgAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADTCAAAAAAAANMIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							6,
-							1,
-							"insert",
-							{
-								"characters": "+"
-							},
-							"AQAAANQIAAAAAAAA1QgAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADUCAAAAAAAANQIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAANUIAAAAAAAA1ggAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADVCAAAAAAAANUIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							9,
-							1,
-							"paste",
-							null,
-							"AgAAANAIAAAAAAAA7gkAAAAAAAAAAAAA7gkAAAAAAADuCQAAAAAAAAYAAABhbHQgKyA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADWCAAAAAAAANAIAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							36,
-							1,
-							"insert",
-							{
-								"characters": "alt"
-							},
-							"BAAAACgJAAAAAAAAKQkAAAAAAAAAAAAAKQkAAAAAAAApCQAAAAAAAAUAAABzdXBlcikJAAAAAAAAKgkAAAAAAAAAAAAAKgkAAAAAAAArCQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAtCQAAAAAAACgJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							41,
-							1,
-							"insert",
-							{
-								"characters": "alt"
-							},
-							"BAAAAJIJAAAAAAAAkwkAAAAAAAAAAAAAkwkAAAAAAACTCQAAAAAAAAUAAABzdXBlcpMJAAAAAAAAlAkAAAAAAAAAAAAAlAkAAAAAAACVCQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACXCQAAAAAAAJIJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							46,
-							1,
-							"insert",
-							{
-								"characters": "music"
-							},
-							"BgAAAMoJAAAAAAAAywkAAAAAAAAAAAAAywkAAAAAAADLCQAAAAAAAAMAAABtcGTLCQAAAAAAAMwJAAAAAAAAAAAAAMwJAAAAAAAAzQkAAAAAAAAAAAAAzQkAAAAAAADOCQAAAAAAAAAAAADOCQAAAAAAAM8JAAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADKCQAAAAAAAM0JAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							51,
-							1,
-							"insert",
-							{
-								"characters": "runner"
-							},
-							"BwAAANoJAAAAAAAA2wkAAAAAAAAAAAAA2wkAAAAAAADbCQAAAAAAAAYAAABhc3Jvb3TbCQAAAAAAANwJAAAAAAAAAAAAANwJAAAAAAAA3QkAAAAAAAAAAAAA3QkAAAAAAADeCQAAAAAAAAAAAADeCQAAAAAAAN8JAAAAAAAAAAAAAN8JAAAAAAAA4AkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADaCQAAAAAAAOAJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							56,
-							1,
-							"paste",
-							null,
-							"AgAAADEJAAAAAAAARQkAAAAAAAAAAAAARQkAAAAAAABFCQAAAAAAAAMAAABubWQ",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxCQAAAAAAADQJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							59,
-							2,
-							"left_delete",
-							null,
-							"AgAAAEYJAAAAAAAARgkAAAAAAABGAAAACiMgUm9maSBUaGVtZXMgTWVudQpjdHJsICsgYWx0ICsgdAoJc2ggfi8uY29uZmlnL2JzcHdtL3JvZmkvYmluL3RoZW1lc0UJAAAAAAAARQkAAAAAAAABAAAACg",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACMCQAAAAAAAEYJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							63,
-							1,
-							"insert",
-							{
-								"characters": ",p"
-							},
-							"AgAAAGwJAAAAAAAAbQkAAAAAAAAAAAAAbQkAAAAAAABuCQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABsCQAAAAAAAGwJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							66,
-							1,
-							"insert",
-							{
-								"characters": ","
-							},
-							"AQAAALcJAAAAAAAAuAkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3CQAAAAAAALcJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							67,
-							1,
-							"left_delete",
-							null,
-							"AQAAALcJAAAAAAAAtwkAAAAAAAABAAAALA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC4CQAAAAAAALgJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							72,
-							2,
-							"left_delete",
-							null,
-							"AgAAAG0JAAAAAAAAbQkAAAAAAAABAAAAcGwJAAAAAAAAbAkAAAAAAAABAAAALA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABuCQAAAAAAAG4JAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							75,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAALYJAAAAAAAAtwkAAAAAAAAAAAAAtwkAAAAAAAC4CQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC2CQAAAAAAALYJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							76,
-							1,
-							"left_delete",
-							null,
-							"AQAAALcJAAAAAAAAtwkAAAAAAAABAAAACQ",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC4CQAAAAAAALgJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							77,
-							1,
-							"insert",
-							{
-								"characters": "\nal"
-							},
-							"AwAAALcJAAAAAAAAuAkAAAAAAAAAAAAAuAkAAAAAAAC5CQAAAAAAAAAAAAC5CQAAAAAAALoJAAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3CQAAAAAAALcJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							78,
-							1,
-							"insert",
-							{
-								"characters": "t"
-							},
-							"AQAAALoJAAAAAAAAuwkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6CQAAAAAAALoJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							79,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAALsJAAAAAAAAvAkAAAAAAAAAAAAAvAkAAAAAAAC9CQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7CQAAAAAAALsJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							80,
-							1,
-							"insert",
-							{
-								"characters": " p"
-							},
-							"AgAAAL0JAAAAAAAAvgkAAAAAAAAAAAAAvgkAAAAAAAC/CQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC9CQAAAAAAAL0JAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							81,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAL8JAAAAAAAAwAkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC/CQAAAAAAAL8JAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							82,
-							1,
-							"reindent",
-							null,
-							"AQAAAMAJAAAAAAAAwQkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADACQAAAAAAAMAJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							83,
-							1,
-							"paste",
-							null,
-							"AQAAAMEJAAAAAAAAzAkAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADBCQAAAAAAAMEJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							87,
-							1,
-							"left_delete",
-							null,
-							"AQAAAIwJAAAAAAAAjAkAAAAAAAAIAAAAd2luZG93cyw",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACUCQAAAAAAAIwJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							90,
-							2,
-							"left_delete",
-							null,
-							"AgAAAGQJAAAAAAAAZAkAAAAAAAABAAAALGMJAAAAAAAAYwkAAAAAAAABAAAAdw",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABlCQAAAAAAAGUJAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": "sup"
-							},
-							"BAAAAOQIAAAAAAAA5QgAAAAAAAAAAAAA5QgAAAAAAADlCAAAAAAAAAgAAABhbHQgKyBGMeUIAAAAAAAA5ggAAAAAAAAAAAAA5ggAAAAAAADnCAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA7AgAAAAAAADkCAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": "er"
-							},
-							"AgAAAOcIAAAAAAAA6AgAAAAAAAAAAAAA6AgAAAAAAADpCAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA5wgAAAAAAADnCAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							9,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAAOkIAAAAAAAA6ggAAAAAAAAAAAAA6ggAAAAAAADrCAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA6QgAAAAAAADpCAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": " z"
-							},
-							"AgAAAOsIAAAAAAAA7AgAAAAAAAAAAAAA7AgAAAAAAADtCAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA6wgAAAAAAADrCAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							3,
-							1,
-							"paste",
-							null,
-							"AgAAANAIAAAAAAAA7gkAAAAAAAAAAAAA7gkAAAAAAADuCQAAAAAAAPMAAAAjIFJvZmkgQXBwIExhdW5jaGVyCnN1cGVyICsgegoJc2ggfi8uY29uZmlnL2JzcHdtL3JvZmkvYmluL2xhdW5jaGVyCgojIFJvZmkgTmV0d29yayBNZW51CmFsdCArIG4KCW5ldHdvcmttYW5hZ2VyX2RtZW51CgojIFJvZmkgTWVudXMvQXBwbGV0cwphbHQgKyB7bSx4LHIsc30KCXNoIH4vLmNvbmZpZy9ic3B3bS9yb2ZpL2Jpbi97bXVzaWMscG93ZXJtZW51LHJ1bm5lcixzY3JlZW5zaG90fQoKYWx0ICsgcAoJY29sb3ItZ3BpY2s",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMMJAAAAAAAA0AgAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							6,
-							2,
-							"left_delete",
-							null,
-							"AgAAAOUIAAAAAAAA5QgAAAAAAAAHAAAAbHQgKyBGMeQIAAAAAAAA5AgAAAAAAAABAAAAYQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOwIAAAAAAAA5QgAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": "super"
-							},
-							"BQAAAOQIAAAAAAAA5QgAAAAAAAAAAAAA5QgAAAAAAADmCAAAAAAAAAAAAADmCAAAAAAAAOcIAAAAAAAAAAAAAOcIAAAAAAAA6AgAAAAAAAAAAAAA6AgAAAAAAADpCAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOQIAAAAAAAA5AgAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAAOkIAAAAAAAA6ggAAAAAAAAAAAAA6ggAAAAAAADrCAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOkIAAAAAAAA6QgAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							9,
-							1,
-							"insert",
-							{
-								"characters": " z"
-							},
-							"AgAAAOsIAAAAAAAA7AgAAAAAAAAAAAAA7AgAAAAAAADtCAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOsIAAAAAAAA6wgAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							12,
-							3,
-							"left_delete",
-							null,
-							"AwAAABUJAAAAAAAAFQkAAAAAAAAiAAAAIyBSb2ZpIE5ldHdvcmsgTWVudQpzdXBlciArIG4KCW5tZBQJAAAAAAAAFAkAAAAAAAABAAAAChMJAAAAAAAAEwkAAAAAAAABAAAACg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADcJAAAAAAAAFQkAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							17,
-							1,
-							"insert",
-							{
-								"characters": "alt"
-							},
-							"BAAAAHEJAAAAAAAAcgkAAAAAAAAAAAAAcgkAAAAAAAByCQAAAAAAAAUAAABzdXBlcnIJAAAAAAAAcwkAAAAAAAAAAAAAcwkAAAAAAAB0CQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHEJAAAAAAAAdgkAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							1,
-							1,
-							"revert",
-							null,
-							"AwAAAAAAAAAAAAAAAAAAAAAAAADJCQAAc3VwZXIgKyBSZXR1cm4KCWFsYWNyaXR0eQoKc3VwZXIgKyB7XyxzaGlmdCArIH14Cgl7c3VibCxzbWVyZ2V9CgpzdXBlciAre2Msdn0KCWdvb2dsZS1jaHJvbWUtc3RhYmxle18sIC0taW5jb2duaXRvfQoKc3VwZXIgKyBmCglwY21hbmZtCgpzdXBlciArIGQKCWV4ZWMgL29wdC9keW5hbGlzdC0xLjAuNi9keW5hbGlzdAoKc3VwZXIgKyBzaGlmdCArIHoKCWJldHRlcmxvY2tzY3JlZW4gLWwKCnN1cGVyICsgRXNjYXBlCglwa2lsbCAtVVNSMSAteCBzeGhrZAoKc3VwZXIgKyBhbHQgKyB7cSxyfQoJYnNwYyB7cXVpdCx3bSAtcn0KCnN1cGVyICsge18sc2hpZnQgKyB9dwoJYnNwYyBub2RlIC17YyxrfQoKc3VwZXIgKyBtCglic3BjIGRlc2t0b3AgLWwgbmV4dAoKc3VwZXIgKyB5Cglic3BjIG5vZGUgbmV3ZXN0Lm1hcmtlZC5sb2NhbCAtbiBuZXdlc3QuIWF1dG9tYXRpYy5sb2NhbAoKc3VwZXIgKyBnCglic3BjIG5vZGUgLXMgYmlnZ2VzdC53aW5kb3cKCnN1cGVyICsge3Qsc2hpZnQgKyB0LHMsYWx0ICsgZn0KCWJzcGMgbm9kZSAtdCB7dGlsZWQscHNldWRvX3RpbGVkLGZsb2F0aW5nLGZ1bGxzY3JlZW59CgpzdXBlciArIGN0cmwgKyB7eix4LGEsc30KCWJzcGMgbm9kZSAtZyB7bWFya2VkLGxvY2tlZCxzdGlja3kscHJpdmF0ZX0KCnN1cGVyICsge18sc2hpZnQgKyB9e0xlZnQsRG93bixVcCxSaWdodH0KICAgIGJzcGMgbm9kZSAte2Ysc30ge3dlc3Qsc291dGgsbm9ydGgsZWFzdH0KCmFsdCArIHtfLHNoaWZ0ICsgfVRhYgogICAgYnNwYyBub2RlIC1mIHtuZXh0LmxvY2FsLHByZXYubG9jYWx9CgpzdXBlciArIHtfLHNoaWZ0ICsgfXtoLGosayxsfQoJYnNwYyBub2RlIC17ZixzfSB7d2VzdCxzb3V0aCxub3J0aCxlYXN0fQoKc3VwZXIgKyB7cCxiLGNvbW1hLHBlcmlvZH0KCWJzcGMgbm9kZSAtZiBAe3BhcmVudCxicm90aGVyLGZpcnN0LHNlY29uZH0KCnN1cGVyICsge2FsdCArICxzaGlmdCArIH1jCglic3BjIG5vZGUgLWYge25leHQscHJldn0ubG9jYWwuIWhpZGRlbi53aW5kb3cKCnN1cGVyICsgYnJhY2tldHtsZWZ0LHJpZ2h0fQoJYnNwYyBkZXNrdG9wIC1mIHtwcmV2LG5leHR9LmxvY2FsCgpzdXBlciArIHtncmF2ZSxUYWJ9Cglic3BjIHtub2RlLGRlc2t0b3B9IC1mIGxhc3QKCnN1cGVyICsge28saX0KCWJzcGMgd20gLWggb2ZmOyBcCglic3BjIG5vZGUge29sZGVyLG5ld2VyfSAtZjsgXAoJYnNwYyB3bSAtaCBvbgoKc3VwZXIgKyB7XyxzaGlmdCArIH17MS05LDB9Cglic3BjIHtkZXNrdG9wIC1mLG5vZGUgLWR9ICdeezEtOSwxMH0nCgpzdXBlciArIGN0cmwgKyB7aCxqLGssbH0KCWJzcGMgbm9kZSAtcCB7d2VzdCxzb3V0aCxub3J0aCxlYXN0fQoKc3VwZXIgKyBjdHJsICsgezEtOX0KCWJzcGMgbm9kZSAtbyAwLnsxLTl9CgpzdXBlciArIGN0cmwgKyBzaGlmdCArIHNwYWNlCglic3BjIHF1ZXJ5IC1OIC1kIHwgeGFyZ3MgLUkgaWQgLW4gMSBic3BjIG5vZGUgaWQgLXAgY2FuY2VsCgpzdXBlciArIGFsdCArIHtoLGosayxsfQoJYnNwYyBub2RlIC16IHtsZWZ0IC0yMCAwLGJvdHRvbSAwIDIwLHRvcCAwIC0yMCxyaWdodCAyMCAwfQoKc3VwZXIgKyBhbHQgKyB7TGVmdCxEb3duLFVwLFJpZ2h0fQogICAgICAgIGJzcGMgbm9kZSAteiB7bGVmdCAtMjAgMCxib3R0b20gMCAyMCx0b3AgMCAtMjAscmlnaHQgMjAgMH0KCnN1cGVyICsgYWx0ICsgc2hpZnQgKyB7aCxqLGssbH0KCWJzcGMgbm9kZSAteiB7cmlnaHQgLTIwIDAsdG9wIDAgMjAsYm90dG9tIDAgLTIwLGxlZnQgMjAgMH0KCnN1cGVyICsgYWx0ICsgc2hpZnQgKyB7TGVmdCxEb3duLFVwLFJpZ2h0fQoJYnNwYyBub2RlIC16IHtyaWdodCAtMjAgMCx0b3AgMCAyMCxib3R0b20gMCAtMjAsbGVmdCAyMCAwfQoKc3VwZXIgKyBjdHJsICsge0xlZnQsRG93bixVcCxSaWdodH0KCWJzcGMgbm9kZSAtdiB7LTIwIDAsMCAyMCwwIC0yMCwyMCAwfQoKWEY4NkF1ZGlve0xvd2VyVm9sdW1lLFJhaXNlVm9sdW1lLE11dGV9CglwYWN0bCBzZXQtc2luay17dm9sdW1lIDAgLTUlLHZvbHVtZSAwICs1JSxtdXRlIDAgdG9nZ2xlfQoKWEY4Nk1vbkJyaWdodG5lc3N7RG93bixVcH0KCXhiYWNrbGlnaHQgey1kZWMgNSwtaW5jIDV9CgphbHQgKyB7dSxpfQogICAgICAgIGJzcGMgY29uZmlnIHdpbmRvd19nYXAgJCgoICQoYnNwYyBjb25maWcgd2luZG93X2dhcCkgey0sK30gNSApKQoKc3VwZXIgKyBtaW51cwoJYnNwYyBub2RlIHskKGJzcGMgcXVlcnkgLU4gLWQgLW4gLmhpZGRlbiB8IGhlYWQgLW4gMSl9IC1nIGhpZGRlbgoKIyBSb2ZpIEFwcCBMYXVuY2hlcgpzdXBlciArIHoKCXNoIH4vLmNvbmZpZy9ic3B3bS9yb2ZpL2Jpbi9sYXVuY2hlcgoKIyBSb2ZpIFRoZW1lcyBNZW51CmN0cmwgKyBhbHQgKyB0CglzaCB+Ly5jb25maWcvYnNwd20vcm9maS9iaW4vdGhlbWVzCgojIFJvZmkgTWVudXMvQXBwbGV0cwphbHQgKyB7dyxtLHgscixzfQoJc2ggfi8uY29uZmlnL2JzcHdtL3JvZmkvYmluL3t3aW5kb3dzLG1wZCxwb3dlcm1lbnUsYXNyb290LHNjcmVlbnNob3R9AAAAAAAAAABdCQAAAAAAAAAAAAAAAAAAAAAAAF0JAAAAAAAAAAAAAA",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0CQAAAAAAAHQJAAAAAAAAAAAAAAAA8L8"
+							"AQAAAEsSAAAAAAAASxIAAAAAAAABAAAAbg",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAATBIAAAAAAABMEgAAAAAAAAAAAAAAAPC/"
 						]
-					]
-				},
-				{
-					"file": "/home/arch/.config/bspwm/bspwmrc",
+					],
 					"settings":
 					{
-						"buffer_size": 967,
+						"buffer_size": 24191,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					},
 					"undo_stack":
 					[
 						[
-							5,
-							1,
-							"paste",
-							null,
-							"AQAAAMcDAAAAAAAA6AMAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADHAwAAAAAAAMcDAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAJgDAAAAAAAAmQMAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACYAwAAAAAAAJgDAAAAAAAAAAAAAAAA8L8"
-						],
-						[
 							9,
 							1,
-							"paste",
-							null,
-							"AQAAAJkDAAAAAAAAogMAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZAwAAAAAAAJkDAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							11,
-							1,
 							"insert",
 							{
-								"characters": "\n"
+								"characters": "w3m"
 							},
-							"AQAAAPIDAAAAAAAA8wMAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADyAwAAAAAAAPIDAAAAAAAAAAAAAAAAcUA"
-						],
-						[
-							12,
-							1,
-							"paste",
-							null,
-							"AQAAAPMDAAAAAAAAFAQAAAAAAAAAAAAA",
-							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADzAwAAAAAAAPMDAAAAAAAAAAAAAAAA8L8"
-						],
-						[
-							4,
-							2,
-							"left_delete",
-							null,
-							"AgAAAN0DAAAAAAAA3QMAAAAAAABDAAAAa3N1cGVya2V5IC1lICdTdXBlcl9MPUFsdF9MfEYxJyAmCmtzdXBlcmtleSAtZSAnU3VwZXJfUj1BbHRfTHxGMScgJtwDAAAAAAAA3AMAAAAAAAABAAAACg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAIAQAAAAAAADdAwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							7,
-							2,
-							"left_delete",
-							null,
-							"AgAAAKUDAAAAAAAApQMAAAAAAAAJAAAAa3N1cGVya2V5pAMAAAAAAACkAwAAAAAAAAEAAAAg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAArgMAAAAAAAClAwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": "\nexec"
-							},
-							"BQAAAGwAAAAAAAAAbQAAAAAAAAAAAAAAbQAAAAAAAABuAAAAAAAAAAAAAABuAAAAAAAAAG8AAAAAAAAAAAAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							11,
-							1,
-							"insert",
-							{
-								"characters": " mpd"
-							},
-							"BAAAAHEAAAAAAAAAcgAAAAAAAAAAAAAAcgAAAAAAAABzAAAAAAAAAAAAAABzAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdQAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAcQAAAAAAAABxAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							12,
-							1,
-							"insert",
-							{
-								"characters": " &"
-							},
-							"AgAAAHUAAAAAAAAAdgAAAAAAAAAAAAAAdgAAAAAAAAB3AAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAdQAAAAAAAAB1AAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							3,
-							2,
-							"left_delete",
-							null,
-							"AgAAAGEAAAAAAAAAYQAAAAAAAAAWAAAAbHhzZXNzaW9uICYKZXhlYyBtcGQgJmAAAAAAAAAAYAAAAAAAAAABAAAACg",
-							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB3AAAAAAAAAGEAAAAAAAAAAAAAAAAA8L8"
+							"BAAAAEgSAAAAAAAASRIAAAAAAAAAAAAASRIAAAAAAABJEgAAAAAAAAUAAABraXR0eUkSAAAAAAAAShIAAAAAAAAAAAAAShIAAAAAAABLEgAAAAAAAAAAAAA",
+							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABNEgAAAAAAAEgSAAAAAAAAAAAAAAAA8L8"
 						]
 					]
 				}
 			],
-			"build_system": "Packages/Golang Build/Go.sublime-build",
+			"build_system": "",
 			"build_system_choices":
 			[
 				[
@@ -870,32 +447,75 @@
 			},
 			"expanded_folders":
 			[
-				"/home/arch/Downloads/dotfiles-bspwm-kiss"
+				"/home/arch/.config",
+				"/home/arch/.config/ranger"
 			],
 			"file_history":
 			[
+				"/home/arch/.config/bspwm/picom.conf",
+				"/home/arch/Downloads/picom.conf.example",
+				"/home/arch/.config/bspwm/bspwmrc",
+				"/home/arch/.config/bspwm/rofi/bin/powermenu",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/rofi/bin/network",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/config.ini",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/themes/network.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/powermenu.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/launcher.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/launcher",
+				"/home/arch/.config/bspwm/rofi/themes/window.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/confirm.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/askpass.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/arch/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/arch/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/polybar/launch.sh",
+				"/home/arch/.config/polybar/example.ini",
+				"/etc/polybar/config.ini",
+				"/home/arch/.config/polybar/config.ini",
+				"/home/arch/.config/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/bin/windows",
+				"/home/arch/.config/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/neofetch/config.conf",
+				"/home/arch/.config/polybar/colors",
+				"/home/arch/.config/polybar/panels/launch.sh",
+				"/home/arch/.config/polybar/modules",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/polybar-themes/simple/panels/panel/gnome.ini",
+				"/home/arch/Documents/Wi.txt",
+				"/home/arch/.config/rofi/bin/network",
+				"/home/arch/Downloads/rofi/720p/bin/applet_network",
+				"/home/arch/.config/polybar/gnome.ini",
+				"/home/arch/.config/polybar/system",
+				"/home/arch/.config/polybar/colors-gnome",
+				"/home/arch/.config/polybar/modules-gnome",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
 				"/home/arch/Downloads/Archcraft/.config/sxhkd/sxhkdrc",
 				"/home/arch/Downloads/Archcraft/.config/bspwm/bspwmrc",
 				"/home/arch/Downloads/Archcraft/.config/openbox/rc.xml",
 				"/home/arch/Downloads/Archcraft/.config/openbox/autostart",
 				"/home/arch/Documents/tg.txt",
 				"/home/arch/Downloads/Archcraft/.config/rofi/config.rasi",
-				"/home/arch/.config/neofetch/config.conf",
 				"/home/arch/.config/bspwm/polybar/system",
-				"/home/arch/.config/bspwm/polybar/modules",
-				"/home/arch/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/bspwm/polybar/colors",
 				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
 				"/home/arch/.config/bspwm/polybar/config",
-				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/polybar/bar2",
-				"/home/arch/.config/bspwm/polybar/decor",
-				"/home/arch/.config/sxhkd/sxhkdrc",
 				"/home/arch/.config/gtk-3.0/settings.ini",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/alacritty/fonts.yml",
-				"/home/arch/.config/alacritty/colors.yml",
-				"/home/arch/.config/alacritty/alacritty.yml",
 				"/usr/share/doc/alacritty/example/alacritty.yml",
 				"/home/arch/.config/alacritty/keybindings.yml",
 				"/home/arch/.vimrc",
@@ -903,10 +523,6 @@
 				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
 				"/home/arch/Documents/Pw.txt",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
 				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
 				"/home/arch/Documents/Tk-git.txt",
 				"/home/arch/.zshrc",
@@ -923,7 +539,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -937,6 +553,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"@back"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -956,7 +573,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/arch/Downloads/dotfiles-bspwm-kiss"
+					"path": "/home/arch/.config"
 				}
 			],
 			"groups":
@@ -966,19 +583,20 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/arch/.config/sxhkd/sxhkdrc",
+							"file": "/home/arch/.config/ranger/rc.conf",
+							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2397,
+								"buffer_size": 24191,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1585,
-										1585
+										4683,
+										4683
 									]
 								],
 								"settings":
@@ -1001,11 +619,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
 										"bh_round",
 										"bh_round_center",
 										"bh_round_open",
@@ -1016,157 +639,46 @@
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
 										"bh_tag",
 										"bh_tag_center",
 										"bh_tag_open",
 										"bh_tag_close",
 										"bh_tag_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 1619.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/arch/.config/bspwm/bspwmrc",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 967,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										96,
-										96
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
 										"bh_single_quote_close",
 										"bh_single_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content"
 									],
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2206.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1178,7 +690,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -1224,11 +736,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
-			"position": "0,0,0,0,0,685,35,1357,759,1366,768,1",
+			"position": "0,0,0,0,0,5,29,676,759,1366,768,1",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1265,13 +777,13 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
-			"side_bar_width": 186.0,
+			"side_bar_visible": true,
+			"side_bar_width": 184.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 6,
+			"window_id": 20,
 			"workspace_name": ""
 		},
 		{
@@ -1376,36 +888,72 @@
 			},
 			"file_history":
 			[
-				"/home/arch/.config/sxhkd/sxhkdrc",
-				"/home/arch/.config/bspwm/rofi/bin/music",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
-				"/home/arch/.config/bspwm/rofi/bin/launcher",
-				"/home/arch/.config/bspwm/rofi/bin/windows",
-				"/home/arch/.config/bspwm/rofi/bin/asroot",
-				"/home/arch/.config/bspwm/rofi/themes/asroot.rasi",
-				"/home/arch/.config/bspwm/rofi/bin/screenshot",
-				"/home/arch/.config/bspwm/rofi/bin/runner",
+				"/home/arch/.config/sublime-text/Packages/User/Adaptive.sublime-theme",
+				"/home/arch/.config/sublime-text/Packages/Theme - Default/Adaptive.sublime-theme",
+				"/home/arch/.config/bspwm/picom.conf",
+				"/home/arch/Downloads/picom.conf.example",
+				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/rofi/bin/powermenu",
-				"/home/arch/.config/bspwm/rofi/bin/apps_as_root",
-				"/home/arch/.config/bspwm/rofi/bin/askpass",
+				"/home/arch/.config/sxhkd/sxhkdrc",
+				"/home/arch/.config/bspwm/rofi/bin/network",
+				"/home/arch/.config/bspwm/polybar/modules",
+				"/home/arch/.config/bspwm/polybar/colors",
+				"/home/arch/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/polybar/config.ini",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/themes/network.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/rofi/themes/colors.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/powermenu.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/launcher.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/launcher",
+				"/home/arch/.config/bspwm/rofi/themes/window.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/confirm.rasi",
+				"/home/arch/.config/bspwm/rofi/themes/askpass.rasi",
+				"/home/arch/.config/bspwm/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/fonts.yml",
+				"/home/arch/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/arch/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/arch/.config/bspwm/polybar/launch.sh",
+				"/home/arch/.config/polybar/launch.sh",
+				"/home/arch/.config/polybar/example.ini",
+				"/etc/polybar/config.ini",
+				"/home/arch/.config/polybar/config.ini",
+				"/home/arch/.config/polybar/decor",
+				"/home/arch/.config/bspwm/rofi/bin/windows",
+				"/home/arch/.config/rofi/bin/confirm",
+				"/home/arch/.config/alacritty/alacritty.yml",
+				"/home/arch/.config/alacritty/colors.yml",
+				"/home/arch/.config/neofetch/config.conf",
+				"/home/arch/.config/polybar/colors",
+				"/home/arch/.config/polybar/panels/launch.sh",
+				"/home/arch/.config/polybar/modules",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/polybar-themes/simple/panels/panel/gnome.ini",
+				"/home/arch/Documents/Wi.txt",
+				"/home/arch/.config/rofi/bin/network",
+				"/home/arch/Downloads/rofi/720p/bin/applet_network",
+				"/home/arch/.config/polybar/gnome.ini",
+				"/home/arch/.config/polybar/system",
+				"/home/arch/.config/polybar/colors-gnome",
+				"/home/arch/.config/polybar/modules-gnome",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/dotfiles-bspwm-kiss/.config/bspwm/polybar/config",
+				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
+				"/home/arch/Downloads/Archcraft/.config/sxhkd/sxhkdrc",
+				"/home/arch/Downloads/Archcraft/.config/bspwm/bspwmrc",
+				"/home/arch/Downloads/Archcraft/.config/openbox/rc.xml",
 				"/home/arch/Downloads/Archcraft/.config/openbox/autostart",
 				"/home/arch/Documents/tg.txt",
 				"/home/arch/Downloads/Archcraft/.config/rofi/config.rasi",
-				"/home/arch/.config/neofetch/config.conf",
 				"/home/arch/.config/bspwm/polybar/system",
-				"/home/arch/.config/bspwm/polybar/modules",
-				"/home/arch/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/bspwm/polybar/colors",
 				"/home/arch/.config/bspwm/polybar/scripts/updates.sh",
 				"/home/arch/.config/bspwm/polybar/config",
-				"/home/arch/.config/bspwm/bspwmrc",
 				"/home/arch/.config/bspwm/polybar/bar2",
-				"/home/arch/.config/bspwm/polybar/decor",
 				"/home/arch/.config/gtk-3.0/settings.ini",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/launch.sh",
-				"/home/arch/.config/alacritty/fonts.yml",
-				"/home/arch/.config/alacritty/colors.yml",
-				"/home/arch/.config/alacritty/alacritty.yml",
 				"/usr/share/doc/alacritty/example/alacritty.yml",
 				"/home/arch/.config/alacritty/keybindings.yml",
 				"/home/arch/.vimrc",
@@ -1413,9 +961,6 @@
 				"/home/arch/.config/bspwm/polybar/scripts/arch-updates.sh",
 				"/home/arch/Documents/Pw.txt",
 				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/bspwmrc",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/modules",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/decor",
-				"/home/arch/Downloads/dotfiles-bspwm/.config/bspwm/polybar/config",
 				"/home/arch/Downloads/Git/dotfiles-bspwm/.github/README.md",
 				"/home/arch/Documents/Tk-git.txt",
 				"/home/arch/.zshrc",
@@ -1432,7 +977,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -1468,11 +1013,16 @@
 					"sheets":
 					[
 					]
+				},
+				{
+					"sheets":
+					[
+					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -1487,11 +1037,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -1518,11 +1075,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
-			"position": "0,0,0,0,0,5,35,676,759,1366,768,1",
+			"position": "0,0,0,0,0,685,29,1357,759,1366,768,1",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1552,20 +1109,20 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 186.0,
+			"side_bar_visible": false,
+			"side_bar_width": 184.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 12,
+			"window_id": 26,
 			"workspace_name": ""
 		}
 	],

@@ -3,9 +3,14 @@
 	"variables":
 	{
 		"dark_bg": "color(var(--background) blend(white 100%))",
-		
 	},
+
 	"rules":
 	[
+		
+		{
+			"class": "status_bar",
+			"layer0.tint": "color(var(--background) blend(black 0%))",
+		}
 	]
 }

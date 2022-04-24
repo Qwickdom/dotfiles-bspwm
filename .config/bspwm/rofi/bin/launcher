@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-DIR="$HOME/.config/bspwm"
-
 rofi \
 	-show drun \
 	-modi run,drun,ssh \
@@ -12,4 +10,4 @@ rofi \
 	-no-drun-show-actions \
 	-terminal alacritty \
 	-kb-cancel Escape \
-	-theme "$DIR"/rofi/themes/launcher.rasi
+	-theme ~/.config/bspwm/rofi/themes/launcher.rasi

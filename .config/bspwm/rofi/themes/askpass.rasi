@@ -3,14 +3,14 @@
 * {
     background-color:       @background;
     text-color:             @foreground;
-    font:                "Cantarell 10";
+    font:  "JetBrainsMono Nerd Font 10";
 }
 
 window {
-    width:                        250px;
-    padding:                       20px;
-    border:                         1px;
-    border-radius:                  0px;
+    width:                        200px;
+    padding:                       10px;
+    border:                         2px;
+    border-radius:                 20px;
     border-color:             @selected;
     location:                    center;
     x-offset:                         0;

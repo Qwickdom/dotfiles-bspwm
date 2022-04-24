@@ -1,5 +1,6 @@
 [color]
-black = #000000
-grey  = #7f7f7f
-white = #ffffff
-red   = #f7768e
+black          = #000000
+primary        = #7aa2f7
+alert          = #A54242
+white          = #ffffff
+red            = #ff0000

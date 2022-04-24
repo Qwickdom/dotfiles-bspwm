@@ -1,5 +1,5 @@
 configuration {
-    font:                       "Cantarell 10";
+    font:         "JetBrainsMono Nerd Font 10";
     show-icons:                          false;
     display-drun:                          "";
     drun-display-format:       "{icon} {name}";
@@ -13,10 +13,10 @@ window {
     transparency:                       "real";
     background-color:              @background;
     text-color:                    @foreground;
-    border:                                1px;
+    border:                                2px;
     border-color:                    @selected;
-    border-radius:                         0px;
-    width:                               335px;
+    border-radius:                        20px;
+    width:                               181px;
     location:                           center;
     anchor:                             center;
     x-offset:                                0;
@@ -41,13 +41,13 @@ textbox-prompt-colon {
     background-color:                @selected;
     text-color:                    @background;
     padding:                 6px 10px 6px 10px;
-    font:               "Iosevka Nerd Font 10";
+    font:         "JetBrainsMono Nerd Font 10";
 }
 
 entry {
-    background-color:              @background;
-    text-color:                    @background;
-    placeholder-color:             @background;
+    background-color:              @foreground;
+    text-color:                    @foreground;
+    placeholder-color:             @foreground;
     placeholder:                            "";
     expand:                               true;
     horizontal-align:                        0;
@@ -60,8 +60,8 @@ inputbar {
     spacing:                                 0;
     background-color:              @background;
     text-color:                    @foreground;
-    border:                    0px 0px 1px 0px;
-    border-radius:                         0px;
+    border:                    2px 2px 2px 2px;
+    border-radius:                        20px;
     border-color:                    @selected;
     expand:                              false;
     margin:                    0px 0px 0px 0px;
@@ -79,7 +79,7 @@ case-indicator {
 listview {
     background-color:              @background;
     columns:                                 1;
-    lines:                                   5;
+    lines:                                   2;
     spacing:                              10px;
     cycle:                                true;
     dynamic:                              true;
@@ -88,6 +88,7 @@ listview {
 
 mainbox {
     background-color:              @background;
+    text-color:                    @selected;
     children:           [ inputbar, listview ];
     spacing:                              10px;
     padding:                              10px;
@@ -97,8 +98,8 @@ element {
     background-color:              @background;
     text-color:                    @foreground;
     orientation:                    horizontal;
-    border:                                1px;
-    border-radius:                         0px;
+    border:                                2px;
+    border-radius:                        20px;
     border-color:                    @selected;
     padding:           23.5px 25px 23.5px 25px;
 }
@@ -115,7 +116,7 @@ element-icon {
 element-text {
     background-color:                  inherit;
     text-color:                        inherit;
-    font:                         "feather 14";
+    font:         "JetBrainsMono Nerd Font 14";
     expand:                               true;
     horizontal-align:                      0.5;
     vertical-align:                        0.5;
@@ -125,8 +126,8 @@ element-text {
 element selected {
     background-color:                @selected;
     text-color:                    @background;
-    border:                                0px;
-    border-radius:                         0px;
+    border:                                2px;
+    border-radius:                        20px;
     border-color:                    @selected;
 }
 

@@ -5,9 +5,10 @@
         "Vintage",
     ],
     "color_scheme": "OLED.sublime-color-scheme",
-    "theme": "Adaptive.sublime-theme",
-    "translate_tabs_to_spaces": true,
+    "font_face": "JetBrainsMono Nerd Font",
+    "font_size": 10,
     "spell_check": true,
+    "translate_tabs_to_spaces": true,
     "dictionary": "Packages/Language - Spanish/es_MX.dic",
-    /*"dictionary": "Packages/Language - Spanish/es_MX.dic",*/
+    "theme": "Adaptive.sublime-theme",
 }
