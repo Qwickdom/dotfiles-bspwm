@@ -1,6 +1,32 @@
 ![Desktop](/.github/assets/Desktop.png "BSPWM")
 ![Desktop](/.github/assets/Sublime.png "BSPWM")
 
+### Hi!
+<a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "left" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a>
+
+<b>  My Simple Dotfiles!  </b>
+
+Welcome to my BSPWM configuration files! 
+You may be here to look for my BSPWM configuration files... or looking for something else? ಠωಠ
+Feel free to use anything from here but don't forget to give me **credits** :3
+
+BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
+It only responds to X events, and the messages it receives on a dedicated socket. 
+Although it takes time and effort to configure it, but I'm very satisfied with the result.
+
+<h2></h2><br>
+
+**Here are some details about my setup:**
+
+| Programs   | Using             |
+| ---------- | ----------------- |
+| WM         | awesome           |
+| OS         | arch linux        |
+| Terminal   | alacritty         |
+| Shell      | zsh               |
+| Editor     | neovim / vscode   |
+| Compositor | picom             |
+
 <h2></h2><br>
 
 <table align="right">
@@ -27,11 +53,19 @@
 </table>
 
 <details>
-<summary><strong>A P P S</strong></summary>
+<summary><strong>S E T U P</strong></summary>
 
    > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
    > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). I use [Yay](https://github.com/Jguer/yay)
+
+  
+
+</details>
+<br>
+
+<details>
+<summary><strong>A P P S</strong></summary>
 
 |     Application    |   Description    |
 | ------------------ | ---------------- |
@@ -53,7 +87,6 @@
 Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
 
 </details>
-
 <br>
 
 <a id="keybinds"></a>
