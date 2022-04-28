@@ -1,13 +1,13 @@
 [module/BPLD]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.black}
+content-background = ${color.primary}
 content-foreground = ${color.primary}
 
 [module/BPRD]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.black}
+content-background = ${color.primary}
 content-foreground = ${color.primary}
 
 [module/BPL]

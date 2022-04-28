@@ -25,11 +25,11 @@ bspc rule -a Sublime_merge desktop='^2' follow=on focus=on
 bspc rule -a Google-chrome desktop='^3' follow=on focus=on
 bspc rule -a Dynalist desktop='^4' follow=on focus=on
 bspc rule -a obsidian desktop='^4' follow=on focus=on
-declare -a settings=(Pcmanfm Lxappearance Steam)
-for i in ${settings[@]}; do
-    bspc rule -a $i desktop='^5' follow=on focus=on state=floating; done
+declare -a things=(Pcmanfm Lxappearance Steam)
+for i in ${things[@]}; do
+    bspc rule -a $i desktop='^5' follow=on focus=on; done
 
-killall -9 picom sxhkd polybar
+killall -9 sxhkd polybar picom
 sxhkd &
 $HOME/.config/bspwm/polybar/launch.sh
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
