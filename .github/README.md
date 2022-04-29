@@ -59,7 +59,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
-<details>
+<details align="center">
 <summary>Install git and yay</summary>
 
  + #### Git
@@ -77,7 +77,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  ```
 </details>
 
-<details>
+<details align="center">
 <summary>Dependencies</summary>
 
  > I install these dependencies after a simple Arch Linux installation.
@@ -92,7 +92,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  > Chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
 </details>
 
-<details>
+<details align="center">
 <summary>Needed fonts</summary>
 
 You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
@@ -115,7 +115,7 @@ fc-cache -fv
 ```
 </details>
 
-<details>
+<details align="center">
 <summary>My BSPWM configuration files</summary>
 
   > Clone this repository
@@ -140,7 +140,7 @@ fc-cache -fv
   ```
 </details>
 
-<details>
+<details align="center">
 <summary>Configure stuff</summary>
 
 The relevant files are inside in `~/.config/bspwm` directory.
@@ -181,7 +181,7 @@ The relevant files are inside in `~/.config/bspwm` directory.
   Change the file if you want.
 </details>
 
-<details>
+<details align="center">
 <summary>Log in</summary>
 
 Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
