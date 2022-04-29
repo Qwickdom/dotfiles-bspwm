@@ -58,8 +58,9 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
 > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
+
 <details>
-<summary><strong>Install git and yay</strong></summary>
+<summary>Install git and yay</summary>
 
  + #### Git
 
@@ -76,7 +77,8 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  ```
 </details>
 
-2. ### Install dependencies
+<details>
+<summary>Install dependencies</summary>
 
  + #### Dependencies
 
@@ -90,8 +92,10 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
  ```
  > Chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+</details>
 
-3. ### Install needed fonts
+<details>
+<summary>Install needed fonts</summary>
 
 You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
@@ -111,8 +115,10 @@ detect the newly installed fonts.
 ```sh
 fc-cache -fv
 ```
-   
-4. ### Install my BSPWM configuration files
+</details>
+
+<details>
+<summary>Install my BSPWM configuration files</summary>
 
   > Clone this repository
 
@@ -134,8 +140,10 @@ fc-cache -fv
   ```sh
   sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d/
   ```
+</details>
 
-5. ### Configure stuff
+<details>
+<summary>Configure stuff</summary>
 
 The relevant files are inside in `~/.config/bspwm` directory.
 
@@ -173,10 +181,12 @@ The relevant files are inside in `~/.config/bspwm` directory.
 
   In `picom.conf` I defined some of the composer values that are to my liking.
   Change the file if you want.
+</details>
 
-6. ### Log in
-        
+<details>
+<summary>Log in</summary>
 Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
+</details>
 
 </details><br>
 
@@ -203,8 +213,7 @@ Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
-> Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
-
+> Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
 </details><br>
 
 <details>
@@ -229,7 +238,6 @@ Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 | `Alt + P`                 | Screenshot                               |
 
 > To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
-
 </details><br>
 
 <details>
@@ -241,7 +249,6 @@ Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 + [`vinceliuice`](https://github.com/vinceliuice)
 + [`adi1090x`](https://github.com/adi1090x)
 + [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
-
 </details><br>
 
 <h2></h2><br>
