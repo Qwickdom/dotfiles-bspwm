@@ -18,14 +18,14 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 **Here are some details about my setup:**
 
-| Programs     | Using       |
-| ------------ | ----------- |
-| `OS`         | Arch Linux  |
-| `Kernel`     | Linux Zen   |
-| `Shell`      | Bash        |
-| `WM`         | BSPWM       |
-| `Gtk theme`  | Graphite    |
-| `Icon theme` | Tela circle |
+| Programs     | Using              |
+| ------------ | ------------------ |
+| `OS`         | [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)  |
+| `Kernel`     | [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels)   |
+| `Shell`      | [Bash](https://wiki.archlinux.org/title/Bash)        |
+| `WM`         | [BSPWM](https://wiki.archlinux.org/title/Bspwm)       |
+| `Gtk theme`  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)    |
+| `Icon theme` | [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) |
 
 <h2></h2><br>
 
