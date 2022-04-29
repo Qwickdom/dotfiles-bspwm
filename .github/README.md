@@ -101,7 +101,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       + **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
       + **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
 
-      For more **Nerd Fonts** visit the [web site](https://www.nerdfonts.com/).
+      For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
       Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
       or use my fonts by moving them to the `~/` directory and run this command for your system to 
@@ -211,20 +211,26 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 |        Keybindings        |                 Function                 |
 | --------------------------| ---------------------------------------- |
-| `Super + Enter`           | Launch (Alacritty)                       |
-| `Super + X`               | Launch (Sublime Text)                    |
-| `Super + Shift + X`       | Launch (Sublime Merge)                   |
+| `Super + Return`          | Launch (Alacritty)                       |
+| `Super + A`               | Launch (Google chrome)                   |
+| `Super + Shift + A`       | Launch (Google chrome incognito)         |
+| `Super + S`               | Launch (Sublime Text)                    |
+| `Super + Shift + S`       | Launch (Sublime Merge)                   |
 | `Super + D`               | Launch (Dynalist)                        |
-| `Super + C`               | Launch (Google chrome)                   |
-| `Super + V`               | Launch (Google chrome incognito)         |
-| `Super + F`               | Launch (Pcmanfm)                         |
+| `Super + Shift + D`       | Launch (Obsidian)                        |
+| `Super + X`               | Launch (Pcmanfm)                         |
 | `Super + Z`               | Launch (Rofi)                            |
-| `Super + Alt + {A,S,D}`   | Menus/Applets {windows,powermenu,network}|
+| `Alt + {A,S,D}`           | Menus/Applets {windows,powermenu,network}|
 | `Super + {Shift + }W`     | Close/Kill Window                        |
 | `Super + {1-5}`           | Switches to Workspace 1 to 5             |
 | `Super + Shift + {1-9,0}` | Move Apps/Windows to Workspace 1 to 5    |
 | `Super + Ctrl + {Z,X,A,S}`| Flags {marked,locked,sticky,private}     |
-| `Super + P`               | Screenshot                               |
+| `Alt + P`                 | Screenshot                               |
+| `Alt + Tab`               | Focus next window floating               |
+| `Alt + Shift + Tab`       | Focus previous window floating           |
+| `Alt + U`                 | Increase window gap                      |
+| `Alt + I`                 | Decrease window gap                      |
+| `Super + Minus`           | Hide windows                             |
 
 > To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
 
