@@ -59,9 +59,8 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
-<details>
-  
-  1. <summary>Install git and yay</summary>
+  1. <details>
+<summary>Install git and yay</summary>
 
  + #### Git
 
@@ -79,8 +78,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details>
-
-  2. <summary>Dependencies</summary>
+<summary>Dependencies</summary>
 
  > I install these dependencies after a simple Arch Linux installation.
 
@@ -95,8 +93,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details>
-  
-  3. <summary>Needed fonts</summary>
+<summary>Needed fonts</summary>
 
 You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
@@ -119,8 +116,7 @@ fc-cache -fv
 </details>
 
 <details>
-  
-  4. <summary>My BSPWM configuration files</summary>
+<summary>My BSPWM configuration files</summary>
 
   > Clone this repository
 
@@ -145,8 +141,7 @@ fc-cache -fv
 </details>
 
 <details>
-
-  5. <summary>Configure stuff</summary>
+<summary>Configure stuff</summary>
 
 The relevant files are inside in `~/.config/bspwm` directory.
 
@@ -187,8 +182,7 @@ The relevant files are inside in `~/.config/bspwm` directory.
 </details>
 
 <details>
-
-  6. <summary>Log in</summary>
+<summary>Log in</summary>
 
 Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 </details>
