@@ -78,7 +78,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details align="center">
-<summary>Dependencies</summary>
+<summary>Dependencies</summary><br>
 
  > I install these dependencies after a simple Arch Linux installation.
 
@@ -93,7 +93,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details align="center">
-<summary>Needed fonts</summary>
+<summary>Needed fonts</summary><br>
 
  You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
@@ -116,7 +116,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details align="center">
-<summary>My BSPWM configuration files</summary>
+<summary>My BSPWM configuration files</summary><br>
 
  > Clone this repository
 
@@ -141,7 +141,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details align="center">
-<summary>Configure stuff</summary>
+<summary>Configure stuff</summary><br>
 
  The relevant files are inside in `~/.config/bspwm` directory.
 
@@ -182,7 +182,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 </details>
 
 <details align="center">
-<summary>Log in</summary>
+<summary>Log in</summary><br>
 
  Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 </details>
