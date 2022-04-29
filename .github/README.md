@@ -97,11 +97,11 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
  You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
- Necessary fonts:
- **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
- **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
- **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
- **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
+ Necessary fonts: <br>
+ **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip) <br>
+ **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip) <br>
+ **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
+ **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
  **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
 
  For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
