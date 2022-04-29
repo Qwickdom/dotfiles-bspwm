@@ -88,7 +88,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
  noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
  ```
- > Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+ > Chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
 
 3. ### Install needed fonts
 
@@ -224,11 +224,10 @@ Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 | `Super + Minus`           | Hide windows                             |
 | `Alt + {A,S,D}`           | Menus/Applets {windows,powermenu,network}|
 | `Alt + {Shift + }Tab`     | Focus next / previous window floating    |
-| `Alt + U`                 | Increase window gap                      |
-| `Alt + I`                 | Decrease window gap                      |
+| `Alt + {U,I}`             | Increase / Decrease window gap           |
 | `Alt + P`                 | Screenshot                               |
 
-> To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
+> To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
 
 </details><br>
 
