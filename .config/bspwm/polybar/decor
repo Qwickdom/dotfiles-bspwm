@@ -1,23 +1,23 @@
-[module/BPLD]
+[module/PPLD]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.primary}
 content-foreground = ${color.primary}
+content-background = ${color.primary}
 
-[module/BPRD]
+[module/PPRD]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.primary}
 content-foreground = ${color.primary}
+content-background = ${color.primary}
 
-[module/BPL]
+[module/PBL]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.black}
 content-foreground = ${color.primary}
+content-background = ${color.black}
 
-[module/BPR]
+[module/PBR]
 type = custom/text
 content = "%{T3}%{T-}"
-content-background = ${color.black}
 content-foreground = ${color.primary}
+content-background = ${color.black}

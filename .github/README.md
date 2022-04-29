@@ -55,127 +55,127 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 <details>
 <summary><strong>S E T U P</strong></summary>
 
-   > This setup only provided for **Arch Linux** (and all Arch-based distributions)
+> This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-   > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
+> Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
-  1. ### Install git and yay
+1. ### Install git and yay
 
-      + #### Git
+ + #### Git
 
-         ```sh
-         sudo pacman -S git --needed
-         ```
+ ```sh
+ sudo pacman -S git --needed
+ ```
 
-      + #### Yay
+ + #### Yay
 
-         ```sh
-         git clone https://aur.archlinux.org/yay.git
-         cd yay/
-         makepkg -si PKGBUILD
-         ```
+ ```sh
+ git clone https://aur.archlinux.org/yay.git
+ cd yay/
+ makepkg -si PKGBUILD
+ ```
 
-  2. ### Install dependencies
+2. ### Install dependencies
 
-      + #### Dependencies
+ + #### Dependencies
 
-        > I install these dependencies after a simple Arch Linux installation.
+ > I install these dependencies after a simple Arch Linux installation.
         
-         ```sh
-         yay -Sy xorg xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap \
-         xf86-video-intel pipewire pipewire-alsa pipewire-jack pipewire-pulse \
-         pipewire-media-session htop neofetch rofi polybar ranger tree alacritty python \
-         python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
-         noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
-         ```
-         > Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+ ```sh
+ yay -Sy xorg xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap \
+ xf86-video-intel pipewire pipewire-alsa pipewire-jack pipewire-pulse \
+ pipewire-media-session htop neofetch rofi polybar ranger tree alacritty python \
+ python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
+ noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
+ ```
+ > Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
 
-   3. ### Install needed fonts
+3. ### Install needed fonts
 
-      You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
+You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
-      Necessary fonts:
-      + **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
-      + **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
-      + **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
-      + **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
-      + **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
+Necessary fonts:
+  + **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
+  + **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
+  + **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
+  + **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
+  + **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
 
-      For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
+For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
-      Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
-      or use my fonts by moving them to the `~/` directory and run this command for your system to 
-      detect the newly installed fonts.
+Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
+or use my fonts by moving them to the `~/` directory and run this command for your system to 
+detect the newly installed fonts.
 
-      ```sh
-      fc-cache -fv
-      ```
+```sh
+fc-cache -fv
+```
    
-   4. ### Install my BSPWM configuration files
+4. ### Install my BSPWM configuration files
 
-      > Clone this repository
+  > Clone this repository
 
-      ```sh
-      git clone https://github.com/PyLess/dotfiles-bspwm.git
-      cd dotfiles-bspwm
-      ```
+  ```sh
+  git clone https://github.com/PyLess/dotfiles-bspwm.git
+  cd dotfiles-bspwm
+  ```
 
-      > Copy configs and fonts files
+  > Copy configs and fonts files
 
-      ```sh
-      cp -r .config/* ~/.config/
-      cp -r .fonts/* ~/
-      cp .xinitrc ~/
-      ```
+  ```sh
+  cp -r .config/* ~/.config/
+  cp -r .fonts/* ~/
+  cp .xinitrc ~/
+  ```
 
-      > If you use a laptop copy this file to be able to click on tap
+  > If you use a laptop copy this file to be able to click on tap
 
-      ```sh
-      sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d
-      ```
+  ```sh
+  sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d/
+  ```
 
-   5. ### Configure stuff
+5. ### Configure stuff
 
-      The relevant files are inside in `~/.config/bspwm` directory.
+The relevant files are inside in `~/.config/bspwm` directory.
 
-      + #### Polybar
+  + #### Polybar
 
-        > Directory polybar/
+  > Directory polybar/
 
-         In `config.ini` is *My Status Bar* configuration where I define my preferences.
-         You should change this to your liking.
+ In `config.ini` is *My Status Bar* configuration where I define my preferences.
+ You should change this to your liking monitor.
 
-      * #### Rofi
+  * #### Rofi
 
-        > Directory rofi/
+  > Directory rofi/
 
-         Here you'll find the menus that I usually use.
-         If you want to add more, you can place theme in bin/ and themes/ respectively.
+ Here you'll find the menus that I usually use.
+ If you want to add more, you can place theme in bin/ and themes/ respectively.
 
-      * #### Background
+ * #### Background
 
-        > Script .fehbg
+  > Script .fehbg
 
-         This is a simple script to set my background.
-         Edit the file and add your image in the directory corresponding.
+  This is a simple script to set my background.
+  Edit the file and add your image in the directory corresponding.
 
-      * #### BSPWM config
+ * #### BSPWM config
 
-        > Window Manager configuration
+  > Window Manager configuration
 
-         In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
-         You should change the monitor in case of is different.
+ In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
+ You should change the monitor in case of is different.
 
-      * #### Picom
+ * #### Picom
 
-        > Compositor configuration
+  > Compositor configuration
 
-         In `picom.conf` I defined some of the composer values that are to my liking.
-         Change the file if you want.
+  In `picom.conf` I defined some of the composer values that are to my liking.
+  Change the file if you want.
 
-   6. ### Log in
+6. ### Log in
         
-        Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
+Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 
 </details><br>
 
@@ -212,25 +212,21 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 |        Keybindings        |                 Function                 |
 | --------------------------| ---------------------------------------- |
 | `Super + Return`          | Launch (Alacritty)                       |
-| `Super + A`               | Launch (Google chrome)                   |
-| `Super + Shift + A`       | Launch (Google chrome incognito)         |
-| `Super + S`               | Launch (Sublime Text)                    |
-| `Super + Shift + S`       | Launch (Sublime Merge)                   |
-| `Super + D`               | Launch (Dynalist)                        |
-| `Super + Shift + D`       | Launch (Obsidian)                        |
-| `Super + X`               | Launch (Pcmanfm)                         |
-| `Super + Z`               | Launch (Rofi)                            |
-| `Alt + {A,S,D}`           | Menus/Applets {windows,powermenu,network}|
 | `Super + {Shift + }W`     | Close/Kill Window                        |
+| `Super + {Shift + }A`     | Launch (Google chrome / incognito)       |
+| `Super + {Shift + }S`     | Launch (Sublime Text / Merge)            |
+| `Super + {Shift + }D`     | Launch (Dynalist / Obsidian)             |
+| `Super + Z`               | Launch (Rofi)                            |
+| `Super + X`               | Launch (Pcmanfm)                         |
 | `Super + {1-5}`           | Switches to Workspace 1 to 5             |
 | `Super + Shift + {1-9,0}` | Move Apps/Windows to Workspace 1 to 5    |
 | `Super + Ctrl + {Z,X,A,S}`| Flags {marked,locked,sticky,private}     |
-| `Alt + P`                 | Screenshot                               |
-| `Alt + Tab`               | Focus next window floating               |
-| `Alt + Shift + Tab`       | Focus previous window floating           |
+| `Super + Minus`           | Hide windows                             |
+| `Alt + {A,S,D}`           | Menus/Applets {windows,powermenu,network}|
+| `Alt + {Shift + }Tab`     | Focus next / previous window floating    |
 | `Alt + U`                 | Increase window gap                      |
 | `Alt + I`                 | Decrease window gap                      |
-| `Super + Minus`           | Hide windows                             |
+| `Alt + P`                 | Screenshot                               |
 
 > To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
 

@@ -98,8 +98,6 @@ animation-charging-framerate = 750
 
 [module/volume]
 type = internal/alsa
-sink = alsa_output.pci-0000_12_00.3.analog-stereo
-use-ui-max = false
 interval = 5
 format-volume = <ramp-volume>
 label-muted = "  "
@@ -119,8 +117,6 @@ type = internal/xbacklight
 card = ${system.graphics_card}
 format = <ramp>
 format-background = ${color.primary}
-label = "%percentage%%"
-label-foreground = ${color.black}
 ramp-0  = "  "
 ramp-1  = "  "
 ramp-2  = "  "
@@ -130,21 +126,22 @@ ramp-5  = "  "
 ramp-6  = "  "
 ramp-7  = "  "
 ramp-8  = "  "
-ramp-9  = "  "
-ramp-10 = "  "
-ramp-11 = "  "
-ramp-12 = "  "
-ramp-13 = "  "
-ramp-14 = "  "
 ramp-8-foreground = ${color.white}
+ramp-9  = "  "
 ramp-9-foreground = ${color.white}
+ramp-10 = "  "
 ramp-10-foreground = ${color.white}
+ramp-11 = "  "
 ramp-11-foreground = ${color.white}
+ramp-12 = "  "
 ramp-12-foreground = ${color.white}
+ramp-13 = "  "
 ramp-13-foreground = ${color.white}
+ramp-14 = "  "
 ramp-14-foreground = ${color.white}
 ramp-font = 2
 ramp-foreground = ${color.black}
+ramp-background = ${color.primary}
 
 [module/network]
 type = internal/network

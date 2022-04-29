@@ -1,6 +1,6 @@
 [color]
-black          = #000000
 primary        = #7aa2f7
-alert          = #A54242
+black          = #000000
 white          = #ffffff
 red            = #ff0000
+alert          = #A54242
