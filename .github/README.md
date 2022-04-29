@@ -62,13 +62,13 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 <details align="center">
 <summary>Install git and yay</summary>
 
- + #### Git
+ #### Git
 
  ```sh
  sudo pacman -S git --needed
  ```
 
- + #### Yay
+ #### Yay
 
  ```sh
  git clone https://aur.archlinux.org/yay.git
@@ -95,96 +95,96 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 <details align="center">
 <summary>Needed fonts</summary>
 
-You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
+ You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
-Necessary fonts:
-  + **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
-  + **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
-  + **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
-  + **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
-  + **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
+ Necessary fonts:
+ **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
+ **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
+ **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
+ **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
+ **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
 
-For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
+ For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
-Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
-or use my fonts by moving them to the `~/` directory and run this command for your system to 
-detect the newly installed fonts.
+ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
+ or use my fonts by moving them to the `~/` directory and run this command for your system to 
+ detect the newly installed fonts.
 
-```sh
-fc-cache -fv
-```
+ ```sh
+ fc-cache -fv
+ ```
 </details>
 
 <details align="center">
 <summary>My BSPWM configuration files</summary>
 
-  > Clone this repository
+ > Clone this repository
 
-  ```sh
-  git clone https://github.com/PyLess/dotfiles-bspwm.git
-  cd dotfiles-bspwm
-  ```
+ ```sh
+ git clone https://github.com/PyLess/dotfiles-bspwm.git
+ cd dotfiles-bspwm
+ ```
 
-  > Copy configs and fonts files
+ > Copy configs and fonts files
 
-  ```sh
-  cp -r .config/* ~/.config/
-  cp -r .fonts/* ~/
-  cp .xinitrc ~/
-  ```
+ ```sh
+ cp -r .config/* ~/.config/
+ cp -r .fonts/* ~/
+ cp .xinitrc ~/
+ ```
 
-  > If you use a laptop copy this file to be able to click on tap
+ > If you use a laptop copy this file to be able to click on tap
 
-  ```sh
-  sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d/
-  ```
+ ```sh
+ sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d/
+ ```
 </details>
 
 <details align="center">
 <summary>Configure stuff</summary>
 
-The relevant files are inside in `~/.config/bspwm` directory.
+ The relevant files are inside in `~/.config/bspwm` directory.
 
-  + #### Polybar
+ #### Polybar
 
-  > Directory polybar/
+ > Directory polybar/
 
  In `config.ini` is *My Status Bar* configuration where I define my preferences.
  You should change this to your liking monitor.
 
-  * #### Rofi
+ #### Rofi
 
-  > Directory rofi/
+ > Directory rofi/
 
  Here you'll find the menus that I usually use.
  If you want to add more, you can place theme in bin/ and themes/ respectively.
 
- * #### Background
+ #### Background
 
-  > Script .fehbg
+ > Script .fehbg
 
-  This is a simple script to set my background.
-  Edit the file and add your image in the directory corresponding.
+ This is a simple script to set my background.
+ Edit the file and add your image in the directory corresponding.
 
- * #### BSPWM config
+ #### BSPWM config
 
-  > Window Manager configuration
+ > Window Manager configuration
 
  In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
  You should change the monitor in case of is different.
 
- * #### Picom
+ #### Picom
 
-  > Compositor configuration
+ > Compositor configuration
 
-  In `picom.conf` I defined some of the composer values that are to my liking.
-  Change the file if you want.
+ In `picom.conf` I defined some of the composer values that are to my liking.
+ Change the file if you want.
 </details>
 
 <details align="center">
 <summary>Log in</summary>
 
-Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
+ Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 </details>
 
 </details><br>
