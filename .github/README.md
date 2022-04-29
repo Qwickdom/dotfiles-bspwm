@@ -7,7 +7,7 @@
 <b>  My Simple Dotfiles!  </b>
 
 Welcome to my BSPWM configuration files! 
-You may be here to look for my BSPWM configuration files... or looking for something else? ಠωಠ
+You may be here to look for my BSPWM configuration files... or looking for something else? ಠωಠ <br>
 Feel free to use anything from here but don't forget to give me **credits** :3
 
 BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
@@ -18,14 +18,14 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 **Here are some details about my setup:**
 
-| Programs   | Using             |
-| ---------- | ----------------- |
-| WM         | awesome           |
-| OS         | arch linux        |
-| Terminal   | alacritty         |
-| Shell      | zsh               |
-| Editor     | neovim / vscode   |
-| Compositor | picom             |
+| Programs     | Using       |
+| ------------ | ----------- |
+| `OS`         | Arch Linux  |
+| `Kernel`     | Linux Zen   |
+| `Shell`      | Bash        |
+| `WM`         | BSPWM       |
+| `Gtk theme`  | Graphite    |
+| `Icon theme` | Tela circle |
 
 <h2></h2><br>
 
@@ -40,7 +40,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       <sup>
          <sub>
             <samp>
-                  THIS DOTFILES ARE CONFIGURED AT 1366x768
+                  THIS DOTFILES ARE CONFIGURED AT 1366x768 ON LAPTOP
                <p align="center">
                   BUT IT WILL STILL WORK PERFECTLY IN HIGH RESOLUTION
                </p>
@@ -59,7 +59,86 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
    > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). I use [Yay](https://github.com/Jguer/yay)
 
-  
+  1. Install git and yay
+
+      + Git
+
+         ```sh
+         sudo pacman -S git --needed
+         ```
+
+      + Yay
+
+         ```sh
+         git clone https://aur.archlinux.org/yay.git
+         cd yay/
+         makepkg -si PKGBUILD
+         ```
+
+  2. Install dependencies
+
+      + Dependencies
+
+         ```sh
+         yay -Sy xorg xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap xf86-video-intel \
+         pipewire pipewire-alsa pipewire-jack pipewire-pulse pipewire-media-session htop neofetch rofi polybar \
+         ranger tree alacritty python python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
+         noto-fonts-cjk lxappearance-gtk3 pcmanfm google-chrome polkit bspwm sxhkd --needed 
+         ```
+         Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+
+   3. Install needed fonts
+
+      You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
+
+      Necessary fonts:
+      + **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip)
+      + **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip)
+      + **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
+      + **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
+      + **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
+
+      For more **Nerd Fonts** visit the [web site](https://www.nerdfonts.com/).
+
+      Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
+      and run this command for your system to detect the newly installed fonts.
+
+      Or use my fonts by moving them to the `~/` directory.
+
+      ```sh
+      fc-cache -fv
+      ```
+   
+   4. Install my BSPWM configuration files
+
+      > Clone this repository
+
+      ```sh
+      git clone https://github.com/PyLess/dotfiles-bspwm.git
+      cd dotfiles-bspwm
+      ```
+
+      > Copy configs and fonts files
+
+      ```sh
+      cp -r .config/* ~/.config/
+      cp -r .fonts/* ~/
+      cp .xinitrc ~/
+
+      # If you use a laptop copy this file to be able to click on tap
+      sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d
+      ```
+
+   5. Configure stuff
+
+      The relevant files are inside your `~/.config/bspwm` directory.
+
+      + User preferences and default applications
+
+         In `bspwmrc` there is a *Default Applications* section where user preferences and default applications are defined.
+         You should change those to your liking.
+
+   6. Lastly, log out from your current desktop session and log in into `BSPWM`.
 
 </details>
 <br>
@@ -89,8 +168,8 @@ Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md
 </details>
 <br>
 
-<a id="keybinds"></a>
-## Keybindings
+<details>
+<summary><strong>K E Y B I N D I N G S</strong></summary>
 
 |        Keybindings        |                 Function                 |
 | --------------------------| ---------------------------------------- |
@@ -110,3 +189,6 @@ Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md
 | `Super + P`               | Screenshot                               |
 
 To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
+
+</details>
+<br>
