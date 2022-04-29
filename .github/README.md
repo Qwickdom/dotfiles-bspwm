@@ -104,9 +104,8 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       For more **Nerd Fonts** visit the [web site](https://www.nerdfonts.com/).
 
       Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`
-      and run this command for your system to detect the newly installed fonts.
-
-      Or use my fonts by moving them to the `~/` directory.
+      or use my fonts by moving them to the `~/` directory and run this command for your system to 
+      detect the newly installed fonts.
 
       ```sh
       fc-cache -fv
@@ -127,21 +126,56 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       cp -r .config/* ~/.config/
       cp -r .fonts/* ~/
       cp .xinitrc ~/
+      ```
 
-      # If you use a laptop copy this file to be able to click on tap
+      > If you use a laptop copy this file to be able to click on tap
+
+      ```sh
       sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d
       ```
 
    5. ### Configure stuff
 
-      The relevant files are inside your `~/.config/bspwm` directory.
+      The relevant files are inside in `~/.config/bspwm` directory.
 
-      + #### User preferences and default applications
+      + #### Polybar
 
-         In `bspwmrc` there is a *Default Applications* section where user preferences and default applications are defined.
-         You should change those to your liking.
+        > Directory polybar/
 
-   6. ### Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
+         In `config.ini` is *My Status Bar* configuration where I define my preferences.
+         You should change this to your liking.
+
+      * #### Rofi
+
+        > Directory rofi/
+
+         Here you'll find the menus that I usually use.
+         If you want to add more, you can place theme in bin/ and themes/ respectively.
+
+      * #### Background
+
+        > Script .fehbg
+
+         This is a simple script to set my background.
+         Edit the file and add your image in the directory corresponding.
+
+      * #### BSPWM config
+
+        > Window Manager configuration
+
+         In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
+         You should change the monitor in case of is different.
+
+      * #### Picom
+
+        > Compositor configuration
+
+         In `picom.conf` I defined some of the composer values that are to my liking.
+         Change the file if you want.
+
+   6. ### Log in
+        
+        Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 
 </details><br>
 
@@ -163,6 +197,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Htop`             | Process viewer   |
 | `Neofetch`         | Information tool |
 | `Scrot`            | Screenshot       |
+| `Feh`              | Image viewer     |
 | `Betterlockscreen` | Lock screen      |
 
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
