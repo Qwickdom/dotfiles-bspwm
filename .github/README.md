@@ -1,7 +1,7 @@
 ![Desktop](/.github/assets/Desktop.png "BSPWM")
 ![Desktop](/.github/assets/Sublime.png "BSPWM")
 
-### Hi!
+### Hello!
 <a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "left" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a>
 
 <b>  My Simple Dotfiles!  </b>
@@ -57,7 +57,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
    > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-   > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). I use [Yay](https://github.com/Jguer/yay)
+   > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers).  I use [Yay](https://github.com/Jguer/yay)
 
   1. ### Install git and yay
 
@@ -141,13 +141,12 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
          In `bspwmrc` there is a *Default Applications* section where user preferences and default applications are defined.
          You should change those to your liking.
 
-   6. ### Lastly, reboot your system and log in into **`BSPWM`** with xinit tapping `startx`.
+   6. ### Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
 
-</details>
-<br>
+</details><br>
 
 <details>
-<summary><strong>A P P S</strong></summary>
+<summary><strong>A P P S</strong></summary><br>
 
 |     Application    |   Description    |
 | ------------------ | ---------------- |
@@ -167,13 +166,13 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Betterlockscreen` | Lock screen      |
 
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman)/[Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+
 > Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
 
-</details>
-<br>
+</details><br>
 
 <details>
-<summary><strong>K E Y B I N D I N G S</strong></summary>
+<summary><strong>K E Y B I N D I N G S</strong></summary><br>
 
 |        Keybindings        |                 Function                 |
 | --------------------------| ---------------------------------------- |
@@ -194,20 +193,18 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 > To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
 
-</details>
-<br>
+</details><br>
 
 <details>
-<summary><strong>A C K N O W L E D G E M E N T S</strong></summary>
-  - **Special thanks to**
+<summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
+**Special thanks to**
 
-      + [`rxyhn`](https://github.com/rxyhn)
-      + [`vinceliuice`](https://github.com/vinceliuice)
-      + [`adi1090x`](https://github.com/adi1090x/rofi)
-      + [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
++ [`rxyhn`](https://github.com/rxyhn)
++ [`vinceliuice`](https://github.com/vinceliuice)
++ [`adi1090x`](https://github.com/adi1090x/rofi)
++ [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 
-</details>
-<br>
+</details><br>
 
 <h2></h2><br>
 
