@@ -58,8 +58,8 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
 > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
-
-1. ### Install git and yay
+<details>
+<summary><strong>Install git and yay</strong></summary>
 
  + #### Git
 
@@ -74,6 +74,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
  cd yay/
  makepkg -si PKGBUILD
  ```
+</details>
 
 2. ### Install dependencies
 
