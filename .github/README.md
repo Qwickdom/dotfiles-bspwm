@@ -59,15 +59,15 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
    > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). I use [Yay](https://github.com/Jguer/yay)
 
-  1. # Install git and yay
+  1. ### Install git and yay
 
-      + ## Git
+      + #### Git
 
          ```sh
          sudo pacman -S git --needed
          ```
 
-      + ## Yay
+      + #### Yay
 
          ```sh
          git clone https://aur.archlinux.org/yay.git
@@ -75,21 +75,22 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
          makepkg -si PKGBUILD
          ```
 
-  2. # Install dependencies
+  2. ### Install dependencies
 
-      + ## Dependencies
+      + #### Dependencies
 
+        > I install these dependencies after a simple Arch Linux installation.
+        
          ```sh
-         # I install these dependencies after a simple Arch Linux installation.
          yay -Sy xorg xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap \
          xf86-video-intel pipewire pipewire-alsa pipewire-jack pipewire-pulse \
          pipewire-media-session htop neofetch rofi polybar ranger tree alacritty python \
          python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
          noto-fonts-cjk lxappearance-gtk3 pcmanfm google-chrome polkit bspwm sxhkd --needed
          ```
-         Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+         > Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
 
-   3. # Install needed fonts
+   3. ### Install needed fonts
 
       You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
@@ -111,7 +112,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       fc-cache -fv
       ```
    
-   4. # Install my BSPWM configuration files
+   4. ### Install my BSPWM configuration files
 
       > Clone this repository
 
@@ -131,16 +132,16 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
       sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d
       ```
 
-   5. # Configure stuff
+   5. ### Configure stuff
 
       The relevant files are inside your `~/.config/bspwm` directory.
 
-      + ## User preferences and default applications
+      + #### User preferences and default applications
 
          In `bspwmrc` there is a *Default Applications* section where user preferences and default applications are defined.
          You should change those to your liking.
 
-   6. # Lastly, log out from your current desktop session and log in into `BSPWM`.
+   6. ### Lastly, reboot your system and log in into **`BSPWM`** with xinit tapping `startx`.
 
 </details>
 <br>
@@ -165,8 +166,8 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Scrot`            | Screenshot       |
 | `Betterlockscreen` | Lock screen      |
 
-Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman)/[Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
-Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
+> Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman)/[Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+> Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
 
 </details>
 <br>
@@ -191,20 +192,22 @@ Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md
 | `Super + Ctrl + {Z,X,A,S}`| Flags {marked,locked,sticky,private}     |
 | `Super + P`               | Screenshot                               |
 
-To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
+> To launch Dynalist/Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
 
 </details>
 <br>
 
-### Acknowledgements 💡
+<details>
+<summary><strong>A C K N O W L E D G E M E N T S</strong></summary>
+  - **Special thanks to**
 
-   - **Special thanks to**
+      + [`rxyhn`](https://github.com/rxyhn)
+      + [`vinceliuice`](https://github.com/vinceliuice)
+      + [`adi1090x`](https://github.com/adi1090x/rofi)
+      + [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 
-      + ## *Inspirators*
-         - [`rxyhn`](https://github.com/rxyhn)
-         - [`vinceliuice`](https://github.com/vinceliuice)
-         - [`adi1090x`](https://github.com/adi1090x/rofi)
-         - [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
+</details>
+<br>
 
 <h2></h2><br>
 
