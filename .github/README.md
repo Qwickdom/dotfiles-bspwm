@@ -57,7 +57,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
    > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-   > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers).  I use [Yay](https://github.com/Jguer/yay)
+   > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
   1. ### Install git and yay
 
@@ -165,9 +165,9 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Scrot`            | Screenshot       |
 | `Betterlockscreen` | Lock screen      |
 
-> Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman)/[Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+> Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
-> Download [Dynalist](https://dynalist.io/download)/[Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
+> Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder   
 
 </details><br>
 
@@ -202,7 +202,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 + [`rxyhn`](https://github.com/rxyhn)
 + [`vinceliuice`](https://github.com/vinceliuice)
-+ [`adi1090x`](https://github.com/adi1090x/rofi)
++ [`adi1090x`](https://github.com/adi1090x)
 + [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 
 </details><br>
