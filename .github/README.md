@@ -59,7 +59,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 > Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
-  1. <details>
+<details>
 <summary>Install git and yay</summary>
 
  + #### Git
