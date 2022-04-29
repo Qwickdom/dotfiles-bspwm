@@ -86,7 +86,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
          xf86-video-intel pipewire pipewire-alsa pipewire-jack pipewire-pulse \
          pipewire-media-session htop neofetch rofi polybar ranger tree alacritty python \
          python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
-         noto-fonts-cjk lxappearance-gtk3 pcmanfm google-chrome polkit bspwm sxhkd --needed
+         noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
          ```
          > Chage xf86-video-intel to another [Driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
 
