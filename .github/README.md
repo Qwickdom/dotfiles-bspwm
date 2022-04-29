@@ -197,6 +197,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 <details>
 <summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
+
 **Special thanks to**
 
 + [`rxyhn`](https://github.com/rxyhn)
