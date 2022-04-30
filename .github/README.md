@@ -1,7 +1,3 @@
-![Desktop](/.github/assets/Desktop.png "BSPWM")
-![Desktop](/.github/assets/Sublime.png "BSPWM")
-
-### Hello!
 <a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "left" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a>
 
 <b>  My Simple Dotfiles!  </b>
@@ -12,11 +8,11 @@ Feel free to use anything from here but don't forget to give me **credits** :3
 
 BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
 It only responds to X events, and the messages it receives on a dedicated socket. 
-Although it takes time and effort to configure it, but I'm very satisfied with the result.
+Although it takes time and effort to configure it, but I'm satisfied with the result.
 
-<h2></h2><br>
-
-**Here are some details about my setup:**
+<div align="center">
+  
+**Here are some details about my setup**
 
 | Programs     | Using              |
 | ------------ | ------------------ |
@@ -27,9 +23,14 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Gtk theme`  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)    |
 | `Icon theme` | [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) |
 
+</div>
+
+![Desktop](/.github/assets/Desktop.png "BSPWM")
+![Desktop](/.github/assets/Sublime.png "BSPWM")
+
 <h2></h2><br>
 
-<table align="right">
+<table align="center">
   <tr>
     <th align="center">
       <sup><sub>⚠ WARNING ⚠</sub></sup>
@@ -52,7 +53,7 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
   </tr>
 </table>
 
-<details>
+<details align="center">
 <summary><strong>S E T U P</strong></summary>
 
 > This setup only provided for **Arch Linux** (and all Arch-based distributions)
@@ -189,12 +190,12 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 
 </details><br>
 
-<details>
+<details align="center">
 <summary><strong>A P P S</strong></summary><br>
 
 <details align="center">
 <summary>Essentials</summary><br>
-  <p align="center">
+  <div align="center">
 
 |        Apps        |   Description    |
 | ------------------ | ---------------- |
@@ -206,11 +207,12 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Feh`              | Image viewer     |
 | `Betterlockscreen` | Lock screen      |
 
-  </p>  
+  </div>  
 </details>
 
 <details align="center">
 <summary>Optionals</summary><br>
+  <div align="center">
 
 |        Apps        |   Description    |
 | ------------------ | ---------------- |
@@ -223,15 +225,17 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Neofetch`         | Information tool |
 | `Scrot`            | Screenshot       |
 
-</details>
-
+  </div>
+  
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
 > Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
+</details>
 </details><br>
 
-<details>
+<details align="center">
 <summary><strong>K E Y B I N D I N G S</strong></summary><br>
+  <div align="center">
 
 |        Keybindings        |                 Function                 |
 | --------------------------| ---------------------------------------- |
@@ -252,17 +256,18 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 | `Alt + P`                 | Screenshot                               |
 
 > To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
+  </div>
 </details><br>
 
-<details>
+<details align="center">
 <summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
 
-**Special thanks to**
+**Special thanks for inspiring me to use Arch Linux**
 
-+ [`rxyhn`](https://github.com/rxyhn)
-+ [`vinceliuice`](https://github.com/vinceliuice)
-+ [`adi1090x`](https://github.com/adi1090x)
-+ [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
+[`rxyhn`](https://github.com/rxyhn)
+[`vinceliuice`](https://github.com/vinceliuice)
+[`adi1090x`](https://github.com/adi1090x)
+[`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 </details><br>
 
 <h2></h2><br>
