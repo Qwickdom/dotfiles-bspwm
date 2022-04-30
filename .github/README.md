@@ -255,7 +255,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Alt + {U,I}`             | Increase / Decrease window gap           |
 | `Alt + P`                 | Screenshot                               |
 
-> To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration and keep the folder in the /opt directory
+> To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration file and keep the folder in the /opt directory
   </div>
 </details><br>
 
