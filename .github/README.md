@@ -25,8 +25,12 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
 </div>
 
+<details align="center">
+<summary><strong>S H O T</strong></summary>
+
 ![Desktop](/.github/assets/Desktop.png "BSPWM")
-![Desktop](/.github/assets/Sublime.png "BSPWM")
+![Sublime](/.github/assets/Sublime.png "Sublime")
+</details>
 
 <h2></h2><br>
 
