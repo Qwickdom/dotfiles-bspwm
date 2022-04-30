@@ -192,23 +192,38 @@ Although it takes time and effort to configure it, but I'm very satisfied with t
 <details>
 <summary><strong>A P P S</strong></summary><br>
 
-|     Application    |   Description    |
+<details align="center">
+<summary>Essentials</summary><br>
+  <p align="center">
+
+|        Apps        |   Description    |
 | ------------------ | ---------------- |
 | `Alacritty`        | Terminal         |
+| `Pcmanfm`          | File manager     |
+| `Polybar`          | Status bar       |
+| `Rofi`             | App launcher     |
+| `Picom`            | Compositor       |
+| `Feh`              | Image viewer     |
+| `Betterlockscreen` | Lock screen      |
+
+  </p>  
+</details>
+
+<details align="center">
+<summary>Optionals</summary><br>
+
+|        Apps        |   Description    |
+| ------------------ | ---------------- |
 | `Sublime Text`     | Code editor      |
 | `Sublime Merge`    | Git client       |
 | `Google chrome`    | Browser          |
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
-| `Pcmanfm`          | File manager     |
-| `Polybar`          | Status bar       |
-| `Rofi`             | App launcher     |
-| `Picom`            | Compositor       |
 | `Htop`             | Process viewer   |
 | `Neofetch`         | Information tool |
 | `Scrot`            | Screenshot       |
-| `Feh`              | Image viewer     |
-| `Betterlockscreen` | Lock screen      |
+
+</details>
 
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
