@@ -26,10 +26,10 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 </div>
 
 <details align="center">
-<summary><strong>S H O T</strong></summary>
+<summary><strong>S H O T S</strong></summary>
 
-![Desktop](/.github/assets/Desktop.png "BSPWM")
-![Sublime](/.github/assets/Sublime.png "Sublime")
+![Desktop](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Desktop.png)
+![Sublime](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Sublime.png)
 </details>
 
 <h2></h2><br>
@@ -201,15 +201,15 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary>Essentials</summary><br>
   <div align="center">
 
-|        Apps        |   Description    |
-| ------------------ | ---------------- |
-| `Alacritty`        | Terminal         |
-| `Pcmanfm`          | File manager     |
-| `Polybar`          | Status bar       |
-| `Rofi`             | App launcher     |
-| `Picom`            | Compositor       |
-| `Feh`              | Image viewer     |
-| `Betterlockscreen` | Lock screen      |
+|        Apps        |    Description     |
+| ------------------ | ------------------ |
+| `Alacritty`        | Terminal           |
+| `Ranger`           | File manager (vim) |
+| `Polybar`          | Status bar         |
+| `Rofi`             | App launcher       |
+| `Picom`            | Compositor         |
+| `Feh`              | Image viewer       |
+| `Betterlockscreen` | Lock screen        |
 
   </div>  
 </details>
@@ -225,6 +225,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Google chrome`    | Browser          |
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
+| `Pcmanfm`          | File manager     |
 | `Htop`             | Process viewer   |
 | `Neofetch`         | Information tool |
 | `Scrot`            | Screenshot       |
