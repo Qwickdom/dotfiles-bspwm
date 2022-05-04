@@ -267,7 +267,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
 
-<h3> Special thanks for inspiring me to use Arch Linux </h3>
+<h4> Special thanks for inspiring me to use Arch Linux </h4>
 
 [`rxyhn`](https://github.com/rxyhn)
 [`vinceliuice`](https://github.com/vinceliuice)
