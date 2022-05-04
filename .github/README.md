@@ -62,7 +62,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
 > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-> Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [Pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
+> Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
 <details align="center">
 <summary>Install git and yay</summary>
