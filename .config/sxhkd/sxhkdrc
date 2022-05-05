@@ -158,4 +158,3 @@ XF86Audio{LowerVolume,RaiseVolume,Mute}
 
 XF86MonBrightness{Down,Up}
         xbacklight {-dec 5,-inc 5}
-

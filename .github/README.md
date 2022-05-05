@@ -30,6 +30,13 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
 ![Desktop](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Desktop.png)
 ![Sublime](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Sublime.png)
+
+<details align="center">
+<summary>Bars</summary>
+
+![Bar1](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Bar1.png)
+![Bar2](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Bar2.png)
+![Bar3](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Bar3.png)
 </details>
 
 <h2></h2><br>
@@ -204,6 +211,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 |        Apps        |    Description     |
 | ------------------ | ------------------ |
 | `Alacritty`        | Terminal           |
+| `Vim`              | Text Editor        |
 | `Ranger`           | File manager (vim) |
 | `Polybar`          | Status bar         |
 | `Rofi`             | App launcher       |

@@ -1,0 +1,20 @@
+[colors]
+background       = #0f0f17
+background-alt   = #22242b
+background-alt-2 = #575268
+background-alt-3 = #5B5F78
+foreground       = #bfc9db
+accent           = #a1bdce
+empty            = #00000000
+mauve            = #d7beda
+black            = #131020
+green            = #afbea2
+red              = #d78787
+orange           = #e0b089
+cyan             = #b8d6d3
+pink             = #f299e6
+yellow           = #e4c9af
+blue             = #a1bdce
+teal             = #B5E8E0
+gray             = #858893
+flamingo         = #f2cdcd

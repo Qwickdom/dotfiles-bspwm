@@ -3,34 +3,31 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap latam
 xsetroot -cursor_name left_ptr
-bash $HOME/.config/bspwm/.fehbg
-$HOME/.config/bspwm/polybar/launch.sh
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+$HOME/.config/bspwm/.fehbg
+$HOME/.config/bspwm/polybar/bar/launch.sh
 
 bspc monitor eDP1 -d I II III IV V
 
-bspc config border_width         2
-bspc config window_gap           5
-bspc config split_ratio          0.5
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
-bspc config paddingless_monocle true
-bspc config single_monocle true
+bspc config border_width          0
+bspc config window_gap            5
+bspc config split_ratio           0.5
+bspc config borderless_monocle    true
+bspc config gapless_monocle       true
+bspc config paddingless_monocle   true
+bspc config single_monocle        false
 bspc config focus_follows_pointer true
-bspc config focused_border_color  "#7da6ff"
 
-bspc rule -a Alacritty desktop='^1' follow=on focus=on
+bspc rule -a Alacritty       desktop='^1' follow=on focus=on
 bspc rule -a alacritty-float desktop='^1' follow=on focus=on state=floating
-bspc rule -a Sublime_text desktop='^2' follow=on focus=on
-bspc rule -a Sublime_merge desktop='^2' follow=on focus=on
-bspc rule -a Google-chrome desktop='^3' follow=on focus=on
-bspc rule -a Dynalist desktop='^4' follow=on focus=on
-bspc rule -a obsidian desktop='^4' follow=on focus=on
-declare -a things=(Pcmanfm Lxappearance Steam)
-for i in ${things[@]}; do
-    bspc rule -a $i desktop='^5' follow=on focus=on; done
+bspc rule -a Sublime_text    desktop='^2' follow=on focus=on
+bspc rule -a Sublime_merge   desktop='^2' follow=on focus=on
+bspc rule -a Google-chrome   desktop='^3' follow=on focus=on
+bspc rule -a Dynalist        desktop='^4' follow=on focus=on
+bspc rule -a obsidian        desktop='^4' follow=on focus=on
+bspc rule -a Pcmanfm         desktop='^5' follow=on focus=on
+bspc rule -a Lxappearance    desktop='^5' follow=on focus=on
 
-killall -9 sxhkd polybar picom
-sxhkd &
-$HOME/.config/bspwm/polybar/launch.sh
+killall -9 picom
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --config $HOME/.config/bspwm/picom.conf &

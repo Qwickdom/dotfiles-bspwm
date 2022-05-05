@@ -2,12 +2,9 @@
 type = internal/date
 interval = 1
 format-margin = 0
-time = "%H:%M"
-time-alt = "%A, %m/%d/%y"
-format-prefix = " "
-format-prefix-foreground = ${color.black}
-format-prefix-background = ${color.primary}
-label = "%time%"
+time = " %H:%M"
+time-alt = " %A, %m/%d/%y"
+label = " %time%"
 label-foreground = ${color.black}
 label-background = ${color.primary}
 
@@ -97,7 +94,7 @@ animation-charging-background = ${color.primary}
 animation-charging-framerate = 750
 
 [module/volume]
-type = internal/alsa
+type = internal/pulseaudio
 interval = 5
 format-volume = <ramp-volume>
 label-muted = "  "
@@ -151,7 +148,7 @@ accumulate-stats = true
 unknown-as-up = true
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
-label-connected = "  "
+label-connected = "   "
 label-connected-foreground = ${color.white}
 label-connected-background = ${color.primary}
 label-disconnected = " 睊 "

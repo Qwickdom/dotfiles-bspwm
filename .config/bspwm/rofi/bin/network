@@ -47,4 +47,3 @@ case $chosen in
         alacritty --class 'alacritty-float,alacritty-float' --config-file ~/.config/alacritty/alacritty.yml -e nmtui
         ;;
 esac
-
