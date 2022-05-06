@@ -278,6 +278,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <h4> Special thanks for inspiring me to use Arch Linux </h4>
 
 [`rxyhn`](https://github.com/rxyhn)
+[`saimoomedits`](https://github.com/saimoomedits)
 [`vinceliuice`](https://github.com/vinceliuice)
 [`adi1090x`](https://github.com/adi1090x)
 [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
