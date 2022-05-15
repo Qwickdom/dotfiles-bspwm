@@ -1,0 +1,87 @@
+sw_volume: 100
+audio_device_state:1:My PULSE Device
+audio_device_state:1:my_fifo
+state: play
+current: 70
+time: 119.871000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Hollow Knight - Official Soundtrack/01 - Enter Hallownest.mp3
+1:Hollow Knight - Official Soundtrack/02 - Dirtmouth.mp3
+2:Hollow Knight - Official Soundtrack/03 - Crossroads.mp3
+3:Hollow Knight - Official Soundtrack/04 - False Knight.mp3
+4:Hollow Knight - Official Soundtrack/05 - Greenpath.mp3
+5:Hollow Knight - Official Soundtrack/06 - Hornet.mp3
+6:Hollow Knight - Official Soundtrack/07 - Reflection.mp3
+7:Hollow Knight - Official Soundtrack/08 - Mantis Lords.mp3
+8:Hollow Knight - Official Soundtrack/09 - City of Tears.mp3
+9:Hollow Knight - Official Soundtrack/10 - Dung Defender.mp3
+10:Hollow Knight - Official Soundtrack/11 - Crystal Peak.mp3
+11:Hollow Knight - Official Soundtrack/12 - Fungal Wastes.mp3
+12:Hollow Knight - Official Soundtrack/13 - Decisive Battle.mp3
+13:Hollow Knight - Official Soundtrack/14 - Soul Sanctum.mp3
+14:Hollow Knight - Official Soundtrack/15 - Resting Grounds.mp3
+15:Hollow Knight - Official Soundtrack/16 - Queen_s Gardens.mp3
+16:Hollow Knight - Official Soundtrack/17 - The White Lady.mp3
+17:Hollow Knight - Official Soundtrack/18 - Broken Vessel.mp3
+18:Hollow Knight - Official Soundtrack/19 - Kingdom_s Edge.mp3
+19:Hollow Knight - Official Soundtrack/20 - Nosk.mp3
+20:Hollow Knight - Official Soundtrack/21 - Dream.mp3
+21:Hollow Knight - Official Soundtrack/22 - Dream Battle.mp3
+22:Hollow Knight - Official Soundtrack/23 - White Palace.mp3
+23:Hollow Knight - Official Soundtrack/24 - Sealed Vessel.mp3
+24:Hollow Knight - Official Soundtrack/25 - Radiance.mp3
+25:Hollow Knight - Official Soundtrack/26 - Hollow Knight.mp3
+26:Hollow Knight - Gods _ Nightmares/01 Hive Knight.mp3
+27:Hollow Knight - Gods _ Nightmares/02 Truth, Beauty and Hatred.mp3
+28:Hollow Knight - Gods _ Nightmares/03 Nightmare Lantern (Interlude).mp3
+29:Hollow Knight - Gods _ Nightmares/04 The Grimm Troupe.mp3
+30:Hollow Knight - Gods _ Nightmares/05 Nightmare King.mp3
+31:Hollow Knight - Gods _ Nightmares/06 White Defender.mp3
+32:Hollow Knight - Gods _ Nightmares/07 Dreamers.mp3
+33:Hollow Knight - Gods _ Nightmares/08 Pale Court.mp3
+34:Hollow Knight - Gods _ Nightmares/09 Gods _ Glory.mp3
+35:Hollow Knight - Gods _ Nightmares/10 Daughter of Hallownest.mp3
+36:Hollow Knight - Gods _ Nightmares/11 Godhome.mp3
+37:Hollow Knight - Gods _ Nightmares/12 Sisters of Battle.mp3
+38:Hollow Knight - Gods _ Nightmares/13 Haunted Foes.mp3
+39:Hollow Knight - Gods _ Nightmares/14 Furious Gods.mp3
+40:Hollow Knight - Gods _ Nightmares/15 Pure Vessel.mp3
+41:Momodora Reverie Under the Moonlight OST/20 Pardoner_s Dance (Chiptune).mp3
+42:Momodora Reverie Under the Moonlight OST/01 Overture.mp3
+43:Momodora Reverie Under the Moonlight OST/02 Title.mp3
+44:Momodora Reverie Under the Moonlight OST/03 File Select.mp3
+45:Momodora Reverie Under the Moonlight OST/04 Malevolence.mp3
+46:Momodora Reverie Under the Moonlight OST/05 Alabaster.mp3
+47:Momodora Reverie Under the Moonlight OST/06 Pardoner_s Dance.mp3
+48:Momodora Reverie Under the Moonlight OST/07 House of Cinders.mp3
+49:Momodora Reverie Under the Moonlight OST/08 Darkness.mp3
+50:Momodora Reverie Under the Moonlight OST/09 Confrontation.mp3
+51:Momodora Reverie Under the Moonlight OST/10 Gardens of Stone.mp3
+52:Momodora Reverie Under the Moonlight OST/11 Fragmented Majesty.mp3
+53:Momodora Reverie Under the Moonlight OST/12 Assault.mp3
+54:Momodora Reverie Under the Moonlight OST/13 Reprise.mp3
+55:Momodora Reverie Under the Moonlight OST/14 The Lovely Queen.mp3
+56:Momodora Reverie Under the Moonlight OST/15 Reverie.mp3
+57:Momodora Reverie Under the Moonlight OST/16 Momodora Theme.mp3
+58:Momodora Reverie Under the Moonlight OST/17 Alone (Bonus Track).mp3
+59:Momodora Reverie Under the Moonlight OST/18 Sunken Ruin (Bonus Track).mp3
+60:Momodora Reverie Under the Moonlight OST/19 The Royal Garden (Bonus Track).mp3
+61:Momodora Reverie Under the Moonlight OST/21 Hallowed_Ground.mp3
+62:シートベルツ - Tank!.mp3
+63:Yoko Kanno & The Seatbelts - SPACE LION.mp3
+64:Mai Yamane & Yoko Kanno - The Real Folk Blues.mp3
+65:NEFFEX - Grateful [Copyright Free].mp3
+66:Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+67:Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+68:Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+69:N3WPORT - Power (feat. braev) [NCS Release].mp3
+70:Cowboy Bebop OST.mp3
+71:Naruto Sad Soundtrack Collection.mp3
+playlist_end

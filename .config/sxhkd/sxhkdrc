@@ -4,6 +4,10 @@
 super + Return
 	alacritty
 
+# private browser/incognito
+super + {_,shift + }q
+    {chromium,chromium --incognito}
+
 # browser/incognito
 super + {_,shift + }a
 	google-chrome{-stable,-stable --incognito}
@@ -21,7 +25,7 @@ super + x
 	pcmanfm
 
 # screenshot
-alt + p
+ctrl + p
 	scrot
 
 # make sxhkd reload its configuration files:
@@ -149,8 +153,8 @@ super + minus
 super + z
         sh ~/.config/bspwm/rofi/bin/launcher
 
-alt + {a,s,d}
-        sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network}
+alt + {a,s,d,x}
+        sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network,mpd}
 
 # ----- system ----- #
 XF86Audio{LowerVolume,RaiseVolume,Mute}

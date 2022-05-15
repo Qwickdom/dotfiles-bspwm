@@ -23,11 +23,13 @@ bspc rule -a alacritty-float desktop='^1' follow=on focus=on state=floating
 bspc rule -a Sublime_text    desktop='^2' follow=on focus=on
 bspc rule -a Sublime_merge   desktop='^2' follow=on focus=on
 bspc rule -a Google-chrome   desktop='^3' follow=on focus=on
+bspc rule -a Chromium        desktop='^3' follow=on focus=on
 bspc rule -a Dynalist        desktop='^4' follow=on focus=on
 bspc rule -a obsidian        desktop='^4' follow=on focus=on
 bspc rule -a Pcmanfm         desktop='^5' follow=on focus=on
 bspc rule -a Lxappearance    desktop='^5' follow=on focus=on
 
-killall -9 picom
+killall -9 picom mpd
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --config $HOME/.config/bspwm/picom.conf &
+exec mpd &
