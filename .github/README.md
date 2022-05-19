@@ -108,13 +108,13 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  > **Essentials**
  
  ```sh
- yay -Sy chromium alacritty polybar ranger rofi picom betterlockscreen feh polkit-gnome bspwm sxhkd
+ yay -Sy alacritty ranger polybar rofi picom feh betterlockscreen polkit-gnome bspwm sxhkd
  ```
 
  > **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S htop neofetch tree python python-pip tk lxappearance-gtk3 pcmanfm
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 pcmanfm
  ```
 </details>
 
@@ -128,7 +128,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip) <br>
  **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
  **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
- **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
+ **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi. <br>
  **MaterialDesign** - This font is included in my dotfiles > .fonts, needed for the icons in updates.
 
  For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
@@ -226,7 +226,6 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 |        Apps        |    Description     |
 | ------------------ | ------------------ |
 | `Alacritty`        | Terminal           |
-| `Vim`              | Text Editor        |
 | `Ranger`           | File manager (vim) |
 | `Polybar`          | Status bar         |
 | `Rofi`             | App launcher       |
@@ -243,14 +242,14 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
 |        Apps        |   Description    |
 | ------------------ | ---------------- |
-| `Sublime Text`     | Code editor      |
-| `Sublime Merge`    | Git client       |
 | `Chromium`         | Browser          |
-| `Dynalist`         | Simple lists     |
-| `Obsidian`         | Markdown         |
-| `Pcmanfm`          | File manager     |
 | `Htop`             | Process viewer   |
 | `Neofetch`         | Information tool |
+| `Pcmanfm`          | File manager     |
+| `Sublime Text`     | Code editor      |
+| `Sublime Merge`    | Git client       |
+| `Dynalist`         | Simple lists     |
+| `Obsidian`         | Markdown         |
 | `Scrot`            | Screenshot       |
 
   </div>
