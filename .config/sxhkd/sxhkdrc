@@ -4,13 +4,9 @@
 super + Return
 	alacritty
 
-# private browser/incognito
-super + {_,shift + }q
-    {chromium,chromium --incognito}
-
 # browser/incognito
 super + {_,shift + }a
-	google-chrome{-stable,-stable --incognito}
+    {chromium,chromium --incognito}
 
 # code editor/git client
 super + {_,shift + }s
@@ -146,15 +142,12 @@ alt + {u,i}
         bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
 
 # hide windows
-super + minus
-        bspc node {$(bspc query -N -d -n .hidden | head -n 1)} -g hidden
+super + {less,greater}
+        bspc node $(bspc query -N -d -n .hidden | head -n 1) -g hidden
 
 # ----- Rofi ----- #
-super + z
-        sh ~/.config/bspwm/rofi/bin/launcher
-
-alt + {a,s,d,x}
-        sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network,mpd}
+alt + {a,s,d,z,x}
+        sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network,launcher,mpd}
 
 # ----- system ----- #
 XF86Audio{LowerVolume,RaiseVolume,Mute}

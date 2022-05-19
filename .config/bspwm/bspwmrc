@@ -5,7 +5,7 @@ setxkbmap latam
 xsetroot -cursor_name left_ptr
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 $HOME/.config/bspwm/.fehbg
-$HOME/.config/bspwm/polybar/bar/launch.sh
+$HOME/.config/bspwm/polybar/launch.sh
 
 bspc monitor eDP1 -d I II III IV V
 
@@ -15,14 +15,13 @@ bspc config split_ratio           0.5
 bspc config borderless_monocle    true
 bspc config gapless_monocle       true
 bspc config paddingless_monocle   true
-bspc config single_monocle        false
+bspc config single_monocle        true
 bspc config focus_follows_pointer true
 
 bspc rule -a Alacritty       desktop='^1' follow=on focus=on
 bspc rule -a alacritty-float desktop='^1' follow=on focus=on state=floating
 bspc rule -a Sublime_text    desktop='^2' follow=on focus=on
 bspc rule -a Sublime_merge   desktop='^2' follow=on focus=on
-bspc rule -a Google-chrome   desktop='^3' follow=on focus=on
 bspc rule -a Chromium        desktop='^3' follow=on focus=on
 bspc rule -a Dynalist        desktop='^4' follow=on focus=on
 bspc rule -a obsidian        desktop='^4' follow=on focus=on

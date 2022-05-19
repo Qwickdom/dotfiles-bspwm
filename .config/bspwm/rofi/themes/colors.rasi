@@ -1,7 +1,7 @@
 * {
-background:         #000000;
-foreground:         #ffffff;
 selected:           #7aa2f7;
+foreground:         #ffffff;
+background:         #000000;
 urgent:             #f7768e;
 on:                 #cccccc;
 off:                #7da6ff;

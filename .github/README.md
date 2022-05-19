@@ -70,7 +70,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  #### Git
 
  ```sh
- sudo pacman -S git --needed
+ sudo pacman -Sy git
  ```
 
  #### Yay
@@ -87,14 +87,35 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
  > I install these dependencies after a simple Arch Linux installation.
 
+ > **Xorg and video driver** (chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation))
+
  ```sh
- yay -Sy xorg xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap \
- xf86-video-intel pipewire pipewire-alsa pipewire-jack pipewire-pulse \
- pipewire-media-session htop neofetch rofi polybar ranger tree alacritty python \
- python-pip tk betterlockscreen noto-fonts noto-fonts-extra noto-fonts-emoji \
- noto-fonts-cjk lxappearance-gtk3 feh pcmanfm google-chrome polkit bspwm sxhkd --needed
+ sudo pacman -S xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot xorg-setxkbmap xf86-video-intel
  ```
- > Chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+
+ > **Audio**
+ 
+ ```sh
+ sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber alsa-lib alsa-utils
+ ```
+
+ > **Fonts extra**
+ 
+ ```sh
+ sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
+ ```
+
+ > **Essentials**
+ 
+ ```sh
+ yay -Sy chromium alacritty polybar ranger rofi picom betterlockscreen feh polkit-gnome bspwm sxhkd
+ ```
+
+ > **Optionals** (necessary to me)
+ 
+ ```sh
+ sudo pacman -S htop neofetch tree python python-pip tk lxappearance-gtk3 pcmanfm
+ ```
 </details>
 
 <details align="center">
@@ -108,6 +129,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
  **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
  **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi.
+ **MaterialDesign** - This font is included in my dotfiles > .fonts, needed for the icons in updates.
 
  For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
@@ -223,7 +245,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | ------------------ | ---------------- |
 | `Sublime Text`     | Code editor      |
 | `Sublime Merge`    | Git client       |
-| `Google chrome`    | Browser          |
+| `Chromium`         | Browser          |
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
 | `Pcmanfm`          | File manager     |
@@ -243,23 +265,23 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary><strong>K E Y B I N D I N G S</strong></summary><br>
   <div align="center">
 
-|        Keybindings        |                 Function                 |
-| --------------------------| ---------------------------------------- |
-| `Super + Return`          | Launch (Alacritty)                       |
-| `Super + {Shift + }W`     | Close/Kill Window                        |
-| `Super + {Shift + }A`     | Launch (Google chrome / incognito)       |
-| `Super + {Shift + }S`     | Launch (Sublime Text / Merge)            |
-| `Super + {Shift + }D`     | Launch (Dynalist / Obsidian)             |
-| `Super + Z`               | Launch (Rofi)                            |
-| `Super + X`               | Launch (Pcmanfm)                         |
-| `Super + {1-5}`           | Switches to Workspace 1 to 5             |
-| `Super + Shift + {1-9,0}` | Move Apps/Windows to Workspace 1 to 5    |
-| `Super + Ctrl + {Z,X,A,S}`| Flags {marked,locked,sticky,private}     |
-| `Super + Minus`           | Hide windows                             |
-| `Alt + {A,S,D}`           | Menus/Applets {windows,powermenu,network}|
-| `Alt + {Shift + }Tab`     | Focus next / previous window floating    |
-| `Alt + {U,I}`             | Increase / Decrease window gap           |
-| `Alt + P`                 | Screenshot                               |
+|        Keybindings         |                     Function                  |
+| -------------------------- | --------------------------------------------- |
+| `Super + Return`           | Launch (Alacritty)                            |
+| `Super + {Shift + }W`      | Close/Kill Window                             |
+| `Super + {Shift + }A`      | Launch (Chromium / Chromium incognito)        |
+| `Super + {Shift + }S`      | Launch (Sublime Text / Merge)                 |
+| `Super + {Shift + }D`      | Launch (Dynalist / Obsidian)                  |
+| `Super + X`                | Launch (Pcmanfm)                              |
+| `Super + {1-5}`            | Switches to Workspace 1 to 5                  |
+| `Super + Shift + {1-9,0}`  | Move Apps/Windows to Workspace 1 to 5         |
+| `Super + Ctrl + {Z,X,A,S}` | Flags {marked,locked,sticky,private}          |
+| `Super + {LESS,GREATER}`   | Hide windows                                  |
+| `Alt + Z`                  | Launch (Rofi)                                 |
+| `Alt + {A,S,D,X}`          | Menus/Applets {windows,powermenu,network,mpd} |
+| `Alt + {Shift + }Tab`      | Focus next / previous window floating         |
+| `Alt + {U,I}`              | Increase / Decrease window gap                |
+| `Ctrl + P`                 | Screenshot                                    |
 
 > To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration file and keep the folder in the /opt directory
   </div>
