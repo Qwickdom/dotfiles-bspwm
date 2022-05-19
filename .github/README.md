@@ -28,8 +28,8 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>S H O T S</strong></summary>
 
-![Desktop](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Desktop.png)
-![Sublime](https://raw.githubusercontent.com/PyLess/dotfiles-bspwm/main/.github/assets/Sublime.png)
+![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop.png)
+![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png)
 </details>
 
 <h2></h2><br>
@@ -148,7 +148,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  > Clone this repository
 
  ```sh
- git clone https://github.com/PyLess/dotfiles-bspwm.git
+ git clone https://github.com/Qwickdom/dotfiles-bspwm.git
  cd dotfiles-bspwm
  ```
 
@@ -302,4 +302,4 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <h2></h2><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center"><a href="https://github.com/PyLess/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=061115&colorB=67AFC1"/></a></p>
+<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=061115&colorB=67AFC1"/></a></p>
