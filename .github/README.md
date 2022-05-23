@@ -127,13 +127,13 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  > **Essentials**
  
  ```sh
- yay -Sy alacritty ranger polybar rofi picom feh betterlockscreen polkit-gnome bspwm sxhkd
+ yay -Sy alacritty ranger polybar rofi picom feh scrot betterlockscreen polkit-gnome bspwm sxhkd
  ```
 
  > **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 pcmanfm
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs pcmanfm
  ```
 </details>
 
