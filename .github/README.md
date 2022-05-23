@@ -42,14 +42,30 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>Rofi Ganyu theme</strong></summary>
 
-![Rofi](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/*)
+|      Rofi      |     Screenshot     |
+| -------------- | ------------------ |
+| `Launcher`     | ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_launcher-ganyu.png)     |
+| `Windows`      | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_windows-ganyu.png)     |
+| `Screenshot`   | ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_screenshot-ganyu.png)     |
+| `Powermenu`    | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_powermenu-ganyu.png)     |
+| `Network`      | ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_network-ganyu.png)     |
+| `MPD`          | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_mpd-ganyu.png)     |
+| `Style-switch` | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_style-switch-ganyu.png)    |
 
 </details>
 
 <details align="center">
 <summary><strong>Rofi HSGrl theme</strong></summary>
 
-![Rofi](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl/*)
+|      Rofi      |     Screenshot     |
+| -------------- | ------------------ |
+| `Launcher`     | ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_launcher-hsgrl.png)     |
+| `Windows`      | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_windows-hsgrl.png)     |
+| `Screenshot`   | ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_screenshot-hsgrl.png)     |
+| `Powermenu`    | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_powermenu-hsgrl.png)     |
+| `Network`      | ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_network-hsgrl.png)     |
+| `MPD`          | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_mpd-hsgrl.png)     |
+| `Style-switch` | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/rofi_style-switch-hsgrl.png)    |
 
 </details>
 </details>
