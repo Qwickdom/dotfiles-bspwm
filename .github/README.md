@@ -109,13 +109,15 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  > **Xorg and video driver** (chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation))
 
  ```sh
- sudo pacman -S xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot \ xorg-setxkbmap xf86-video-intel
+ sudo pacman -S xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot \ 
+ xorg-setxkbmap xf86-video-intel
  ```
 
  > **Audio**
  
  ```sh
- sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber \ alsa-lib alsa-utils
+ sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber \ 
+ alsa-lib alsa-utils
  ```
 
  > **Fonts extra**
@@ -133,7 +135,8 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  > **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs pcmanfm \ mpd mpc ncmpcpp
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs pcmanfm \ 
+ mpd mpc ncmpcpp
  ```
 </details>
 
