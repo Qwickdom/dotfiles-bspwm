@@ -29,8 +29,10 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary><strong>S H O T S</strong></summary><br>
 
 ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu.png)
-![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png)
-![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png)
+
+| Terminal         | Sublime        |
+| ---------------- | -------------- |
+| ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
 
 > Another theme of desktop
 
@@ -39,7 +41,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>Shots rofi</strong></summary><br>
 
-|      Rofi      |     Screenshot     |
+| Rofi           | Screenshot         |
 | -------------- | ------------------ |
 | `Launcher`     | ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png)     |
 | `Windows`      | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png)     |
@@ -251,7 +253,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary>Essentials</summary><br>
   <div align="center">
 
-|        Apps        |    Description     |
+| Apps               | Description        |
 | ------------------ | ------------------ |
 | `Alacritty`        | Terminal           |
 | `Ranger`           | File manager (vim) |
@@ -269,7 +271,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary>Optionals</summary><br>
   <div align="center">
 
-|        Apps        |   Description    |
+| Apps               | Description      |
 | ------------------ | ---------------- |
 | `Chromium`         | Browser          |
 | `Htop`             | Process viewer   |
@@ -292,7 +294,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <summary><strong>K E Y B I N D I N G S</strong></summary><br>
   <div align="center">
 
-|        Keybindings         |                     Function                  |
+| Keybindings                | Function                                      |
 | -------------------------- | --------------------------------------------- |
 | `Super + Return`           | Launch (Alacritty)                            |
 | `Super + {Shift + }W`      | Close/Kill Window                             |
