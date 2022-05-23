@@ -26,7 +26,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 </div>
 
 <details align="center">
-<summary><strong>S H O T S</strong></summary>
+<summary><strong>S H O T S</strong></summary><br>
 
 ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu.png)
 ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png)
@@ -77,7 +77,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 </table>
 
 <details align="center">
-<summary><strong>S E T U P</strong></summary>
+<summary><strong>S E T U P</strong></summary><br>
 
 > This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
@@ -178,7 +178,13 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
  ```sh
  cp -r .config/* ~/.config/
- cp -r .fonts/* ~/
+ cp -r .fonts/ ~/
+ cp -r .mpd/ ~/
+ cp -r .ncmpcpp/ ~/
+ cp -r .themes/ ~/
+ cp -r .vim/ ~/
+ cp .fehbg ~/
+ cp .vimrc ~/
  cp .xinitrc ~/
  ```
 
