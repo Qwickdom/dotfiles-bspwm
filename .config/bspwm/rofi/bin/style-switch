@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+DIRB="$HOME/.config/bspwm/rofi/bin"
+DIRT="$HOME/.config/bspwm/rofi/themes"
+rofi_command="rofi -theme $DIRT/styles.rasi"
+
+chosen="$($rofi_command -no-config -no-lazy-grab -sep "|" \
+ -dmenu -i -p "Choose a theme" <<< "Ganyu|HSGrl")"
+case $chosen in
+	*Ganyu) "$DIRB"/styles --ganyu ;;
+	*HSGrl) "$DIRB"/styles --hsgrl ;;
+esac

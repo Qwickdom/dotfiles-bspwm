@@ -35,7 +35,7 @@ prompt {
     border:                                0;
     background-color:              @selected;
     text-color:                  @background;
-    padding:               6px 10px 6px 10px;
+    padding:               6px 15px 6px 10px;
 }
 
 textbox-prompt-colon {

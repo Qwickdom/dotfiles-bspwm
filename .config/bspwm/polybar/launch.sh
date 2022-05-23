@@ -1,4 +1,5 @@
-#! /bin/sh
+#!/usr/bin/env bash
+DIR="$HOME/.config/bspwm/polybar"
 killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
-polybar bar -c $HOME/.config/bspwm/polybar/config.ini &
+polybar -q main -c "$DIR"/config.ini &

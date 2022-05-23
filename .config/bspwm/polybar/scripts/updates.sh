@@ -16,13 +16,13 @@ if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 github.com || p
         updates=$(("$updates_arch" + "$updates_yay"))
 
         if [ "$updates" -gt 0 ]; then
-            echo "$updates "
+            echo "$updates"
         else
-            echo "0 "
+            echo "0"
         fi
     fi
 fi
 
 if [[ $STATUS == *"disabled"* ]]; then
-    echo "Disconnected "
+    echo "Game Over"
 fi

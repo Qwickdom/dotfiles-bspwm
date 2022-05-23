@@ -40,7 +40,7 @@ textbox-prompt-colon {
     border-radius:                         0px;
     background-color:                @selected;
     text-color:                    @background;
-    padding:                 6px 10px 6px 10px;
+    padding:                 6px 12px 6px 10px;
     font:         "JetBrainsMono Nerd Font 10";
 }
 

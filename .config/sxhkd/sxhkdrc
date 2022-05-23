@@ -20,13 +20,14 @@ super + {_,shift + }d
 super + x
 	pcmanfm
 
-# screenshot
-ctrl + p
-	scrot
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# ----- Rofi ----- #
+
+alt + {w,a,s,d,z,x,c}
+        sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,launcher,mpd,style-switch}
 
 # ----- bspwm hotkeys ----- #
 
@@ -144,10 +145,6 @@ alt + {u,i}
 # hide windows
 super + {less,greater}
         bspc node $(bspc query -N -d -n .hidden | head -n 1) -g hidden
-
-# ----- Rofi ----- #
-alt + {a,s,d,z,x}
-        sh ~/.config/bspwm/rofi/bin/{windows,powermenu,network,launcher,mpd}
 
 # ----- system ----- #
 XF86Audio{LowerVolume,RaiseVolume,Mute}

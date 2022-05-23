@@ -28,8 +28,12 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>S H O T S</strong></summary>
 
-![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop.png)
+![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png)
 ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png)
+
+> Another theme of desktop
+
+![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop.png)
 </details>
 
 <h2></h2><br>
@@ -232,6 +236,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Picom`            | Compositor         |
 | `Feh`              | Image viewer       |
 | `Betterlockscreen` | Lock screen        |
+| `Scrot`            | Screenshot utility |
 
   </div>  
 </details>
@@ -250,7 +255,6 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Sublime Merge`    | Git client       |
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
-| `Scrot`            | Screenshot       |
 
   </div>
   
@@ -276,11 +280,9 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Super + Shift + {1-9,0}`  | Move Apps/Windows to Workspace 1 to 5         |
 | `Super + Ctrl + {Z,X,A,S}` | Flags {marked,locked,sticky,private}          |
 | `Super + {LESS,GREATER}`   | Hide windows                                  |
-| `Alt + Z`                  | Launch (Rofi)                                 |
-| `Alt + {A,S,D,X}`          | Menus/Applets {windows,powermenu,network,mpd} |
+| `Alt + {W,A,S,D,Z,X,C}`    | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch} |
 | `Alt + {Shift + }Tab`      | Focus next / previous window floating         |
 | `Alt + {U,I}`              | Increase / Decrease window gap                |
-| `Ctrl + P`                 | Screenshot                                    |
 
 > To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration file and keep the folder in the /opt directory
   </div>

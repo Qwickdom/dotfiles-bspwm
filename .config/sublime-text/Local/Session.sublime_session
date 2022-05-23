@@ -3,13 +3,13 @@
 	[
 	],
 	"last_version": 4126,
-	"last_window_id": 26,
+	"last_window_id": 27,
 	"log_indexing": false,
-	"next_update_check": 1651336070,
+	"next_update_check": 1653406813,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 742.0,
+		"new_window_height": 739.0,
 		"new_window_maximized": false,
 		"new_window_settings":
 		{
@@ -17,6 +17,86 @@
 			{
 				"selected_items":
 				[
+					[
+						"cha",
+						"change_alacritty"
+					],
+					[
+						"c",
+						"change_alacritty"
+					],
+					[
+						"ch",
+						"change_rofi"
+					],
+					[
+						"ro",
+						"rofi_command"
+					],
+					[
+						"ba",
+						"bar2"
+					],
+					[
+						"cf",
+						"cfeh"
+					],
+					[
+						"fe",
+						"fehbg"
+					],
+					[
+						"f",
+						"fehbg"
+					],
+					[
+						"D",
+						"DIR"
+					],
+					[
+						"hs",
+						"hsgrl"
+					],
+					[
+						"gan",
+						"ganyu"
+					],
+					[
+						"N",
+						"No"
+					],
+					[
+						"H",
+						"HSGrl"
+					],
+					[
+						"laun",
+						"launch_bar"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"DI",
+						"DIR"
+					],
+					[
+						"w",
+						"wifi_con"
+					],
+					[
+						"WI",
+						"wifi_dis"
+					],
+					[
+						"e",
+						"else"
+					],
+					[
+						"wi",
+						"wifi_con"
+					],
 					[
 						"monocle",
 						"single_monocle"
@@ -87,7 +167,7 @@
 				[
 					[
 						"Package Control: ",
-						"Package Control: Install Package"
+						"Package Control: Remove Package"
 					]
 				],
 				"width": 0.0
@@ -127,6 +207,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"PyL",
+					"minus",
 					"@back"
 				],
 				"highlight": true,
@@ -206,7 +288,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 217.0,
+			"side_bar_width": 189.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -221,6 +303,86 @@
 			{
 				"selected_items":
 				[
+					[
+						"cha",
+						"change_alacritty"
+					],
+					[
+						"c",
+						"change_alacritty"
+					],
+					[
+						"ch",
+						"change_rofi"
+					],
+					[
+						"ro",
+						"rofi_command"
+					],
+					[
+						"ba",
+						"bar2"
+					],
+					[
+						"cf",
+						"cfeh"
+					],
+					[
+						"fe",
+						"fehbg"
+					],
+					[
+						"f",
+						"fehbg"
+					],
+					[
+						"D",
+						"DIR"
+					],
+					[
+						"hs",
+						"hsgrl"
+					],
+					[
+						"gan",
+						"ganyu"
+					],
+					[
+						"N",
+						"No"
+					],
+					[
+						"H",
+						"HSGrl"
+					],
+					[
+						"laun",
+						"launch_bar"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"DI",
+						"DIR"
+					],
+					[
+						"w",
+						"wifi_con"
+					],
+					[
+						"WI",
+						"wifi_dis"
+					],
+					[
+						"e",
+						"else"
+					],
+					[
+						"wi",
+						"wifi_con"
+					],
 					[
 						"monocle",
 						"single_monocle"
@@ -295,7 +457,7 @@
 				[
 					[
 						"Package Control: ",
-						"Package Control: Install Package"
+						"Package Control: Remove Package"
 					]
 				],
 				"width": 0.0
@@ -335,6 +497,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"PyL",
+					"minus",
 					"@back"
 				],
 				"highlight": true,
@@ -408,7 +572,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
-			"position": "0,0,0,0,0,0,26,1366,768,1366,768,1",
+			"position": "0,0,0,0,0,0,29,1366,768,1366,768,1",
 			"project": "",
 			"replace":
 			{
@@ -450,7 +614,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 217.0,
+			"side_bar_width": 189.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
