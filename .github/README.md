@@ -35,6 +35,24 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 > Another theme of desktop
 
 ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
+
+<details align="center">
+<summary><strong>Shots rofi</strong></summary>
+
+<details align="center">
+<summary><strong>Rofi Ganyu theme</strong></summary>
+
+![Rofi](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu/*)
+
+</details>
+
+<details align="center">
+<summary><strong>Rofi HSGrl theme</strong></summary>
+
+![Rofi](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl/*)
+
+</details>
+</details>
 </details>
 
 <h2></h2><br>
