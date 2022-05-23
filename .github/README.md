@@ -39,6 +39,8 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>Shots rofi</strong></summary>
 
+<br>
+
 <details align="center">
 <summary><strong>Rofi Ganyu theme</strong></summary>
 
