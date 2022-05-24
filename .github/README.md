@@ -58,7 +58,9 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png)    | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
 | `Network`      | `MPD`              |
 | ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png)       | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png)       |
+
 |          `Style-switch`             |
+| ----------------------------------- |
 | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png) |
 
 </details>
