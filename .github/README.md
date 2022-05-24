@@ -41,17 +41,17 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>Shots rofi</strong></summary><br>
 
-| `Launcher`     |  `Windows`         |
-| -------------- | ------------------ |
-| ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png)      | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png)   |
-| `Screenshot`   | `Powermenu`        |
-| ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png)    | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
-| `Network`      | `MPD`              |
-| ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png)       | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png)       |
+| `Launcher`     |  `Windows`    |
+| -------------- | ------------- |
+| ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
+| `Screenshot`   | `Powermenu`   |
+| ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
+| `Network`      | `MPD`         |
+| ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
 
-|          `Style-switch`             |
-| ----------------------------------- |
-| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png) |
+|          `Style-switch`        |
+| ------------------------------ |
+| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)                |
 
 </details></details>
 
@@ -108,35 +108,35 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary>Dependencies</summary><br>
 
- > I install these dependencies after a simple Arch Linux installation.
+ > I install these dependencies after a simple Arch Linux [installation](https://wiki.archlinux.org/title/Installation_guide).
 
- > **Xorg and video driver** (chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation))
+ **Xorg and video driver** (chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation))
 
  ```sh
  sudo pacman -S xorg-server xorg-xinit xorg-xbacklight xorg-xsetroot \ 
  xorg-setxkbmap xf86-video-intel
  ```
 
- > **Audio**
+ **Audio**
  
  ```sh
  sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber \ 
  alsa-lib alsa-utils
  ```
 
- > **Fonts extra**
+ **Fonts extra**
  
  ```sh
  sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
  ```
 
- > **Essentials**
+ **Essentials**
  
  ```sh
  yay -Sy alacritty ranger polybar rofi picom feh scrot betterlockscreen polkit-gnome bspwm sxhkd
  ```
 
- > **Optionals** (necessary to me)
+ **Optionals** (necessary to me)
  
  ```sh
  sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs pcmanfm \ 
@@ -171,14 +171,14 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary>My BSPWM configuration files</summary><br>
 
- > Clone this repository
+ Clone this repository
 
  ```sh
  git clone https://github.com/Qwickdom/dotfiles-bspwm.git
  cd dotfiles-bspwm
  ```
 
- > Copy configs and fonts files
+ Copy configs and fonts files
 
  ```sh
  cp -r .config/* ~/.config/
@@ -192,7 +192,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
  cp .xinitrc ~/
  ```
 
- > If you use a laptop copy this file to be able to click on tap
+ If you use a laptop copy this file to be able to click on tap
 
  ```sh
  sudo cp 02-touchpad-ttc.conf /etc/X11/xorg.conf.d/
@@ -206,54 +206,43 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
  #### Polybar
 
- > Directory polybar/
-
  In `config.ini` is *My Status Bar* configuration where I define my preferences.
  You should change this to your liking monitor.
 
  #### Rofi
-
- > Directory rofi/
 
  Here you'll find the menus that I usually use.
  If you want to add more, you can place theme in bin/ and themes/ respectively.
 
  #### Background
 
- > Script .fehbg
-
  This is a simple script to set my background.
  Edit the file and add your image in the directory corresponding.
 
  #### BSPWM config
-
- > Window Manager configuration
 
  In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
  You should change the monitor in case of is different.
 
  #### Picom
 
- > Compositor configuration
-
  In `picom.conf` I defined some of the composer values that are to my liking.
  Change the file if you want.
+
 </details>
 
 <details align="center">
 <summary>Log in</summary><br>
 
  Lastly, reboot your system and log in into `BSPWM` with xinit tapping `startx`.
-</details>
 
-</details><br>
+</details></details><br>
 
 <details align="center">
 <summary><strong>A P P S</strong></summary><br>
 
 <details align="center">
 <summary>Essentials</summary><br>
-  <div align="center">
 
 | Apps               | Description        |
 | ------------------ | ------------------ |
@@ -266,12 +255,10 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Betterlockscreen` | Lock screen        |
 | `Scrot`            | Screenshot utility |
 
-  </div>  
 </details>
 
 <details align="center">
 <summary>Optionals</summary><br>
-  <div align="center">
 
 | Apps               | Description      |
 | ------------------ | ---------------- |
@@ -283,18 +270,15 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Sublime Merge`    | Git client       |
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
-
-  </div>
   
 > Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
 > Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
-</details>
-</details><br>
+
+</details></details><br>
 
 <details align="center">
 <summary><strong>K E Y B I N D I N G S</strong></summary><br>
-  <div align="center">
 
 | Keybindings                | Function                                      |
 | -------------------------- | --------------------------------------------- |
@@ -313,7 +297,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Alt + {U,I}`              | Increase / Decrease window gap                |
 
 > To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration file and keep the folder in the /opt directory
-  </div>
+
 </details><br>
 
 <details align="center">
@@ -326,6 +310,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 [`vinceliuice`](https://github.com/vinceliuice)
 [`adi1090x`](https://github.com/adi1090x)
 [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
+
 </details><br>
 
 <h2></h2><br>
