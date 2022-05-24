@@ -51,6 +51,16 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `MPD`          | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png)     |
 | `Style-switch` | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)    |
 
+| `Launcher`     |  `Windows`         |
+| -------------- | ------------------ |
+| ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png)      | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png)   |
+| `Screenshot`   | `Powermenu`        |
+| ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png)    | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
+| `Network`      | `MPD`              |
+| ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png)       | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png)       |
+|          `Style-switch`             |
+| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png) |
+
 </details>
 
 <h2></h2><br>
