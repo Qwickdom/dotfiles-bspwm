@@ -83,9 +83,9 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary><strong>S E T U P</strong></summary><br>
 
-> This setup only provided for **Arch Linux** (and all Arch-based distributions)
+This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-> Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
+Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
 <details align="center">
 <summary>Install git and yay</summary>
@@ -108,7 +108,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 <details align="center">
 <summary>Dependencies</summary><br>
 
- > I install these dependencies after a simple Arch Linux [installation](https://wiki.archlinux.org/title/Installation_guide).
+ I install these dependencies after a simple Arch Linux [installation](https://wiki.archlinux.org/title/Installation_guide).
 
  **Xorg and video driver** (chage xf86-video-intel to another [driver](https://wiki.archlinux.org/title/Xorg#Driver_installation))
 
@@ -271,14 +271,14 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Dynalist`         | Simple lists     |
 | `Obsidian`         | Markdown         |
   
-> Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
-> Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
+Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
 
 </details></details><br>
 
 <details align="center">
-<summary><strong>K E Y B I N D I N G S</strong></summary><br>
+<summary><strong>K E Y B I N D I N G S</strong></summary><div align=center><br>
 
 | Keybindings                | Function                                      |
 | -------------------------- | --------------------------------------------- |
@@ -296,9 +296,9 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Alt + {Shift + }Tab`      | Focus next / previous window floating         |
 | `Alt + {U,I}`              | Increase / Decrease window gap                |
 
-> To launch Dynalist / Obsidian you need to have the same version in the sxhkdrc configuration file and keep the folder in the /opt directory
+To launch Dynalist / Obsidian you need to have the same version in the `sxhkdrc` configuration file and keep the folder in the /opt directory
 
-</details><br>
+</div></details><br>
 
 <details align="center">
 <summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
