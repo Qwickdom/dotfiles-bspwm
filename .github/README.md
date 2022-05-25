@@ -240,7 +240,9 @@ Some of these applications are available in the **Arch Linux User Repository** [
 
 <details align="center">
 <summary><strong>A P P S</strong></summary><br>
- <div align=left>
+
+<table><tr><th>Essentials</th><th>Optionals</th></tr>
+<tr><td>
 
  | Apps               | Description        |
  | ------------------ | ------------------ |
@@ -253,7 +255,7 @@ Some of these applications are available in the **Arch Linux User Repository** [
  | `Betterlockscreen` | Lock screen        |
  | `Scrot`            | Screenshot utility |
 
- </div><div align=right>
+</td><td>
 
  | Apps               | Description      |
  | ------------------ | ---------------- |
@@ -265,6 +267,8 @@ Some of these applications are available in the **Arch Linux User Repository** [
  | `Sublime Merge`    | Git client       |
  | `Dynalist`         | Simple lists     |
  | `Obsidian`         | Markdown         |
+
+</td></tr> </table>
 
 Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
