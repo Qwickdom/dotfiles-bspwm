@@ -241,41 +241,23 @@ Some of these applications are available in the **Arch Linux User Repository** [
 <details align="center">
 <summary><strong>A P P S</strong></summary><br>
 
-<details align="center">
-<summary>Essentials</summary><br>
+| Apps               | Description        |   | Apps               | Description      |
+| ------------------ | ------------------ |   | ------------------ | ---------------- |
+| `Alacritty`        | Terminal           |   | `Chromium`         | Browser          |
+| `Ranger`           | File manager (vim) |   | `Htop`             | Process viewer   |
+| `Polybar`          | Status bar         |   | `Neofetch`         | Information tool |
+| `Rofi`             | App launcher       |   | `Pcmanfm`          | File manager     |
+| `Picom`            | Compositor         |   | `Sublime Text`     | Code editor      |
+| `Feh`              | Image viewer       |   | `Sublime Merge`    | Git client       |
+| `Betterlockscreen` | Lock screen        |   | `Dynalist`         | Simple lists     |
+| `Scrot`            | Screenshot utility |   | `Obsidian`         | Markdown         |
 
-| Apps               | Description        |
-| ------------------ | ------------------ |
-| `Alacritty`        | Terminal           |
-| `Ranger`           | File manager (vim) |
-| `Polybar`          | Status bar         |
-| `Rofi`             | App launcher       |
-| `Picom`            | Compositor         |
-| `Feh`              | Image viewer       |
-| `Betterlockscreen` | Lock screen        |
-| `Scrot`            | Screenshot utility |
-
-</details>
-
-<details align="center">
-<summary>Optionals</summary><br>
-
-| Apps               | Description      |
-| ------------------ | ---------------- |
-| `Chromium`         | Browser          |
-| `Htop`             | Process viewer   |
-| `Neofetch`         | Information tool |
-| `Pcmanfm`          | File manager     |
-| `Sublime Text`     | Code editor      |
-| `Sublime Merge`    | Git client       |
-| `Dynalist`         | Simple lists     |
-| `Obsidian`         | Markdown         |
   
 Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
 Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
 
-</details></details><br>
+</details><br>
 
 <details align="center">
 <summary><strong>K E Y B I N D I N G S</strong></summary><div align=center><br>
