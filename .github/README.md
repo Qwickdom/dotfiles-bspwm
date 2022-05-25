@@ -239,7 +239,7 @@ Some of these applications are available in the **Arch Linux User Repository** [
 </details></details><br>
 
 <details align="center">
-<summary><strong>A P P S</strong></summary><br>
+<summary><strong>A P P S</strong></summary><br><div align=center>
 
 <table><tr><th>Essentials</th><th>Optionals</th></tr>
 <tr><td>
