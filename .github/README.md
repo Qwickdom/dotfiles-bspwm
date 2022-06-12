@@ -34,7 +34,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | ---------------- | -------------- |
 | ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
 
-<h2> Another style of desktop </h2>
+##Another style of desktop
 
 ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
 
@@ -57,6 +57,15 @@ Status bar, wallpaper, rofi and alacritty colors </h3>
 </details></details>
 
 <h2></h2><br>
+
+<h1>
+  <a href="#--------">
+    <img alt="" align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=162026&labelColor=162026&style=for-the-badge"/>
+  </a>
+  <a href="#--------">
+    <img alt="" align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?style=for-the-badge&color=162026&logoColor=white&labelColor=162026"/>
+  </a>
+</h1><br>
 
 <table align="center">
   <tr>
@@ -312,8 +321,6 @@ To launch Dynalist / Obsidian you need to have the same version in the `sxhkdrc`
 [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 
 </details><br>
-
-<h2></h2><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=061115&colorB=67AFC1"/></a></p>
