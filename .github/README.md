@@ -34,7 +34,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | ---------------- | -------------- |
 | ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
 
-##Another style of desktop
+## Another style of desktop
 
 ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
 
