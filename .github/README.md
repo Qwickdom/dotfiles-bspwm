@@ -51,7 +51,7 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 | `Style-switch` | `Links`        |
 | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
 
-<h3 font=bold> The style changer will change the following: Status bar, wallpaper, rofi and alacritty colors </h3>
+<h3 font=bold> The style switcher will change the following: Status bar, wallpaper, rofi and alacritty colors </h3>
 
 </details></details>
 
