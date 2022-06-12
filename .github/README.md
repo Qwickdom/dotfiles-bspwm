@@ -153,8 +153,8 @@ Some of these applications are available in the **Arch Linux User Repository** [
  **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs gvfs-mtp pcmanfm \ 
- mpd mpc ncmpcpp dunst
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs gvfs-mtp \ 
+ pcmanfm mpd mpc ncmpcpp dunst
  ```
 </details>
 
