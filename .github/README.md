@@ -163,13 +163,12 @@ Some of these applications are available in the **Arch Linux User Repository** [
 
  You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
- Necessary fonts: <br>
- **BitStream**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip) <br>
- **DejaVu**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip) <br>
- **Hack**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
- **JetBrains**  - [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
- **Feather** - This font is included in my dotfiles > .fonts, needed for the icons in rofi. <br>
- **MaterialDesign** - This font is included in my dotfiles > .fonts, needed for the icons in updates.
+ **BitStream**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip) <br>
+ **DejaVu**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DejaVuSansMono.zip) <br>
+ **Hack**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
+ **JetBrains**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
+ **Feather** / **MaterialDesign** <br>
+ This font is included in my dotfiles > .fonts, needed for the icons in rofi and updates.
 
  For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
@@ -235,7 +234,8 @@ Some of these applications are available in the **Arch Linux User Repository** [
 
  #### BSPWM config
 
- In `bspwmrc` I've some auto start processes, window manager configuration and rules for applications.
+ In `bspwmrc` I've window manager configuration and rules for applications. <br>
+ In the directory *bin/* you'll find `bspstart` file containing some auto start processes.
  You should change the monitor in case of is different.
 
  #### Picom
@@ -327,4 +327,4 @@ To launch Dynalist / Obsidian you need to have the same version in the `sxhkdrc`
 </details><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=061115&colorB=67AFC1"/></a></p>
+<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=ffffff&logo=github&colorA=000000&colorB=000000"/></a></p>
