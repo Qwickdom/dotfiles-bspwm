@@ -12,11 +12,12 @@ msg() {
 screen=""
 area=""
 window=""
+time="祥"
 
 # Variable passed to rofi
-options="$screen\n$area\n$window"
+options="$screen\n$area\n$window\n$time"
 
-chosen="$(echo -e "$options" | $rofi_command -p 'App : Scrot' -dmenu -selected-row 1)"
+chosen="$(echo -e "$options" | $rofi_command -p 'App : Scrot' -dmenu -selected-row 0)"
 case $chosen in
     $screen)
 		if [[ -f /usr/bin/scrot ]]; then
@@ -37,6 +38,15 @@ case $chosen in
     $window)
 		if [[ -f /usr/bin/scrot ]]; then
 			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
+			mv *.png $HOME/Pictures
+		else
+			msg
+		fi
+        ;;
+    $time)
+		ans=$($HOME/.config/bspwm/rofi/bin/secons)
+		if [[ $ans > 0 ]] || [[ -f /usr/bin/scrot ]]; then
+			scrot -d $ans 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
 			mv *.png $HOME/Pictures
 		else
 			msg

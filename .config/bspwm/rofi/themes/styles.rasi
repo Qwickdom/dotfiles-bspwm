@@ -1,9 +1,6 @@
 configuration {
     font:         "JetBrainsMono Nerd Font 10";
     show-icons:                          false;
-    display-drun:                          "";
-    drun-display-format:       "{icon} {name}";
-    disable-history:                     false;
     click-to-exit:                        true;
 }
 
@@ -44,17 +41,6 @@ textbox-prompt-colon {
     font:         "JetBrainsMono Nerd Font 10";
 }
 
-entry {
-    background-color:              @background;
-    text-color:                    @foreground;
-    placeholder-color:             @foreground;
-    placeholder:                   "Search...";
-    expand:                               true;
-    horizontal-align:                        0;
-    blink:                               false;
-    padding:                               6px;
-}
-
 inputbar {
     children: [ textbox-prompt-colon, prompt ];
     spacing:                                 0;
@@ -69,12 +55,6 @@ inputbar {
     position:                           center;
 }
 
-case-indicator {
-    background-color:              @background;
-    text-color:                    @foreground;
-    spacing:                                 0;
-}
-
 listview {
     background-color:              @background;
     columns:                                 1;
@@ -87,7 +67,7 @@ listview {
 
 mainbox {
     background-color:              @background;
-    text-color:                    @selected;
+    text-color:                      @selected;
     children:           [ inputbar, listview ];
     spacing:                              10px;
     padding:                              10px;
@@ -128,26 +108,4 @@ element selected {
     border:                                2px;
     border-radius:                        20px;
     border-color:                    @selected;
-}
-
-element.active,
-element.selected.urgent {
-  background-color:                        @on;
-  text-color:                      @background;
-  border-color:                            @on;
-}
-
-element.selected.urgent {
-  border-color:                      @selected;
-}
-
-element.urgent,
-element.selected.active {
-  background-color:                       @off;
-  text-color:                      @background;
-  border-color:                           @off;
-}
-
-element.selected.active {
-  border-color:                      @selected;
 }

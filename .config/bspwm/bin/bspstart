@@ -1,0 +1,14 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+setxkbmap latam
+xsetroot -cursor_name left_ptr
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+$HOME/.config/bspwm/.fehbg
+$HOME/.config/bspwm/polybar/launch.sh
+
+killall -9 picom dunst mpd
+while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
+picom --config $HOME/.config/bspwm/picom.conf &
+dunst -config $HOME/.config/bspwm/dunstrc &
+exec mpd &

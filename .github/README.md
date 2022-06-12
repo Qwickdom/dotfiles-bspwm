@@ -43,15 +43,13 @@ Although it takes time and effort to configure it, but I'm satisfied with the re
 
 | `Launcher`     |  `Windows`    |
 | -------------- | ------------- |
-| ![Rofi-l](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
+| ![Rofi-lc](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
 | `Screenshot`   | `Powermenu`   |
-| ![Rofi-s](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-p](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
+| ![Rofi-ss](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-pm](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
 | `Network`      | `MPD`         |
-| ![Rofi-n](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
-
-|          `Style-switch`        |
-| ------------------------------ |
-| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)                |
+| ![Rofi-nw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
+| `Style-switch` | `Links`        |
+| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
 
 </details></details>
 
@@ -139,8 +137,8 @@ Some of these applications are available in the **Arch Linux User Repository** [
  **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs pcmanfm \ 
- mpd mpc ncmpcpp
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs gvfs-mtp pcmanfm \ 
+ mpd mpc ncmpcpp dunst
  ```
 </details>
 
@@ -291,7 +289,7 @@ Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.
 | `Super + Shift + {1-9,0}`  | Move Apps/Windows to Workspace 1 to 5         |
 | `Super + Ctrl + {Z,X,A,S}` | Flags {marked,locked,sticky,private}          |
 | `Super + {LESS,GREATER}`   | Hide windows                                  |
-| `Alt + {W,A,S,D,Z,X,C}`    | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch} |
+| `Alt + {W,A,S,D,Z,X,C,L}`  | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch,links} |
 | `Alt + {Shift + }Tab`      | Focus next / previous window floating         |
 | `Alt + {U,I}`              | Increase / Decrease window gap                |
 

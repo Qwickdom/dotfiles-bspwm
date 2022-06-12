@@ -34,7 +34,7 @@ launch_cli=""
 options="$connected\n$launch_cli"
 
 ## Main
-chosen="$(echo -e "$options" | $rofi_command -p "$SSID$PIP" -dmenu $active $urgent -selected-row 1)"
+chosen="$(echo -e "$options" | $rofi_command -p "$SSID$PIP" -dmenu $active $urgent -selected-row 0)"
 case $chosen in
     $connected)
 		if [[ $STATUS == *"enable"* ]]; then

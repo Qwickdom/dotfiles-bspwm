@@ -1,34 +1,26 @@
 #! /bin/sh
 
-pgrep -x sxhkd > /dev/null || sxhkd &
-setxkbmap latam
-xsetroot -cursor_name left_ptr
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-$HOME/.config/bspwm/.fehbg
-$HOME/.config/bspwm/polybar/launch.sh
+$HOME/.config/bspwm/bin/bspstart
+
+alias bc='bspc config'
+alias br='bspc rule -a'
 
 bspc monitor eDP1 -d I II III IV V
 
-bspc config border_width          0
-bspc config window_gap            5
-bspc config split_ratio           0.5
-bspc config borderless_monocle    true
-bspc config gapless_monocle       true
-bspc config paddingless_monocle   true
-bspc config single_monocle        true
-bspc config focus_follows_pointer true
+bc border_width          0
+bc window_gap            5
+bc split_ratio           0.5
+bc borderless_monocle    true
+bc gapless_monocle       true
+bc single_monocle        true
+bc focus_follows_pointer true
 
-bspc rule -a Alacritty       desktop='^1' follow=on focus=on
-bspc rule -a alacritty-float desktop='^1' follow=on focus=on state=floating
-bspc rule -a Sublime_text    desktop='^2' follow=on focus=on
-bspc rule -a Sublime_merge   desktop='^2' follow=on focus=on
-bspc rule -a Chromium        desktop='^3' follow=on focus=on
-bspc rule -a Dynalist        desktop='^4' follow=on focus=on
-bspc rule -a obsidian        desktop='^4' follow=on focus=on
-bspc rule -a Pcmanfm         desktop='^5' follow=on focus=on
-bspc rule -a Lxappearance    desktop='^5' follow=on focus=on
-
-killall -9 picom mpd
-while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
-picom --config $HOME/.config/bspwm/picom.conf &
-exec mpd &
+br Alacritty       desktop='^1' follow=on focus=on
+br alacritty-float desktop='^1' follow=on focus=on state=floating
+br Sublime_text    desktop='^2' follow=on focus=on
+br Sublime_merge   desktop='^2' follow=on focus=on
+br Chromium        desktop='^3' follow=on focus=on
+br Dynalist        desktop='^4' follow=on focus=on
+br obsidian        desktop='^4' follow=on focus=on
+br Pcmanfm         desktop='^5' follow=on focus=on
+br Lxappearance    desktop='^5' follow=on focus=on

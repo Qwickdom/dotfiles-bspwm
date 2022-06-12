@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+dir="$HOME/.config/bspwm/rofi/themes"
+rofi_command="rofi -theme $dir/links.rasi"
+
+# Browser
+app="chromium --incognito"
+
+# Links
+arch=""
+github=""
+mail=""
+youtube=""
+
+# Variable passed to rofi
+options="$arch\n$github\n$mail\n$youtube"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Quicklinks | Chromium Incognito" -dmenu -selected-row 0)"
+case $chosen in
+    $arch)
+        $app 'https://www.archlinux.org' &
+        ;;
+    $github)
+        $app 'https://www.github.com' &
+        ;;
+    $mail)
+        $app 'https://www.gmail.com' &
+        ;;
+    $youtube)
+        $app 'https://www.youtube.com/?persist_gl=1&gl=JP' &
+        ;;
+esac

@@ -13,7 +13,7 @@ window {
     border:                                2px;
     border-color:                    @selected;
     border-radius:                        20px;
-    width:                               426px;
+    width:                               365px;
     location:                           center;
     anchor:                             center;
     x-offset:                                0;
@@ -33,13 +33,24 @@ prompt {
 
 textbox-prompt-colon {
     expand:                              false;
-    str:                                   "拉";
+    str:                                   "";
     border-radius:                         0px;
     background-color:                @selected;
     text-color:                    @background;
-    padding:                 6px 12px 6px 12px;
-    font:         "JetBrainsMono Nerd Font 14";
+    padding:                 6px 12px 6px 10px;
+    font:         "JetBrainsMono Nerd Font 10";
 }
+
+//entry {
+//    background-color:              @background;
+//    text-color:                    @foreground;
+//    placeholder-color:             @foreground;
+//    placeholder:    " Search with Duckduckgo";
+//    expand:                               true;
+//    horizontal-align:                        0;
+//    blink:                               false;
+//    padding:                               6px;
+//}
 
 inputbar {
     children: [ textbox-prompt-colon, prompt ];
@@ -83,23 +94,14 @@ element {
     padding:           23.5px 25px 23.5px 25px;
 }
 
-element-icon {
-    background-color:                  inherit;
-    text-color:                        inherit;
-    horizontal-align:                      0.5;
-    vertical-align:                        0.5;
-    size:                                  0px;
-    border:                                0px;
-}
-
 element-text {
     background-color:                  inherit;
     text-color:                        inherit;
-    font:         "JetBrainsMono Nerd Font 14";
+    font:         "JetBrainsMono Nerd Font 20";
     expand:                               true;
     horizontal-align:                      0.5;
     vertical-align:                        0.5;
-    margin:                    0px 0px 0px 0px;
+    margin:                    0px 8px 0px 0px;
 }
 
 element selected {
