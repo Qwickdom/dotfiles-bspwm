@@ -1,14 +1,17 @@
-<div align=center><a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a>
+<div align=center>
 
-<b>  My Simple Dotfiles!  </b>
+<b>  My Simple Dotfiles!  </b><br>
+
+<a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a><br>
 
 Welcome to my BSPWM configuration files! 
-You may be here to look for my BSPWM configuration files... or looking for something else? ಠωಠ <br>
+You may be here to look for my BSPWM configuration files... or looking for something else? ಠωಠ
 Feel free to use anything from here but don't forget to give me **credits** :3
 
 BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
 It only responds to X events, and the messages it receives on a dedicated socket. 
 Although it takes time and effort to configure it, but I'm satisfied with the result.
+
 </div>
 
 <div align="center">
