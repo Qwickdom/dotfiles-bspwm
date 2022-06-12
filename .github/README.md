@@ -4,7 +4,7 @@
 
 <br><a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a><br>
 
-### Welcome to my BSPWM configuration files!
+### Welcome to my configuration files!
 
 Feel free to use anything from here but don't forget to give me **credits** ಠωಠ
 
