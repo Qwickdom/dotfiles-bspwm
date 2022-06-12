@@ -13,7 +13,7 @@ window {
     border:                                2px;
     border-color:                    @selected;
     border-radius:                        20px;
-    width:                               451px;
+    width:                               275px;
     location:                           center;
     anchor:                             center;
     x-offset:                                0;

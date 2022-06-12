@@ -9,13 +9,14 @@ app="chromium --incognito"
 # Links
 arch=""
 github=""
+search=""
 mail=""
 youtube=""
 
 # Variable passed to rofi
-options="$arch\n$github\n$mail\n$youtube"
+options="$arch\n$github\n$search\n$mail\n$youtube"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Quicklinks | Chromium Incognito" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Quicklinks | Chromium Incognito" -dmenu -selected-row 2)"
 case $chosen in
     $arch)
         $app 'https://www.archlinux.org' &
@@ -23,10 +24,13 @@ case $chosen in
     $github)
         $app 'https://www.github.com' &
         ;;
+    $search)
+        $HOME/.config/bspwm/rofi/bin/duckgoo
+        ;;
     $mail)
         $app 'https://www.gmail.com' &
         ;;
     $youtube)
-        $app 'https://www.youtube.com/?persist_gl=1&gl=JP' &
+        $HOME/.config/bspwm/rofi/bin/yt
         ;;
 esac

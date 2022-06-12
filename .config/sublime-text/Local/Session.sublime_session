@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 4126,
-	"last_window_id": 30,
+	"last_window_id": 31,
 	"log_indexing": false,
 	"next_update_check": 1655081052,
 	"settings":
@@ -17,6 +17,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"se",
+						"search"
+					],
 					[
 						"t",
 						"time"
@@ -171,7 +175,7 @@
 				[
 					[
 						"Package Control: ",
-						"Package Control: Remove Package"
+						"Package Control: Upgrade Package"
 					]
 				],
 				"width": 0.0
@@ -304,6 +308,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"se",
+						"search"
+					],
 					[
 						"t",
 						"time"
@@ -462,7 +470,7 @@
 				[
 					[
 						"Package Control: ",
-						"Package Control: Remove Package"
+						"Package Control: Upgrade Package"
 					]
 				],
 				"width": 0.0
