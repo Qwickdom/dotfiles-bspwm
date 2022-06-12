@@ -168,7 +168,7 @@ Some of these applications are available in the **Arch Linux User Repository** [
  **Hack**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) <br>
  **JetBrains**  -> [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) <br>
  **Feather** / **MaterialDesign** <br>
- This fonts are included in my dotfiles *(.fonts/)*, needed for the icons in rofi and updates.
+ This fonts are included in my dotfiles *( .fonts/ )*, needed for the icons in rofi and updates.
 
  For more **Nerd Fonts** visit the [website](https://www.nerdfonts.com/).
 
@@ -235,7 +235,7 @@ Some of these applications are available in the **Arch Linux User Repository** [
  #### BSPWM config
 
  In `bspwmrc` I've window manager configuration and rules for applications. <br>
- In the directory *(bin/)* you'll find `bspstart` file containing some auto start processes.
+ In the directory *( bin/ )* you'll find `bspstart` file containing some auto start processes.
  You should change the monitor in case of is different.
 
  #### Picom
