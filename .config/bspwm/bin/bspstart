@@ -10,5 +10,4 @@ $HOME/.config/bspwm/polybar/launch.sh
 killall -9 picom dunst mpd
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --config $HOME/.config/bspwm/picom.conf &
-dunst -config $HOME/.config/bspwm/dunstrc &
 exec mpd &

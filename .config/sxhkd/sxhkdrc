@@ -13,8 +13,8 @@ super + {_,shift + }s
     {subl,smerge}
 
 # lists/markdown
-super + {_,shift + }d
-    exec /opt/{dynalist-1.0.6/dynalist,obsidian-0.14.6/obsidian}
+super + {_,shift + ,alt + }d
+    exec /opt/{dynalist-1.0.6/dynalist,Obsidian-0.14.15.AppImage,siyuan-2.0.19-linux.AppImage}
 
 # file manager
 super + x

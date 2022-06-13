@@ -34,7 +34,3 @@ colors:
   line_indicator:
     foreground: None
     background: None
-  
-  selection:
-    text:       CellForeground
-    background: CellBackground

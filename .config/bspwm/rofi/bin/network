@@ -11,16 +11,16 @@ active=""
 urgent=""
 
 if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 github.com || ping -c 1 sourceforge.net) &>/dev/null; then
-	if [[ $STATUS == *"enable"* ]]; then
+    if [[ $STATUS == *"enable"* ]]; then
         if [[ $IFACE == e* ]]; then
             connected=""
         else
             connected=""
         fi
-	active="-a 0"
-	SSID="$(iwgetid -r)"
-	PIP="$(nmcli -t -f name,device connection show --active | grep wlp1s0 | cut -d\: -f1)"
-	fi
+    active="-a 0"
+    SSID="$(iwgetid -r)"
+    PIP="$(nmcli -t -f name,device connection show --active | grep wlp1s0 | cut -d\: -f1)"
+    fi
 else
     urgent="-u 0"
     SSID="Disconnected"
@@ -34,14 +34,14 @@ launch_cli=""
 options="$connected\n$launch_cli"
 
 ## Main
-chosen="$(echo -e "$options" | $rofi_command -p "$SSID$PIP" -dmenu $active $urgent -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "$SSID$PIP" -dmenu $active $urgent -selected-row 1)"
 case $chosen in
     $connected)
-		if [[ $STATUS == *"enable"* ]]; then
-			nmcli radio wifi off
-		else
-			nmcli radio wifi on
-		fi 
+        if [[ $STATUS == *"enable"* ]]; then
+            nmcli radio wifi off
+        else
+            nmcli radio wifi on
+        fi 
         ;;
     $launch_cli)
         alacritty --class 'alacritty-float,alacritty-float' --config-file ~/.config/alacritty/alacritty.yml -e nmtui

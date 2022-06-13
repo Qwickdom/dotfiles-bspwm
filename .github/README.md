@@ -153,8 +153,8 @@ Some of these applications are available in the **Arch Linux User Repository** [
  **Optionals** (necessary to me)
  
  ```sh
- sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs gvfs-mtp \ 
- pcmanfm mpd mpc ncmpcpp dunst
+ sudo pacman -S chromium htop neofetch tree python python-pip tk lxappearance-gtk3 gvfs
+ gvfs-mtp pcmanfm mpd mpc ncmpcpp
  ```
 </details>
 
@@ -261,6 +261,7 @@ Some of these applications are available in the **Arch Linux User Repository** [
  | Apps               | Description        |
  | ------------------ | ------------------ |
  | `Alacritty`        | Terminal           |
+ | `Chromium`         | Browser            |
  | `Ranger`           | File manager (vim) |
  | `Polybar`          | Status bar         |
  | `Rofi`             | App launcher       |
@@ -271,45 +272,50 @@ Some of these applications are available in the **Arch Linux User Repository** [
 
 </td><td>
 
- | Apps               | Description      |
- | ------------------ | ---------------- |
- | `Chromium`         | Browser          |
- | `Htop`             | Process viewer   |
- | `Neofetch`         | Information tool |
- | `Pcmanfm`          | File manager     |
- | `Sublime Text`     | Code editor      |
- | `Sublime Merge`    | Git client       |
- | `Dynalist`         | Simple lists     |
- | `Obsidian`         | Markdown         |
+ | Apps               | Description        |
+ | ------------------ | ------------------ |
+ | `Htop`             | Process viewer     |
+ | `Neofetch`         | Information tool   |
+ | `Pcmanfm`          | File manager       |
+ | `Sublime Text`     | Code editor        |
+ | `Sublime Merge`    | Git client         |
+ | `Dynalist`         | Simple lists       |
+ | `Obsidian`         | Markdown           |
+ | `SiYuan`           | Personal knowledge |
+ | `Gimp`             | Image manipulation |
 
 </td></tr> </table>
 
-Download and install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+Install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
-Download [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) and extract the file to the /opt folder
+Download ( [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) / [SiYuan](https://github.com/siyuan-note/siyuan/releases) )
+
++ *In the case of Dynalist extract the archive, you've executable the dynalist file inside the dynalist-(version) folder and move the folder to the /opt directory*
+
++ *In the case of Obsidian and SiYuan you've to make the .AppImage file executable and move it to the /opt directory*
 
 </div></details><br>
 
 <details align="center">
 <summary><strong>K E Y B I N D I N G S</strong></summary><div align=center><br>
 
-| Keybindings                | Function                                      |
-| -------------------------- | --------------------------------------------- |
-| `Super + Return`           | Launch (Alacritty)                            |
-| `Super + {Shift + }W`      | Close/Kill Window                             |
-| `Super + {Shift + }A`      | Launch (Chromium / Chromium incognito)        |
-| `Super + {Shift + }S`      | Launch (Sublime Text / Merge)                 |
-| `Super + {Shift + }D`      | Launch (Dynalist / Obsidian)                  |
-| `Super + X`                | Launch (Pcmanfm)                              |
-| `Super + {1-5}`            | Switches to Workspace 1 to 5                  |
-| `Super + Shift + {1-9,0}`  | Move Apps/Windows to Workspace 1 to 5         |
-| `Super + Ctrl + {Z,X,A,S}` | Flags {marked,locked,sticky,private}          |
-| `Super + {LESS,GREATER}`   | Hide windows                                  |
-| `Alt + {W,A,S,D,Z,X,C,L}`  | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch,links} |
-| `Alt + {Shift + }Tab`      | Focus next / previous window floating         |
-| `Alt + {U,I}`              | Increase / Decrease window gap                |
+| Keybindings                  | Function                                      |
+| ---------------------------- | --------------------------------------------- |
+| `Super + Return`             | Launch (Alacritty)                            |
+| `Super + {Shift + }W`        | Close/Kill Window                             |
+| `Super + {Shift + }A`        | Launch (Chromium / Chromium incognito)        |
+| `Super + {Shift + }S`        | Launch (Sublime Text / Merge)                 |
+| `Super + {Shift + ,Alt + }D` | Launch (Dynalist / Obsidian / SiYuan)         |
+| `Super + X`                  | Launch (Pcmanfm)                              |
+| `Super + {1-5}`              | Switches to Workspace 1 to 5                  |
+| `Super + Shift + {1-9,0}`    | Move Apps/Windows to Workspace 1 to 5         |
+| `Super + Ctrl + {Z,X,A,S}`   | Flags {marked,locked,sticky,private}          |
+| `Super + {LESS,GREATER}`     | Hide windows                                  |
+| `Alt + {W,A,S,D,Z,X,C,L}`    | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch,links} |
+| `Alt + {Shift + }Tab`        | Focus next / previous window floating         |
+| `Alt + {U,I}`                | Increase / Decrease window gap                |
 
-To launch Dynalist / Obsidian you need to have the same version in the `sxhkdrc` configuration file and keep the folder in the /opt directory
+To launch ( Dynalist / Obsidian / SiYuan ) you need to have the same version in the `sxhkdrc` configuration file and keep the folder or file in the /opt directory
 
 </div></details><br>
 

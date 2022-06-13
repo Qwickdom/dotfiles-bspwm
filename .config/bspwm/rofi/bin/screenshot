@@ -5,7 +5,7 @@ rofi_command="rofi -theme $dir/themes/screenshot.rasi"
 
 # Error msg
 msg() {
-	rofi -theme "$dir/themes/message.rasi" -e "Please install 'scrot' first."
+    rofi -theme "$dir/themes/message.rasi" -e "Please install 'scrot' first."
 }
 
 # Options
@@ -17,39 +17,39 @@ time="祥"
 # Variable passed to rofi
 options="$screen\n$area\n$window\n$time"
 
-chosen="$(echo -e "$options" | $rofi_command -p 'App : Scrot' -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p 'Take good screenshots with scrot' -dmenu -selected-row 0)"
 case $chosen in
     $screen)
-		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
-			mv *.png $HOME/Pictures
-		else
-			msg
-		fi
+        if [[ -f /usr/bin/scrot ]]; then
+            sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
+            mv *.png $HOME/Pictures
+        else
+            msg
+        fi
         ;;
     $area)
-		if [[ -f /usr/bin/scrot ]]; then
-			scrot -s 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
-			mv *.png $HOME/Pictures
-		else
-			msg
-		fi
+        if [[ -f /usr/bin/scrot ]]; then
+            scrot -s 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
+            mv *.png $HOME/Pictures
+        else
+            msg
+        fi
         ;;
     $window)
-		if [[ -f /usr/bin/scrot ]]; then
-			sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
-			mv *.png $HOME/Pictures
-		else
-			msg
-		fi
+        if [[ -f /usr/bin/scrot ]]; then
+            sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
+            mv *.png $HOME/Pictures
+        else
+            msg
+        fi
         ;;
     $time)
-		ans=$($HOME/.config/bspwm/rofi/bin/secons)
-		if [[ $ans > 0 ]] || [[ -f /usr/bin/scrot ]]; then
-			scrot -d $ans 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
-			mv *.png $HOME/Pictures
-		else
-			msg
-		fi
+        ans=$($HOME/.config/bspwm/rofi/bin/secons)
+        if [[ $ans > 0 ]] || [[ -f /usr/bin/scrot ]]; then
+            scrot -d $ans 'Screenshot_%Y-%m-%d-%S_$wx$h.png'
+            mv *.png $HOME/Pictures
+        else
+            msg
+        fi
         ;;
 esac

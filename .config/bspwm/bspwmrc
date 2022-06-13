@@ -22,5 +22,7 @@ br Sublime_merge   desktop='^2' follow=on focus=on
 br Chromium        desktop='^3' follow=on focus=on
 br Dynalist        desktop='^4' follow=on focus=on
 br obsidian        desktop='^4' follow=on focus=on
+br SiYuan          desktop='^4' follow=on focus=on
+br Gimp-2.10       desktop='^5' follow=on focus=on
 br Pcmanfm         desktop='^5' follow=on focus=on
 br Lxappearance    desktop='^5' follow=on focus=on

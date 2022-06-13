@@ -7,44 +7,44 @@ DIRP="$HOME/.config/bspwm/polybar"
 DIRR="$HOME/.config/bspwm/rofi/themes"
 
 change_bar() {
-	cat "$DIRP"/$bar/config.ini > "$DIRP"/config.ini
-	polybar-msg cmd restart
+    cat "$DIRP"/$bar/config.ini > "$DIRP"/config.ini
+    polybar-msg cmd restart
 }
 
 change_feh() {
-	feh --bg-scale "$DIRB"/wallpapers/"$bg"
-	cat "$HOME"/.fehbg  > "$DIRB"/.fehbg
+    feh --bg-scale "$DIRB"/wallpapers/"$bg"
+    cat "$HOME"/.fehbg  > "$DIRB"/.fehbg
 }
 
 change_rofi() {
-	cat "$DIRR"/colors/colors-$bar.rasi > "$DIRR"/colors.rasi
+    cat "$DIRR"/colors/colors-$bar.rasi > "$DIRR"/colors.rasi
 }
 
 change_alacritty() {
-	cat "$DIRA"/colors/$trm.yml > "$DIRA"/colors.yml
+    cat "$DIRA"/colors/$trm.yml > "$DIRA"/colors.yml
 }
 
 if  [[ "$1" = "--ganyu" ]]; then
-	bar="ganyu"
-	bg="Ganyu.png"
-	trm="tokyo-night"
-	change_bar
-	change_feh
-	change_rofi
-	change_alacritty
+    bar="ganyu"
+    bg="Ganyu.png"
+    trm="tokyo-night"
+    change_bar
+    change_feh
+    change_rofi
+    change_alacritty
 
 elif  [[ "$1" = "--hsgrl" ]]; then
-	bar="hsgrl"
-	bg="HSG.jpg"
-	trm="dracula"
-	change_bar
-	change_feh
-	change_rofi
-	change_alacritty
+    bar="hsgrl"
+    bg="HSG.jpg"
+    trm="dracula"
+    change_bar
+    change_feh
+    change_rofi
+    change_alacritty
 
 else
-	cat <<- _EOF_
-	No option specified, Available options:
-	--ganyu   --hsgrl
-	_EOF_
+    cat <<- _EOF_
+    No option specified, Available options:
+    --ganyu   --hsgrl
+    _EOF_
 fi
