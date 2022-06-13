@@ -22,7 +22,7 @@ case $chosen in
         $app 'https://www.archlinux.org' &
         ;;
     $github)
-        $app 'https://www.github.com' &
+        $app 'https://www.github.com/Qwickdom' &
         ;;
     $search)
         $HOME/.config/bspwm/rofi/bin/duckgoo
