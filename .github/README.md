@@ -11,10 +11,6 @@ Feel free to use anything from here but don't forget to give me **credits** à² Ï
 BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
 It only responds to X events, and the messages it receives on a dedicated socket. 
 Although it takes time and effort to configure it, but I'm satisfied with the result.
-
-</div>
-
-<div align="center">
   
 **Here are some details about my setup**
 
