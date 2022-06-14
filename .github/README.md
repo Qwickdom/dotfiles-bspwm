@@ -54,19 +54,17 @@
  Status bar, wallpaper, rofi and alacritty colors <br>
  ( Ganyu = Tokyo Night and HSGrl = Dracula )**
 
-</details></details>
-
-<h2></h2><br>
+</details></details><br>
 
 <h1>
   <a href="#--------">
     <img align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
-  <a>
-    <img align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
-  </a>
   <a href="#--------">
     <img align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
+  </a>
+  <a>
+    <img align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
 </h1><br>
 
