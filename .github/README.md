@@ -60,10 +60,10 @@ Status bar, wallpaper, rofi and alacritty colors </h3>
 
 <h1>
   <a href="#--------">
-    <img alt="" align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=162026&labelColor=162026&style=for-the-badge"/>
+    <img align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
   <a href="#--------">
-    <img alt="" align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?style=for-the-badge&color=162026&logoColor=white&labelColor=162026"/>
+    <img align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
 </h1><br>
 
