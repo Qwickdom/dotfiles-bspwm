@@ -56,9 +56,9 @@
  Status bar, wallpaper, rofi and alacritty colors <br>
  ( Ganyu = *Tokyo Night* and HSGrl = *Dracula* )
 
-</details></details><br>
+</details></details>
 
-<h2></h2><br>
+<h2></h2>
 
 <table align="center">
   <tr>
@@ -81,13 +81,13 @@
 
 <div align="center">
 
-<summary><strong>S E T U P</strong></summary>
+ ### S E T U P
 
- **Visit the [`wiki`](https://github.com/Qwickdom/dotfiles-bspwm/wiki) for more information** <br>
+ Visit the [`wiki`](https://github.com/Qwickdom/dotfiles-bspwm/wiki) for more information
 
-<summary><strong>A C K N O W L E D G E M E N T S</strong></summary>
+ ### A C K N O W L E D G E M E N T S
 
- **Special thanks for inspiring me to use Arch Linux** <br>
+ **Special thanks for inspiring me to use Arch Linux**
 
  [`rxyhn`](https://github.com/rxyhn)
  [`saimoomedits`](https://github.com/saimoomedits)
