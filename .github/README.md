@@ -3,7 +3,9 @@
 
  # **My Simple Dotfiles!**
 
- <br><a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a><br>
+ <br><a href="https://github.com/baskerville/bspwm">
+  <img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg" />
+</a><br>
 
  ### Welcome to my configuration files!
 
@@ -50,17 +52,13 @@
  | `Style-switch` | `Links`        |
  | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
 
- **The style switcher will change the following: <br>
+ **The style switcher will change the following:** <br>
  Status bar, wallpaper, rofi and alacritty colors <br>
- ( Ganyu = Tokyo Night and HSGrl = Dracula )**
+ ( Ganyu = *Tokyo Night* and HSGrl = *Dracula* )
 
 </details></details><br>
 
-<div align="center">
-  <img alt="Stars" align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
-  <img alt="Repo-size" align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
-  <img alt="Visits" align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
-</div><br>
+<h2></h2><br>
 
 <table align="center">
   <tr>
@@ -320,4 +318,3 @@
 </details><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=GPL-3.0&logoColor=ffffff&logo=github&colorA=000000&colorB=000000"/></a></p>
