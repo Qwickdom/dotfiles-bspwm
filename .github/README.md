@@ -56,17 +56,11 @@
 
 </details></details><br>
 
-<h1>
-  <a href="#--------">
-    <img align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
-  </a>
-  <a href="#--------">
-    <img align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
-  </a>
-  <a>
-    <img align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
-  </a>
-</h1><br>
+<div align="center">
+  <img alt="Stars" align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
+  <img alt="Repo-size" align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
+  <img alt="Visits" align="right" src="https://badges.pufler.dev/visits/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge">
+</div><br>
 
 <table align="center">
   <tr>
@@ -326,4 +320,4 @@
 </details><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=ffffff&logo=github&colorA=000000&colorB=000000"/></a></p>
+<p align="center"><a href="https://github.com/Qwickdom/dotfiles-bspwm/blob/main/.github/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=GPL-3.0&logoColor=ffffff&logo=github&colorA=000000&colorB=000000"/></a></p>
