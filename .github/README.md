@@ -1,58 +1,59 @@
+
 <div align=center>
 
-# **My Simple Dotfiles!**
+ # **My Simple Dotfiles!**
 
-<br><a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a><br>
+ <br><a href="https://github.com/baskerville/bspwm"><img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg"></a><br>
 
-### Welcome to my configuration files!
+ ### Welcome to my configuration files!
 
-Feel free to use anything from here but don't forget to give me **credits** ಠωಠ
+ Feel free to use anything from here but don't forget to give me **credits** ಠωಠ
 
-BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
-It only responds to X events, and the messages it receives on a dedicated socket. 
-Although it takes time and effort to configure it, but I'm satisfied with the result.
+ BSPWM is a tiling window manager that represents windows as the leaves of a full binary tree.
+ It only responds to X events, and the messages it receives on a dedicated socket. <br>
+ Although it takes time and effort to configure it, I'm satisfied with the result.
   
-**Here are some details about my setup**
+ **Here are some details about my setup**
 
-| Programs     | Using              |
-| ------------ | ------------------ |
-| `OS`         | [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)  |
-| `Kernel`     | [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels)   |
-| `Shell`      | [Bash](https://wiki.archlinux.org/title/Bash)        |
-| `WM`         | [BSPWM](https://wiki.archlinux.org/title/Bspwm)       |
-| `Gtk theme`  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)    |
-| `Icon theme` | [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) |
+ | Programs     | Using              |
+ | ------------ | ------------------ |
+ | `OS`         | [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)  |
+ | `Kernel`     | [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels)   |
+ | `Shell`      | [Bash](https://wiki.archlinux.org/title/Bash)        |
+ | `WM`         | [BSPWM](https://wiki.archlinux.org/title/Bspwm)       |
+ | `Gtk theme`  | [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)    |
+ | `Icon theme` | [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) |
 
 </div>
 
 <details align="center">
 <summary><strong>S H O T S</strong></summary><br>
 
-![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu.png)
+ ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu.png)
 
-| Terminal         | Sublime        |
-| ---------------- | -------------- |
-| ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
+ | Terminal         | Sublime        |
+ | ---------------- | -------------- |
+ | ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
 
-## Another style of desktop
+ ## Another style of desktop
 
-![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
+ ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
 
 <details align="center">
 <summary><strong>Shots rofi</strong></summary><br>
 
-| `Launcher`     |  `Windows`    |
-| -------------- | ------------- |
-| ![Rofi-lc](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
-| `Screenshot`   | `Powermenu`   |
-| ![Rofi-ss](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-pm](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
-| `Network`      | `MPD`         |
-| ![Rofi-nw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
-| `Style-switch` | `Links`        |
-| ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
+ | `Launcher`     |  `Windows`    |
+ | -------------- | ------------- |
+ | ![Rofi-lc](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
+ | `Screenshot`   | `Powermenu`   |
+ | ![Rofi-ss](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-pm](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
+ | `Network`      | `MPD`         |
+ | ![Rofi-nw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
+ | `Style-switch` | `Links`        |
+ | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
 
-<h3 font=bold> The style switcher will change the following: <br>
-Status bar, wallpaper, rofi and alacritty colors </h3>
+ <h3 font=bold> The style switcher will change the following: <br>
+ Status bar, wallpaper, rofi and alacritty colors </h3>
 
 </details></details>
 
@@ -70,32 +71,28 @@ Status bar, wallpaper, rofi and alacritty colors </h3>
 <table align="center">
   <tr>
     <th align="center">
-      <sup><sub>⚠ WARNING ⚠</sub></sup>
+      ⚠ WARNING ⚠
     </th>
   </tr>
   <tr>
     <td align="center">
-      <sup>
-         <sub>
-            <samp>
-                  THIS DOTFILES ARE CONFIGURED AT 1366x768 ON LAPTOP
-               <p align="center">
-                  BUT IT WILL STILL WORK PERFECTLY IN HIGH RESOLUTION
-               </p>
-                  DONT WORRY JUST INSTALL THESE DOTFILES AND GIVE THIS REPO A STARS
-            </samp>
-         </sub>
-      </sup>
+      <sub>
+        <samp>
+          THIS DOTFILES ARE CONFIGURED AT 1366x768 ON LAPTOP <br>
+          BUT IT WILL STILL WORK PERFECTLY IN HIGH RESOLUTION <br>
+          DONT WORRY JUST INSTALL THESE DOTFILES AND GIVE THIS REPO A STARS
+        </samp>
+      </sub>
     </td>
   </tr>
-</table>
+</table><br>
 
 <details align="center">
 <summary><strong>S E T U P</strong></summary><br>
 
-This setup only provided for **Arch Linux** (and all Arch-based distributions)
+ This setup only provided for **Arch Linux** (and all Arch-based distributions)
 
-Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
+ Some of these applications are available in the **Arch Linux User Repository** [(AUR)](https://aur.archlinux.org), to install them you need a [pacman wrapper](https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers). <br> I use [Yay](https://github.com/Jguer/yay)
 
 <details align="center">
 <summary>Install git and yay</summary>
@@ -282,49 +279,49 @@ Some of these applications are available in the **Arch Linux User Repository** [
 
 </td></tr> </table>
 
-Install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
+ Install [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#pacman) / [Sublime Merge](https://www.sublimemerge.com/docs/linux_repositories#pacman)
 
-Download ( [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) / [SiYuan](https://github.com/siyuan-note/siyuan/releases) )
+ Download ( [Dynalist](https://dynalist.io/download) / [Obsidian](https://obsidian.md/download) / [SiYuan](https://github.com/siyuan-note/siyuan/releases) )
 
-+ *In the case of Dynalist extract the archive, you've executable the dynalist file inside the dynalist-(version) folder and move the folder to the /opt directory*
+ + *In the case of Dynalist extract the archive, you've executable the dynalist file inside the dynalist-(version) folder and move the folder to the /opt directory*
 
-+ *In the case of Obsidian and SiYuan you've to make the .AppImage file executable and move it to the /opt directory*
+ + *In the case of Obsidian and SiYuan you've to make the .AppImage file executable and move it to the /opt directory*
 
 </div></details><br>
 
 <details align="center">
 <summary><strong>K E Y B I N D I N G S</strong></summary><div align=center><br>
 
-| Keybindings                  | Function                                      |
-| ---------------------------- | --------------------------------------------- |
-| `Super + Return`             | Launch (Alacritty)                            |
-| `Super + {Shift + }W`        | Close/Kill Window                             |
-| `Super + {Shift + }A`        | Launch (Chromium / Chromium incognito)        |
-| `Super + {Shift + }S`        | Launch (Sublime Text / Merge)                 |
-| `Super + {Shift + ,Alt + }D` | Launch (Dynalist / Obsidian / SiYuan)         |
-| `Super + X`                  | Launch (Pcmanfm)                              |
-| `Super + {1-5}`              | Switches to Workspace 1 to 5                  |
-| `Super + Shift + {1-9,0}`    | Move Apps/Windows to Workspace 1 to 5         |
-| `Super + Ctrl + {Z,X,A,S}`   | Flags {marked,locked,sticky,private}          |
-| `Super + {LESS,GREATER}`     | Hide windows                                  |
-| `Alt + {W,A,S,D,Z,X,C,L}`    | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch,links} |
-| `Alt + {Shift + }Tab`        | Focus next / previous window floating         |
-| `Alt + {U,I}`                | Increase / Decrease window gap                |
+ | Keybindings                  | Function                                      |
+ | ---------------------------- | --------------------------------------------- |
+ | `Super + Return`             | Launch (Alacritty)                            |
+ | `Super + {Shift + }W`        | Close/Kill Window                             |
+ | `Super + {Shift + }A`        | Launch (Chromium / Chromium incognito)        |
+ | `Super + {Shift + }S`        | Launch (Sublime Text / Merge)                 |
+ | `Super + {Shift + ,Alt + }D` | Launch (Dynalist / Obsidian / SiYuan)         |
+ | `Super + X`                  | Launch (Pcmanfm)                              |
+ | `Super + {1-5}`              | Switches to Workspace 1 to 5                  |
+ | `Super + Shift + {1-9,0}`    | Move Apps/Windows to Workspace 1 to 5         |
+ | `Super + Ctrl + {Z,X,A,S}`   | Flags {marked,locked,sticky,private}          |
+ | `Super + {LESS,GREATER}`     | Hide windows                                  |
+ | `Alt + {W,A,S,D,Z,X,C,L}`    | Menus/Applets {windows,screenshot,powermenu,network,launcher,mpd,style-switch,links} |
+ | `Alt + {Shift + }Tab`        | Focus next / previous window floating         |
+ | `Alt + {U,I}`                | Increase / Decrease window gap                |
 
-To launch ( Dynalist / Obsidian / SiYuan ) you need to have the same version in the `sxhkdrc` configuration file and keep the folder or file in the /opt directory
+ To launch ( Dynalist / Obsidian / SiYuan ) you need to have the same version in the `sxhkdrc` configuration file and keep the folder or file in the /opt directory
 
 </div></details><br>
 
 <details align="center">
 <summary><strong>A C K N O W L E D G E M E N T S</strong></summary><br>
 
-<h4> Special thanks for inspiring me to use Arch Linux </h4>
+ <h4> Special thanks for inspiring me to use Arch Linux </h4>
 
-[`rxyhn`](https://github.com/rxyhn)
-[`saimoomedits`](https://github.com/saimoomedits)
-[`vinceliuice`](https://github.com/vinceliuice)
-[`adi1090x`](https://github.com/adi1090x)
-[`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
+ [`rxyhn`](https://github.com/rxyhn)
+ [`saimoomedits`](https://github.com/saimoomedits)
+ [`vinceliuice`](https://github.com/vinceliuice)
+ [`adi1090x`](https://github.com/adi1090x)
+ [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
 
 </details><br>
 
