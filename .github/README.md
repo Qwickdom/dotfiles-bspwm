@@ -87,7 +87,7 @@
 
  ### A C K N O W L E D G E M E N T S
 
- **Special thanks for inspiring me to use Arch Linux**
+ Special thanks for inspiring me to use Arch Linux
 
  [`rxyhn`](https://github.com/rxyhn)
  [`saimoomedits`](https://github.com/saimoomedits)
