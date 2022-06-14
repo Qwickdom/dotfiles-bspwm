@@ -15,11 +15,11 @@
   
  **Here are some details about my setup**
 
- **OS** -> [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)
- **Kernel** -> [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels)
- **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash)
- **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm)
- **Gtk theme** -> [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)
+ **OS** -> [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) <br>
+ **Kernel** -> [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels) <br>
+ **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash) <br>
+ **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
+ **Gtk theme** -> [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
  **Icon theme** ->[Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme)
 
 </div>
@@ -62,7 +62,7 @@
   <a href="#--------">
     <img align="left" src="https://img.shields.io/github/stars/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
-  <a href="#--------">
+  <a>
     <img align="center" src="https://img.shields.io/github/repo-size/Qwickdom/dotfiles-bspwm?color=black&labelColor=black&style=for-the-badge"/>
   </a>
   <a href="#--------">
