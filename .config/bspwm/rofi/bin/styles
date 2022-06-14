@@ -43,8 +43,5 @@ elif  [[ "$1" = "--hsgrl" ]]; then
     change_alacritty
 
 else
-    cat <<- _EOF_
-    No option specified, Available options:
-    --ganyu   --hsgrl
-    _EOF_
+    echo "No option specified, Available options: --ganyu   --hsgrl"
 fi
