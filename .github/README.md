@@ -77,7 +77,7 @@
       </sub>
     </td>
   </tr>
-</table><br>
+</table>
 
 <div align="center">
 
