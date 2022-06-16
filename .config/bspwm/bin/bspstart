@@ -7,7 +7,7 @@ xsetroot -cursor_name left_ptr
 $HOME/.config/bspwm/.fehbg
 $HOME/.config/bspwm/polybar/launch.sh
 
-killall -9 picom dunst mpd
+killall -9 picom mpd
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --config $HOME/.config/bspwm/picom.conf &
 exec mpd &

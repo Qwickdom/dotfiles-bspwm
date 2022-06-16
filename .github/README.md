@@ -21,7 +21,7 @@
  **Kernel** -> [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels) <br>
  **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash) <br>
  **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
- **Gtk theme** -> [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
+ **Gtk theme** -> Tokyo Night / Dracula <br>
  **Icon theme** ->[Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme)
 
 </div>
@@ -34,6 +34,8 @@
  | Terminal         | Sublime        |
  | ---------------- | -------------- |
  | ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
+ | Vim Tokyo Night | Vim Dracula   |
+ | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-ganyu.png)     | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-hsgrl.png)    |
 
  ## Another style of desktop
 
@@ -53,7 +55,7 @@
  | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
 
  **The style switcher will change the following:** <br>
- Status bar, wallpaper, rofi and alacritty colors <br>
+ Status bar, wallpaper, gtk, vim, rofi and alacritty colors <br>
  ( Ganyu = *Tokyo Night* and HSGrl = *Dracula* )
 
 </details></details>
