@@ -37,6 +37,9 @@
  | Vim Tokyo Night | Vim Dracula   |
  | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-ganyu.png)     | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-hsgrl.png)    |
 
+ Install the plugins to *Vim* with **:PlugInstall** <br>
+ See how to use [Vim-Plug](https://github.com/junegunn/vim-plug)
+
  ## Another style of desktop
 
  ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
