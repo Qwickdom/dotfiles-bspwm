@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-dir="$HOME/.config/bspwm/rofi/themes"
-rofi_command="rofi -theme $dir/links.rasi"
+dirb="$HOME/.config/bspwm/rofi/bin"
+dirt="$HOME/.config/bspwm/rofi/themes"
+rofi_command="rofi -theme $dirt/links.rasi"
 
 # Browser
 app="chromium --incognito"
@@ -13,24 +14,34 @@ search=""
 mail=""
 youtube=""
 
-# Variable passed to rofi
-options="$arch\n$github\n$search\n$mail\n$youtube"
+# Internet is ok?
+STATUS="$(nmcli radio wifi)"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Quicklinks | Chromium Incognito" -dmenu -selected-row 2)"
-case $chosen in
-    $arch)
+if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 github.com || ping -c 1 sourceforge.net) \
+    &>/dev/null; then
+  if [[ $STATUS == *"enable"* ]]; then
+    # Variable passed to rofi
+    options="$arch\n$github\n$search\n$mail\n$youtube"
+
+    chosen="$(echo -e "$options" | $rofi_command -p "Quicklinks | Chromium Incognito" -dmenu -selected-row 2)"
+    case $chosen in
+      $arch)
         $app 'https://www.archlinux.org' &
         ;;
-    $github)
-        $app 'https://www.github.com/Qwickdom' &
+      $github)
+        $dirb/git
         ;;
-    $search)
-        $HOME/.config/bspwm/rofi/bin/duckgoo
+      $search)
+        $dirb/duckgoo
         ;;
-    $mail)
+      $mail)
         $app 'https://www.gmail.com' &
         ;;
-    $youtube)
-        $HOME/.config/bspwm/rofi/bin/yt
+      $youtube)
+        $dirb/yt
         ;;
-esac
+    esac
+  fi
+else
+  rofi -theme $dirt/askpass.rasi -e "     Disconnected"
+fi

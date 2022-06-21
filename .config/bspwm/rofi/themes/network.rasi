@@ -13,7 +13,7 @@ window {
     border:                                  2px;
     border-color:                      @selected;
     border-radius:                          20px;
-    width:                                 181px;
+    width:                                 256px;
     location:                             center;
     anchor:                               center;
     x-offset:                                  0;
@@ -46,7 +46,7 @@ inputbar {
     spacing:                                   0;
     background-color:                @background;
     text-color:                      @foreground;
-    border:                      2px 2px 2px 2px;
+    border:                                  2px;
     border-radius:                          20px;
     border-color:                      @selected;
     expand:                                false;
@@ -58,7 +58,7 @@ inputbar {
 listview {
     background-color:                @background;
     columns:                                   1;
-    lines:                                     2;
+    lines:                                    15;
     spacing:                                10px;
     cycle:                                  true;
     dynamic:                                true;

@@ -1,11 +1,10 @@
-
 <div align=center>
 
  # **My Simple Dotfiles!**
 
- <br><a href="https://github.com/baskerville/bspwm">
-  <img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg" />
-</a><br>
+  <br><a href="https://github.com/baskerville/bspwm">
+    <img alt="BSPWM Logo" height="150" align = "center" src="https://github.com/baskerville/bspwm/blob/1560df35be303807052c235634eb8d59415c37ff/artworks/bspwm_logo.svg" />
+  </a><br>
 
  ### Welcome to my configuration files!
 
@@ -44,26 +43,11 @@
 
  ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
 
-<details align="center">
-<summary><strong>Shots rofi</strong></summary><br>
+ See rofi shots and info [here](https://github.com/Qwickdom/rofi)
 
- | `Launcher`     |  `Windows`    |
- | -------------- | ------------- |
- | ![Rofi-lc](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/launcher.png) | ![Rofi-w](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/windows.png) |
- | `Screenshot`   | `Powermenu`   |
- | ![Rofi-ss](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/screenshot.png) | ![Rofi-pm](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/powermenu.png) |
- | `Network`      | `MPD`         |
- | ![Rofi-nw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/network.png) | ![Rofi-m](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/mpd.png) |
- | `Style-switch` | `Links`        |
- | ![Rofi-sw](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/style-switch.png)| ![Rofi-lk](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Rofi/links.png) |
+</details>
 
- **The style switcher will change the following:** <br>
- Status bar, wallpaper, gtk, vim, rofi and alacritty colors <br>
- ( Ganyu = *Tokyo Night* and HSGrl = *Dracula* )
-
-</details></details>
-
-<h2></h2>
+---
 
 <table align="center">
   <tr>
@@ -99,6 +83,14 @@
  [`vinceliuice`](https://github.com/vinceliuice)
  [`adi1090x`](https://github.com/adi1090x)
  [`axyl-os`](https://github.com/axyl-os/axyl-bspwm)
+
+ And thanks for sharing code
+
+ [`ghifarit53`](https://github.com/ghifarit53/tokyonight-vim)
+ [`nickclyde`](https://github.com/nickclyde/rofi-bluetooth)
+ [`P3rf`](https://github.com/P3rf/rofi-network-manager)
+ [`miroslavvidovic`](https://github.com/miroslavvidovic/rofi-scripts)
+ [`gilbertw1`](https://github.com/gilbertw1/roficlip)
 
 </div><br>
 

@@ -14,7 +14,8 @@ super + {_,shift + }s
 
 # lists/markdown
 super + {_,shift + ,alt + }d
-    exec /opt/{dynalist-1.0.6/dynalist,Obsidian-0.14.15.AppImage,siyuan-2.0.19-linux.AppImage}
+    exec /opt/{dynalist-1.0.6/dynalist,Obsidian-0.14.15.AppImage,\
+    siyuan-2.0.19-linux.AppImage}
 
 # file manager
 super + x
@@ -27,8 +28,9 @@ super + Escape
 # ----- rofi ----- #
 
 # menu / applets
-alt + {w,a,s,d,z,x,c,l}
-    sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,launcher,mpd,style-switch,links}
+alt + {w,a,s,d,z,i,j,k,l,m}
+    sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,\
+    launcher,mpd,style-switch,links,blue,clip}
 
 # ----- bspwm hotkeys ----- #
 
@@ -107,6 +109,9 @@ alt + {_,shift + }Tab
 super + ctrl + {h,j,k,l}
     bspc node -p {west,south,north,east}
 
+super + ctrl + {Left,Down,Up,Right}
+    bspc node -p {west,south,north,east}
+
 # preselect the ratio
 super + ctrl + {1-9}
     bspc node -o 0.{1-9}
@@ -132,11 +137,11 @@ super + alt + shift + {Left,Down,Up,Right}
     bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-super + ctrl + {Left,Down,Up,Right}
+alt + shift + {Left,Down,Up,Right}
     bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # increase/decrease window gap
-alt + {u,i}
+alt + shift + {u,i}
     bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
 
 # hide windows

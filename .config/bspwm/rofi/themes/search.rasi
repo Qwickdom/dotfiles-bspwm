@@ -7,7 +7,7 @@
 }
 
 window {
-    width:                       350px;
+    width:                       500px;
     padding:                      10px;
     border:                        2px;
     border-radius:                20px;

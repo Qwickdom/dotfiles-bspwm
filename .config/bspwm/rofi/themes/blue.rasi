@@ -1,9 +1,6 @@
 configuration {
     font:                "JetBrainsMono Nerd Font 10";
     show-icons:                                 false;
-    display-window:                        "Windows:";
-    window-format:              "{w}  ·  {c}  ·  {t}";
-    disable-history:                            false;
     click-to-exit:                               true;
 }
 
@@ -16,7 +13,7 @@ window {
     border:                                       2px;
     border-color:                           @selected;
     border-radius:                               20px;
-    width:                                      500px;
+    width:                                      400px;
     location:                                  center;
     anchor:                                    center;
     x-offset:                                       0;
@@ -36,30 +33,16 @@ prompt {
 
 textbox-prompt-colon {
     expand:                                     false;
-    str:                                         " ";
+    str:                                          "";
     border-radius:                                0px;
     background-color:                       @selected;
     text-color:                           @background;
     padding:                        6px 10px 6px 10px;
-    font:                "JetBrainsMono Nerd Font 10";
-}
-
-entry {
-    background-color:                     @background;
-    text-color:                           @foreground;
-    border:                           0px 0px 0px 0px;
-    border-radius:                                0px;
-    border-color:                           @selected;
-    placeholder-color:                    @foreground;
-    placeholder:                            "Find...";
-    expand:                                      true;
-    horizontal-align:                               0;
-    blink:                                       true;
-    padding:                                      6px;
+    font:                "JetBrainsMono Nerd Font 12";
 }
 
 inputbar {
-    children: [ textbox-prompt-colon, prompt, entry ];
+    children:        [ textbox-prompt-colon, prompt ];
     spacing:                                        0;
     background-color:                     @background;
     text-color:                           @foreground;
@@ -75,7 +58,7 @@ inputbar {
 listview {
     background-color:                     @background;
     columns:                                        1;
-    lines:                                          7;
+    lines:                                         12;
     spacing:                                      5px;
     cycle:                                       true;
     dynamic:                                     true;
@@ -95,15 +78,6 @@ element {
     orientation:                           horizontal;
     border-radius:                               20px;
     padding:                                      5px;
-}
-
-element-icon {
-    background-color:                         inherit;
-    text-color:                               inherit;
-    horizontal-align:                             0.5;
-    vertical-align:                               0.5;
-    size:                                         0px;
-    border:                                       0px;
 }
 
 element-text {

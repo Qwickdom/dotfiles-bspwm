@@ -1,0 +1,3 @@
+[submodule ".config/bspwm/rofi"]
+	path = .config/bspwm/rofi
+	url = https://github.com/Qwickdom/rofi.git

@@ -13,7 +13,7 @@ window {
     border:                                  2px;
     border-color:                      @selected;
     border-radius:                          20px;
-    width:                                 207px;
+    width:                                 275px;
     location:                             center;
     anchor:                               center;
     x-offset:                                  0;
@@ -80,7 +80,7 @@ element {
     border:                                  2px;
     border-radius:                          20px;
     border-color:                      @selected;
-    padding:             23.5px 30px 23.5px 30px;
+    padding:             23.5px 25px 23.5px 25px;
 }
 
 element-text {

@@ -1,37 +1,37 @@
 colors:
   primary:
-    foreground: '#f8f8f2'
-#    background: '#282a36'
-    background: '#000000'
+    foreground:   '#f8f8f2'
+#    background:   '#282a36'
+    background:   '#000000'
     bright_foreground: '#ffffff'
 
   normal:
-    black:      '#21222c'
-    red:        '#ff5555'
-    green:      '#50fa7b'
-    yellow:     '#f1fa8c'
-    blue:       '#bd93f9'
-    magenta:    '#ff79c6'
-    cyan:       '#8be9fd'
-    white:      '#f8f8f2'
+    black:        '#21222c'
+    red:          '#ff5555'
+    green:        '#50fa7b'
+    yellow:       '#f1fa8c'
+    blue:         '#bd93f9'
+    magenta:      '#ff79c6'
+    cyan:         '#8be9fd'
+    white:        '#f8f8f2'
 
   bright:
-    black:      '#6272a4'
-    red:        '#ff6e6e'
-    green:      '#69ff94'
-    yellow:     '#ffffa5'
-    blue:       '#d6acff'
-    magenta:    '#ff92df'
-    cyan:       '#a4ffff'
-    white:      '#ffffff'
+    black:        '#6272a4'
+    red:          '#ff6e6e'
+    green:        '#69ff94'
+    yellow:       '#ffffa5'
+    blue:         '#d6acff'
+    magenta:      '#ff92df'
+    cyan:         '#a4ffff'
+    white:        '#ffffff'
   
   cursor:
-    text:       CellBackground
-    cursor:     CellForeground
+    text:         CellBackground
+    cursor:       CellForeground
   
   vi_mode_cursor:
-    text:       CellBackground
-    cursor:     CellForeground
+    text:         CellBackground
+    cursor:       CellForeground
   
   search:
     matches:

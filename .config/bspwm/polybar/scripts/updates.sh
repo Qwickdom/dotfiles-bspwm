@@ -1,6 +1,5 @@
 #!/bin/sh
 
-IFACE="$(nmcli | grep -i interface | awk '/interface/ {print $2}')"
 STATUS="$(nmcli radio wifi)"
 
 if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 github.com || ping -c 1 sourceforge.net) &>/dev/null; then

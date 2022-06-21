@@ -6,6 +6,7 @@ alias bc='bspc config'
 alias br='bspc rule -a'
 
 bspc monitor eDP1 -d I II III IV V
+bspc monitor HDMI1 -d VI VII VII IX X
 
 bc border_width          0
 bc window_gap            5
@@ -15,8 +16,10 @@ bc gapless_monocle       true
 bc single_monocle        true
 bc focus_follows_pointer true
 
+br feh             focus=on state=floating
+br alacritty-float focus=on state=floating
+
 br Alacritty       desktop='^1' follow=on focus=on
-br alacritty-float desktop='^1' follow=on focus=on state=floating
 br Sublime_text    desktop='^2' follow=on focus=on
 br Sublime_merge   desktop='^2' follow=on focus=on
 br Chromium        desktop='^3' follow=on focus=on
@@ -26,3 +29,5 @@ br SiYuan          desktop='^4' follow=on focus=on
 br Gimp-2.10       desktop='^5' follow=on focus=on
 br Pcmanfm         desktop='^5' follow=on focus=on
 br Lxappearance    desktop='^5' follow=on focus=on
+br Pavucontrol     desktop='^5' follow=on focus=on
+br Arandr          desktop='^5' follow=on focus=on
