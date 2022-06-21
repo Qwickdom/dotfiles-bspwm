@@ -43,9 +43,6 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set shm+=I
 
-let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 1
-
 " # ----- Plugin settings ----- #
 
 nmap <F5> :NERDTreeToggle<CR>
@@ -104,5 +101,9 @@ let g:startify_files_number = 5
 let g:startify_padding_left = 3
 let g:startify_custom_indices = []
 let g:startify_custom_indices = ['', '', '', '', '', '', '', '', '', '']
+
+" # tokionight
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
 
 colorscheme tokyonight
