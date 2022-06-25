@@ -1,6 +1,6 @@
 #! /bin/sh
 
-$HOME/.config/bspwm/bin/bspstart
+$HOME/.config/bspwm/bin/bspstart.sh
 
 alias bc='bspc config'
 alias br='bspc rule -a'
@@ -8,16 +8,20 @@ alias br='bspc rule -a'
 bspc monitor eDP1 -d I II III IV V
 bspc monitor HDMI1 -d VI VII VII IX X
 
-bc border_width          0
-bc window_gap            5
-bc split_ratio           0.5
-bc borderless_monocle    true
-bc gapless_monocle       true
-bc single_monocle        true
-bc focus_follows_pointer true
+bc remove_disabled_monitors  true
+bc remove_unplugged_monitors true
 
-br feh             focus=on state=floating
+bc border_width              0
+bc window_gap                5
+bc split_ratio               0.5
+bc borderless_monocle        true
+bc gapless_monocle           true
+bc single_monocle            true
+bc focus_follows_pointer     true
+
 br alacritty-float focus=on state=floating
+br feh             focus=on state=floating
+br Viewnior        focus=on state=floating
 
 br Alacritty       desktop='^1' follow=on focus=on
 br Sublime_text    desktop='^2' follow=on focus=on

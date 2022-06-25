@@ -15,7 +15,7 @@ super + {_,shift + }s
 # lists/markdown
 super + {_,shift + ,alt + }d
     exec /opt/{dynalist-1.0.6/dynalist,Obsidian-0.14.15.AppImage,\
-    siyuan-2.0.19-linux.AppImage}
+    siyuan-2.0.23-linux.AppImage}
 
 # file manager
 super + x
@@ -30,7 +30,7 @@ super + Escape
 # menu / applets
 alt + {w,a,s,d,z,i,j,k,l,m}
     sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,\
-    launcher,mpd,style-switch,links,blue,clip}
+    launcher,mpd,style-switch,links,blue,clip}.sh
 
 # ----- bspwm hotkeys ----- #
 
@@ -151,9 +151,18 @@ super + {less,greater}
 # ----- system ----- #
 
 # audio volume
+# XF86Audio{LowerVolume,RaiseVolume,Mute}
+#     pactl set-sink-{volume 0 -5%,volume 0 +5%,mute 0 toggle}
+
 XF86Audio{LowerVolume,RaiseVolume,Mute}
-    pactl set-sink-{volume 0 -5%,volume 0 +5%,mute 0 toggle}
+    sh ~/.config/bspwm/bin/volume.sh {--dec,--inc,--toggle}
 
 # brightness
+# XF86MonBrightness{Down,Up}
+#     xbacklight {-dec 5,-inc 5}
+
 XF86MonBrightness{Down,Up}
-    xbacklight {-dec 5,-inc 5}
+    sh ~/.config/bspwm/bin/brightness.sh {--dec,--inc}
+
+super + XF86MonBrightness{Down,Up}
+    sh ~/.config/bspwm/bin/brightness.sh {--off,--on}
