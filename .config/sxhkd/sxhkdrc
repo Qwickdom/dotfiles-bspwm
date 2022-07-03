@@ -9,8 +9,8 @@ super + {_,shift + }a
   {chromium,chromium --incognito}
 
 # code editor/git client
-super + {_,shift + ,alt + }s
-  {subl,smerge,exec ~/.apps/VSCode/code}
+super + {_,shift + }s
+  {subl,smerge}
 
 # lists/markdown
 super + {_,shift + ,alt + }d
