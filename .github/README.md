@@ -16,21 +16,24 @@
   
  **Here are some details about my setup**
 
- **OS** -> [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) <br>
- **Kernel** -> [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels) <br>
- **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash) <br>
- **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
- **Gtk theme** -> Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
- **Icon theme** -> [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula} <br>
- **Cursor theme** -> [Simp1e](https://www.gnome-look.org/p/1405210) <br>
- {Tokyo-Night, Catppuccin, Simp1e-White}
+ **OS ->** [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) <br>
+ **Kernel ->** [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels) <br>
+ **Shell ->** [Bash](https://wiki.archlinux.org/title/Bash) <br>
+ **WM ->** [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
+
+ **Themes** <br>
+ **Gtk ->** Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
+ **Icon ->** [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula} <br>
+ **Cursor ->** [Simp1e](https://www.gnome-look.org/p/1405210) {Tokyo-Night, Catppuccin, Simp1e-White}
 
 </div>
 
 <details align="center">
 <summary><strong>S H O T S</strong></summary><br>
 
- ![Ganyu](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Ganyu-style.png)
+ | Ganyu        |
+ |     :---:    |
+ | ![Ganyu](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Ganyu-style.png) |
 
  | Terminals         | Sublime          | Pcmanfm           |
  | ----------------- | ---------------- | ----------------- |
