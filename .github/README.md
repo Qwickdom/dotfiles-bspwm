@@ -21,8 +21,9 @@
  **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash) <br>
  **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
  **Gtk theme** -> Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
- **Icon theme** -> [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula}
- **Cursor theme** -> Simp1e {Tokyo-Night, Catppuccin, Simp1e-White}
+ **Icon theme** -> [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula} <br>
+ **Cursor theme** -> [Simp1e] <br>
+ {Tokyo-Night, Catppuccin, Simp1e-White}
 
 </div>
 
@@ -44,7 +45,7 @@
 
  | HSGtl         | MFuji           |
  | ------------- | --------------- |
- | ![HSGrl](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/HSGrl-style.png) | ![Blue-off](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/MFuji.png) |    
+ | ![HSGrl](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/HSGrl-style.png) | ![MFuji](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/MFuji-style.png) |    
 
  See rofi shots and info [here](https://github.com/Qwickdom/rofi)
 
