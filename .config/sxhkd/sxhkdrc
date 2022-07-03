@@ -2,164 +2,163 @@
 
 # terminal emulator
 super + Return
-    alacritty
+  alacritty
 
 # browser/incognito
 super + {_,shift + }a
-    {chromium,chromium --incognito}
+  {chromium,chromium --incognito}
 
 # code editor/git client
-super + {_,shift + }s
-    {subl,smerge}
+super + {_,shift + ,alt + }s
+  {subl,smerge,exec ~/.apps/VSCode/code}
 
 # lists/markdown
 super + {_,shift + ,alt + }d
-    exec /opt/{dynalist-1.0.6/dynalist,Obsidian-0.14.15.AppImage,\
-    siyuan-2.0.23-linux.AppImage}
+  exec ~/.apps/{Dynalist/dynalist,Obsidian.AppImage,Siyuan.AppImage}
 
 # file manager
 super + x
-    pcmanfm
+  pcmanfm
 
 # make sxhkd reload its configuration files:
 super + Escape
-    pkill -USR1 -x sxhkd
+  pkill -USR1 -x sxhkd
 
 # ----- rofi ----- #
 
 # menu / applets
 alt + {w,a,s,d,z,i,j,k,l,m}
-    sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,\
-    launcher,mpd,style-switch,links,blue,clip}.sh
+  sh ~/.config/bspwm/rofi/bin/{windows,screenshot,powermenu,network,\
+  launcher,mpd,style-switch,links,blue,clip}.sh
 
 # ----- bspwm hotkeys ----- #
 
 # quit/restart bspwm
 super + alt + {q,r}
-    bspc {quit,wm -r}
+  bspc {quit,wm -r}
 
 # close and kill
 super + {_,shift + }w
-    bspc node -{c,k}
+  bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
 super + m
-    bspc desktop -l next
+  bspc desktop -l next
 
 # send the newest marked node to the newest preselected node
 super + y
-    bspc node newest.marked.local -n newest.!automatic.local
+  bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
 super + g
-    bspc node -s biggest.window
+  bspc node -s biggest.window
 
 # ----- state/flags ----- #
 
 # set the window state
 super + {t,shift + t,f,shift + f}
-    bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+  bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
-super + ctrl + {z,x,a,s}
-    bspc node -g {marked,locked,sticky,private}
+super + ctrl + {a,s,z,x}
+  bspc node -g {sticky,private,locked,marked}
 
 #----- focus/swap ----- #
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
-    bspc node -{f,s} {west,south,north,east}
+  bspc node -{f,s} {west,south,north,east}
 
 super + {_,shift + }{Left,Down,Up,Right}
-    bspc node -{f,s} {west,south,north,east}
+  bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
 super + {p,b,comma,period}
-    bspc node -f @{parent,brother,first,second}
+  bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
 super + {_,shift + }c
-    bspc node -f {next,prev}.local.!hidden.window
+  bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
-    bspc desktop -f {prev,next}.local
+  bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
 super + {grave,Tab}
-    bspc {node,desktop} -f last
+  bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
-    bspc wm -h off; \
-    bspc node {older,newer} -f; \
-    bspc wm -h on
+  bspc wm -h off; \
+  bspc node {older,newer} -f; \
+  bspc wm -h on
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
-    bspc {desktop -f,node -d} '^{1-9,10}'
+  bspc {desktop -f,node -d} '^{1-9,10}'
 
 # focus the next/previous window floating
 alt + {_,shift + }Tab
-    bspc node -f {next.local,prev.local}
+  bspc node -f {next.local,prev.local}
 
 # ----- preselect ----- #
 
 # preselect the direction
 super + ctrl + {h,j,k,l}
-    bspc node -p {west,south,north,east}
+  bspc node -p {west,south,north,east}
 
 super + ctrl + {Left,Down,Up,Right}
-    bspc node -p {west,south,north,east}
+  bspc node -p {west,south,north,east}
 
 # preselect the ratio
 super + ctrl + {1-9}
-    bspc node -o 0.{1-9}
+  bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
 super + ctrl + {_,shift + }space
-    {bspc node -p cancel,bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel}
+  {bspc node -p cancel,bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel}
 
 # ----- move/resize ----- #
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
-    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+  bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 super + alt + {Left,Down,Up,Right}
-    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+  bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
-    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+  bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 super + alt + shift + {Left,Down,Up,Right}
-    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+  bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
 alt + shift + {Left,Down,Up,Right}
-    bspc node -v {-20 0,0 20,0 -20,20 0}
+  bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # increase/decrease window gap
 alt + shift + {u,i}
-    bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
+  bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
 
 # hide windows
 super + {less,greater}
-    bspc node $(bspc query -N -d -n .hidden | head -n 1) -g hidden
+  bspc node $(bspc query -N -d -n .hidden | head -n 1) -g hidden
 
 # ----- system ----- #
 
 # audio volume
-# XF86Audio{LowerVolume,RaiseVolume,Mute}
-#     pactl set-sink-{volume 0 -5%,volume 0 +5%,mute 0 toggle}
+#XF86Audio{LowerVolume,RaiseVolume,Mute}
+#  pactl set-sink-{volume 0 -5%,volume 0 +5%,mute 0 toggle}
 
-XF86Audio{LowerVolume,RaiseVolume,Mute}
-    sh ~/.config/bspwm/bin/volume.sh {--dec,--inc,--toggle}
+XF86Audio{Mute,LowerVolume,RaiseVolume}
+  sh ~/.config/bspwm/bin/volume.sh {--togg,--dec,--inc}
 
 # brightness
-# XF86MonBrightness{Down,Up}
-#     xbacklight {-dec 5,-inc 5}
+#XF86MonBrightness{Down,Up}
+#  xbacklight {-dec 5,-inc 5}
 
-XF86MonBrightness{Down,Up} + {_,super + }
-    sh ~/.config/bspwm/bin/brightness.sh {--dec,--inc,--off,--on}
+XF86MonBrightness{Down,Up} + {_,super + ,alt + }
+  sh ~/.config/bspwm/bin/brightness.sh {--dec,--inc,--togf,--togn,--decr,--incr}

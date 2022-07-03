@@ -8,6 +8,7 @@
     "font_face": "JetBrainsMono Nerd Font",
     "font_size": 10,
     "spell_check": true,
+    "tab_size": 2,
     "translate_tabs_to_spaces": true,
     "dictionary": "Packages/Language - Spanish/es_MX.dic",
     "theme": "Adaptive.sublime-theme",

@@ -1,0 +1,56 @@
+[global]
+title = Dunst
+class = Dunst
+origin = top-center
+alignment = center
+vertical_alignment = center
+width = (100,250)
+height = 150
+offset = 0x30
+corner_radius = 20
+frame_width = 2
+frame_color = "#bd93f9"
+notification_limit = 5
+font = BitstreamVeraSansMono Nerd Font Roman 12
+
+indicate_hidden = yes
+separator_height = 2
+padding = 8
+horizontal_padding = 16
+separator_color = auto
+line_height = 0
+markup = full
+idle_threshold = 120
+show_age_threshold = 60
+sort = no
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = no
+show_indicators = yes
+sticky_history = no
+history_length = 200
+always_run_script = true
+follow = mouse
+
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+[urgency_low]
+timeout = 3
+foreground = "#f8f8f2"
+background = "#282a36"
+highlight = "#a0bccd"
+
+[urgency_normal]
+timeout = 5
+foreground = "#f8f8f2"
+background = "#282a36"
+highlight = "#a0bccd"
+
+[urgency_critical]
+timeout = 0
+foreground = "#d78787"
+background = "#0f0f17"
+highlight = "#d78787"

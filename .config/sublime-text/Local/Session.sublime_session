@@ -3,9 +3,9 @@
 	[
 	],
 	"last_version": 4126,
-	"last_window_id": 31,
+	"last_window_id": 49,
 	"log_indexing": false,
-	"next_update_check": 1655081052,
+	"next_update_check": 1656876326,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -17,102 +17,6 @@
 			{
 				"selected_items":
 				[
-					[
-						"se",
-						"search"
-					],
-					[
-						"t",
-						"time"
-					],
-					[
-						"cha",
-						"change_alacritty"
-					],
-					[
-						"c",
-						"change_alacritty"
-					],
-					[
-						"ch",
-						"change_rofi"
-					],
-					[
-						"ro",
-						"rofi_command"
-					],
-					[
-						"ba",
-						"bar2"
-					],
-					[
-						"cf",
-						"cfeh"
-					],
-					[
-						"fe",
-						"fehbg"
-					],
-					[
-						"f",
-						"fehbg"
-					],
-					[
-						"D",
-						"DIR"
-					],
-					[
-						"hs",
-						"hsgrl"
-					],
-					[
-						"gan",
-						"ganyu"
-					],
-					[
-						"N",
-						"No"
-					],
-					[
-						"H",
-						"HSGrl"
-					],
-					[
-						"laun",
-						"launch_bar"
-					],
-					[
-						"co",
-						"config"
-					],
-					[
-						"DI",
-						"DIR"
-					],
-					[
-						"w",
-						"wifi_con"
-					],
-					[
-						"WI",
-						"wifi_dis"
-					],
-					[
-						"e",
-						"else"
-					],
-					[
-						"wi",
-						"wifi_con"
-					],
-					[
-						"monocle",
-						"single_monocle"
-					],
-					[
-						"mono",
-						"borderless_monocle"
-					]
 				]
 			},
 			"build_system_choices":
@@ -120,33 +24,17 @@
 				[
 					[
 						[
-							"Packages/Golang Build/Go.sublime-build",
+							"Packages/MarkdownPreview/Markdown.sublime-build",
 							""
 						],
 						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Run"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Test"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Install"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Cross-Compile (Interactive)"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Clean"
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
 						]
 					],
 					[
-						"Packages/Golang Build/Go.sublime-build",
-						"Test"
+						"Packages/MarkdownPreview/Markdown.sublime-build",
+						""
 					]
 				],
 				[
@@ -164,6 +52,22 @@
 						"Packages/Python/Python.sublime-build",
 						""
 					]
+				],
+				[
+					[
+						[
+							"Packages/ShellScript/ShellScript.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/ShellScript/ShellScript.sublime-build",
+						""
+					]
 				]
 			],
 			"build_varint": "",
@@ -173,16 +77,12 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"Package Control: ",
-						"Package Control: Upgrade Package"
-					]
 				],
 				"width": 0.0
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 130.0,
 				"history":
 				[
 				]
@@ -205,7 +105,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 101.0,
 				"where_history":
 				[
 				]
@@ -237,7 +137,7 @@
 			},
 			"input":
 			{
-				"height": 40.0
+				"height": 61.0
 			},
 			"menu_visible": true,
 			"output.exec":
@@ -252,11 +152,15 @@
 			{
 				"height": 132.0
 			},
+			"output.markdown":
+			{
+				"height": 126.0
+			},
 			"output.mdpopups":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"pinned_build_system": "",
 			"replace":
 			{
 				"height": 50.0
@@ -293,7 +197,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 189.0,
+			"side_bar_width": 201.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -308,140 +212,28 @@
 			{
 				"selected_items":
 				[
-					[
-						"se",
-						"search"
-					],
-					[
-						"t",
-						"time"
-					],
-					[
-						"cha",
-						"change_alacritty"
-					],
-					[
-						"c",
-						"change_alacritty"
-					],
-					[
-						"ch",
-						"change_rofi"
-					],
-					[
-						"ro",
-						"rofi_command"
-					],
-					[
-						"ba",
-						"bar2"
-					],
-					[
-						"cf",
-						"cfeh"
-					],
-					[
-						"fe",
-						"fehbg"
-					],
-					[
-						"f",
-						"fehbg"
-					],
-					[
-						"D",
-						"DIR"
-					],
-					[
-						"hs",
-						"hsgrl"
-					],
-					[
-						"gan",
-						"ganyu"
-					],
-					[
-						"N",
-						"No"
-					],
-					[
-						"H",
-						"HSGrl"
-					],
-					[
-						"laun",
-						"launch_bar"
-					],
-					[
-						"co",
-						"config"
-					],
-					[
-						"DI",
-						"DIR"
-					],
-					[
-						"w",
-						"wifi_con"
-					],
-					[
-						"WI",
-						"wifi_dis"
-					],
-					[
-						"e",
-						"else"
-					],
-					[
-						"wi",
-						"wifi_con"
-					],
-					[
-						"monocle",
-						"single_monocle"
-					],
-					[
-						"mono",
-						"borderless_monocle"
-					]
 				]
 			},
 			"buffers":
 			[
 			],
-			"build_system": "",
+			"build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
 			"build_system_choices":
 			[
 				[
 					[
 						[
-							"Packages/Golang Build/Go.sublime-build",
+							"Packages/MarkdownPreview/Markdown.sublime-build",
 							""
 						],
 						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Run"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Test"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Install"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Cross-Compile (Interactive)"
-						],
-						[
-							"Packages/Golang Build/Go.sublime-build",
-							"Clean"
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
 						]
 					],
 					[
-						"Packages/Golang Build/Go.sublime-build",
-						"Test"
+						"Packages/MarkdownPreview/Markdown.sublime-build",
+						""
 					]
 				],
 				[
@@ -459,6 +251,22 @@
 						"Packages/Python/Python.sublime-build",
 						""
 					]
+				],
+				[
+					[
+						[
+							"Packages/ShellScript/ShellScript.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/ShellScript/ShellScript.sublime-build",
+						""
+					]
 				]
 			],
 			"build_varint": "",
@@ -468,16 +276,12 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"Package Control: ",
-						"Package Control: Upgrade Package"
-					]
 				],
 				"width": 0.0
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 130.0,
 				"history":
 				[
 				]
@@ -491,6 +295,9 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+			],
 			"file_history":
 			[
 			],
@@ -500,7 +307,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 101.0,
 				"where_history":
 				[
 				]
@@ -526,6 +333,11 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+				}
+			],
 			"groups":
 			[
 				{
@@ -540,7 +352,7 @@
 			},
 			"input":
 			{
-				"height": 40.0
+				"height": 61.0
 			},
 			"layout":
 			{
@@ -577,11 +389,15 @@
 			{
 				"height": 132.0
 			},
+			"output.markdown":
+			{
+				"height": 126.0
+			},
 			"output.mdpopups":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/Golang Build/Go.sublime-build",
+			"pinned_build_system": "",
 			"position": "0,0,0,0,0,0,29,1366,768,1366,768,1",
 			"project": "",
 			"replace":
@@ -624,12 +440,12 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 189.0,
+			"side_bar_width": 201.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 30,
+			"window_id": 45,
 			"workspace_name": ""
 		}
 	],

@@ -230,7 +230,8 @@
     */
     "autoformat_ignore":
     [
-        "E309"
+        "E309",
+        "E121"
     ],
 
     /*
@@ -365,6 +366,7 @@
     */
     "pep8_ignore":
     [
+        "E111",
         "E309",
         "W503"
     ],
@@ -678,7 +680,7 @@
         "current_test": "",
         "project_tests": ""
     },
-    "swallow_startup_errors": false,
+    "swallow_startup_errors": true,
 
     /*
         If this is set to true, anaconda will unload plugins that

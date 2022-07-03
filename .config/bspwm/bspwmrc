@@ -5,33 +5,43 @@ $HOME/.config/bspwm/bin/bspstart.sh
 alias bc='bspc config'
 alias br='bspc rule -a'
 
-bspc monitor eDP1 -d I II III IV V
-bspc monitor HDMI1 -d VI VII VII IX X
+bspc monitor HDMI1 -d I II III IV V
+bspc monitor eDP1 -d VI VII VII IX X
 
-bc remove_disabled_monitors  true
-bc remove_unplugged_monitors true
-
+# Configs
 bc border_width              0
 bc window_gap                5
 bc split_ratio               0.5
-bc borderless_monocle        true
-bc gapless_monocle           true
-bc single_monocle            true
-bc focus_follows_pointer     true
 
-br alacritty-float focus=on state=floating
-br feh             focus=on state=floating
-br Viewnior        focus=on state=floating
+declare -a conf=(borderless_monocle gapless_monocle single_monocle focus_follows_pointer \
+  remove_disabled_monitors remove_unplugged_monitors)
+for i in ${conf[@]}; do
+  bc $i true; done
 
-br Alacritty       desktop='^1' follow=on focus=on
-br Sublime_text    desktop='^2' follow=on focus=on
-br Sublime_merge   desktop='^2' follow=on focus=on
-br Chromium        desktop='^3' follow=on focus=on
-br Dynalist        desktop='^4' follow=on focus=on
-br obsidian        desktop='^4' follow=on focus=on
-br SiYuan          desktop='^4' follow=on focus=on
-br Gimp-2.10       desktop='^5' follow=on focus=on
-br Pcmanfm         desktop='^5' follow=on focus=on
-br Lxappearance    desktop='^5' follow=on focus=on
-br Pavucontrol     desktop='^5' follow=on focus=on
-br Arandr          desktop='^5' follow=on focus=on
+# Terminal
+br Alacritty desktop='^1' follow=on focus=on
+
+# Code / Git
+declare -a code=(Sublime_text Sublime_merge Code)
+for i in ${code[@]}; do
+  br $i desktop='^2' follow=on focus=on; done
+
+# Browser
+declare -a browser=(Chromium)
+for i in ${browser[@]}; do
+  br $i desktop='^3' follow=on focus=on; done
+
+# Text
+declare -a text=(Dynalist obsidian SiYuan)
+for i in ${text[@]}; do
+  br $i desktop='^4' follow=on focus=on; done
+
+# Settings / Media
+declare -a settings=(Arandr Gimp-2.10 Lxappearance Pavucontrol Pcmanfm)
+for i in ${settings[@]}; do
+  br $i desktop='^5' follow=on focus=on; done
+
+# Floating
+declare -a floating=(alacritty-float feh Viewnior)
+for i in ${floating[@]}; do
+  br $i state=floating follow=on focus=on; done

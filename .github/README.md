@@ -20,28 +20,31 @@
  **Kernel** -> [Linux Zen](https://wiki.archlinux.org/title/Kernel#Officially_supported_kernels) <br>
  **Shell** -> [Bash](https://wiki.archlinux.org/title/Bash) <br>
  **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
- **Gtk theme** -> Tokyo Night / Dracula <br>
- **Icon theme** ->[Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme)
+ **Gtk theme** -> Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
+ **Icon theme** -> [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula}
+ **Cursor theme** -> Simp1e {Tokyo-Night, Catppuccin, Simp1e-White}
 
 </div>
 
 <details align="center">
 <summary><strong>S H O T S</strong></summary><br>
 
- ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-ganyu.png)
+ ![Ganyu](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Ganyu-style.png)
 
- | Terminal         | Sublime        |
- | ---------------- | -------------- |
- | ![Terminal](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminal.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png) |
- | Vim Tokyo Night | Vim Dracula   |
- | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-ganyu.png)     | ![Vim](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-hsgrl.png)    |
+ | Terminals         | Sublime          | Pcmanfm           |
+ | ----------------- | ---------------- | ----------------- |
+ | ![Terminals](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Terminals.png) | ![Sublime](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Sublime.png)   | ![Pcmanfm](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Pcmanfm.png)   |
+ | Vim Tokyo Night   | Vim Dracula      | Vim Nord          |
+ | ![Vim-ganyu](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-ganyu.png) | ![Vim-hsgrl](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-hsgrl.png) | ![Vim-mfuji](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Vim-mfuji.png) |
 
  Install the plugins to *Vim* with **:PlugInstall** <br>
  See how to use [Vim-Plug](https://github.com/junegunn/vim-plug)
 
  ## Another style of desktop
 
- ![Desktop](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/Desktop-hsgrl.png)
+ | HSGtl         | MFuji           |
+ | ------------- | --------------- |
+ | ![HSGrl](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/HSGrl-style.png) | ![Blue-off](https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/.github/assets/MFuji.png) |    
 
  See rofi shots and info [here](https://github.com/Qwickdom/rofi)
 
