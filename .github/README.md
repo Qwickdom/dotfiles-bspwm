@@ -22,7 +22,7 @@
  **WM** -> [BSPWM](https://wiki.archlinux.org/title/Bspwm) <br>
  **Gtk theme** -> Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
  **Icon theme** -> [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula} <br>
- **Cursor theme** -> [Simp1e] <br>
+ **Cursor theme** -> [Simp1e](https://www.gnome-look.org/p/1405210) <br>
  {Tokyo-Night, Catppuccin, Simp1e-White}
 
 </div>
