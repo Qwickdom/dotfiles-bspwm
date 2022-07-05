@@ -79,7 +79,9 @@
 
  ### S E T U P
 
- Visit the [`wiki`](https://github.com/Qwickdom/dotfiles-bspwm/wiki) for more information
+ Visit the [`wiki`](https://github.com/Qwickdom/dotfiles-bspwm/wiki) for more information <br>
+ After you've seen the wiki you can try running `install.sh` <br>
+ ( *The script is still in the testing phase. I think it "works"* )
 
  ### A C K N O W L E D G E M E N T S
 

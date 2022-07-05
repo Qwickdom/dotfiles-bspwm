@@ -5,6 +5,7 @@ call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'https://github.com/vim-python/python-syntax'

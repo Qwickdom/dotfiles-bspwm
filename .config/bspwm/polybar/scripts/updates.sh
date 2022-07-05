@@ -21,33 +21,19 @@ if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 github.com || p
       echo "%{F#ffffff}󰮯󰊠>$updates "
       dunstify -u low --replace=69 "New updates available"
     else
-      if [[ "$1" == *"--ganyu"* ]]; then
-        sed -i "14s/white/black/" "$DIRG"/modules.ini
-        echo "󰮯󰊠>0 "
-      elif [[ "$1" == *"--hsgrl"* ]]; then
-        sed -i "14s/white/black/" "$DIRH"/modules.ini
-        echo "󰮯󰊠>0 "
-      elif  [[ "$1" = "--mfuji" ]]; then
-        sed -i "14s/white/grey/" "$DIRM"/modules.ini
-        echo "󰮯󰊠>0 "
+      if [[ "$1" == *"--ganyu"* ]] || [[ "$1" == *"--hsgrl"* ]]; then
+        echo "%{F#000000}󰮯󰊠>0 "
       else
-        echo "󰮯󰊠>0 "
+        echo "%{F#808080}󰮯󰊠>0 "
       fi
     fi
   fi
 fi
 
 if [[ $STATUS == *"disabled"* ]]; then
-  if [[ "$1" == *"--ganyu"* ]]; then
-    sed -i "14s/white/black/" "$DIRG"/modules.ini
-    echo "󰮯󰊠>Game Over "
-  elif [[ "$1" == *"--hsgrl"* ]]; then
-    sed -i "14s/white/black/" "$DIRH"/modules.ini
-    echo "󰮯󰊠>Game Over "
-  elif  [[ "$1" = "--mfuji" ]]; then
-    sed -i "14s/white/grey/" "$DIRM"/modules.ini
-    echo "󰮯󰊠>Game Over "
+  if [[ "$1" == *"--ganyu"* ]] || [[ "$1" == *"--hsgrl"* ]]; then
+    echo "%{F#000000}󰮯󰊠>Game Over "
   else
-    echo "󰮯󰊠>Game Over "
+    echo "%{F#808080}󰮯󰊠>Game Over "
   fi
 fi
