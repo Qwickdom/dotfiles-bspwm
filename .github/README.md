@@ -81,7 +81,13 @@
 
  Visit the [`wiki`](https://github.com/Qwickdom/dotfiles-bspwm/wiki) for more information <br>
  After you've seen the wiki you can try running `install.sh` <br>
- ( *The script is still in the testing phase. I think it "works"* )
+ ( *The script is still in the testing phase. I think it "works"* ) <br>
+
+ To download only the *install.sh* script use this command <br>
+
+ ```sh
+ wget https://raw.githubusercontent.com/Qwickdom/dotfiles-bspwm/main/install.sh
+ ``` 
 
  ### A C K N O W L E D G E M E N T S
 
