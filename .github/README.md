@@ -24,7 +24,7 @@
  **Themes** <br>
  **Gtk ->** Tokyo Night / Dracula / [Graphite-Dark](https://github.com/vinceliuice/Graphite-gtk-theme) <br>
  **Icon ->** [Tela circle](https://github.com/vinceliuice/Tela-circle-icon-theme) {Black, Dracula} <br>
- **Cursor ->** [Simp1e](https://www.gnome-look.org/p/1405210) {Tokyo-Night, Catppuccin, Simp1e-White}
+ **Cursor ->** [Simp1e](https://www.gnome-look.org/p/1405210) {Tokyo-Night, Catppuccin, White}
 
 </div>
 
@@ -100,6 +100,7 @@
  [`P3rf`](https://github.com/P3rf/rofi-network-manager)
  [`miroslavvidovic`](https://github.com/miroslavvidovic/rofi-scripts)
  [`gilbertw1`](https://github.com/gilbertw1/roficlip)
+ [`Keyitdev`](https://github.com/Keyitdev/dotfiles/blob/v2/install-on-arch.sh)
 
 </div><br>
 
