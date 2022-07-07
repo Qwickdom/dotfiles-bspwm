@@ -297,28 +297,10 @@ EOF
   read -p "(?) Select option: " ans_4_2
   if [[ $ans_4_2 == "1" ]] || [[ $ans_4_2 == "yes" ]]; then
     mkdir ~/.BackUp
-    mv .config/ ~/.BackUp
-    mv .fonts/ ~/.BackUp
-    mv .mpd/ ~/.BackUp
-    mv .ncmpcpp/ ~/.BackUp
-    mv .themes/ ~/.BackUp
-    mv .icons/ ~/.BackUp
-    mv .vim/ ~/.BackUp
-    mv .fehbg ~/.BackUp
-    mv .vimrc ~/.BackUp
-    mv .xinitrc ~/.BackUp
+    cp -rf .config .fonts .mpd .ncmpcpp .themes .icons .vim .fehbg .gtkrc-2.0 .vimrc .xinitrc ~/.BackUp
     echo -e "\nYour directories now are in to the folder .BackUp"
     echo -e "Now, I'll proceed to copy the dotfiles"
-    cp -r .config/ ~/
-    cp -r .fonts/ ~/
-    cp -r .mpd/ ~/
-    cp -r .ncmpcpp/ ~/
-    cp -r .themes/ ~/
-    cp -r .icons/ ~/
-    cp -r .vim/ ~/
-    cp .fehbg ~/
-    cp .vimrc ~/
-    cp .xinitrc ~/
+    cp -rf .config .fonts .mpd .ncmpcpp .themes .icons .vim .fehbg .gtkrc-2.0 .vimrc .xinitrc ~/
     sleep 3; clear
     echo -e "If you use a laptop you need to copy this file to be able to click on tap"
     echo "Do you want to copy?"
@@ -350,31 +332,13 @@ EOF
     read -r -p "(default 1): " cp
     case $cp in
       [1])
-        dot='cp -r .config/ ~/
-            cp -r .fonts/ ~/
-            cp -r .mpd/ ~/
-            cp -r .ncmpcpp/ ~/
-            cp -r .themes/ ~/
-            cp -r .icons/ ~/
-            cp -r .vim/ ~/
-            cp .fehbg ~/
-            cp .vimrc ~/
-            cp .xinitrc ~/'
+        dot='cp -rf .config .fonts .mpd .ncmpcpp .themes .icons .vim .fehbg .gtkrc-2.0 .vimrc .xinitrc ~/'
         ;;
       [2])
         dot='(*) Skipping... Why you use this script?'
         ;;
       [*])
-        dot='cp -r .config/ ~/
-            cp -r .fonts/ ~/
-            cp -r .mpd/ ~/
-            cp -r .ncmpcpp/ ~/
-            cp -r .themes/ ~/
-            cp -r .icons/ ~/
-            cp -r .vim/ ~/
-            cp .fehbg ~/
-            cp .vimrc ~/
-            cp .xinitrc ~/'
+        dot='cp -rf .config .fonts .mpd .ncmpcpp .themes .icons .vim .fehbg .gtkrc-2.0 .vimrc .xinitrc ~/'
         ;;
     esac
     if [ $cp -eq 1 ]; then
